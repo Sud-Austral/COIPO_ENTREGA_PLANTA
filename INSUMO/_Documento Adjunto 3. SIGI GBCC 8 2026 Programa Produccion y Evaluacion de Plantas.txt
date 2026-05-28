@@ -1,0 +1,1294 @@
+=== Documento Adjunto 3. SIGI GBCC 8 2026 Programa Produccion y Evaluacion de Plantas.xlsx ===
+Sheets: ['Ingreso Datos', 'DATOS', 'Comunas y regiones']
+
+
+--- Sheet: Ingreso Datos ---
+ | PROGRAMA DE PRODUCCIÓN Y EVALUACIÓN DE PLANTAS, SIGI GBCC 8 2026 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | *INFORMACIÓN A ENTREGAR EN DICIEMBRE 2026 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Antecedentes Administrativos |  |  |  |  |  | Objetivo Plantas | COLECTA DE SEMILLAS O MATERIAL DE PROPAGACIÓN |  |  |  |  |  |  |  |  |  |  |  |  | Procesos de la Semillas |  |  |  |  | Análisis de Semillas |  |  |  |  | Siembra de la Semillas  |  |  |  |  | Manejo del Almacigo (Siembra) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  Unidad Productiva  | Regiones | Provincia | Comuna | Encargado (a) del Vivero | Teléfono de Contacto | Programas de Destino | Nombre científico | Nombre Común | Origen | Fuentes de Abastecimiento del Material de Propagación | Fecha de Colecta  | Lugar de Colecta (Localidad) | Comuna de Colecta | Huso | Coordenadas X | Coordenadas Y | Cantidad
+(Semillas / Material Vegetativo) | Unidad de Medida  | Forma de Colecta | Secado | Limpieza / Selección | Almacenaje | Tratamientos Pregerminativos | Producción Estimada
+(N° total de plantas)
+(Np) | Análisis de Muestras  de Semillas | Nº semillas / kg (según especie)
+(Ns) | Pg | Pv | Ps | Cantidad (Semillas Sembrar / M.V. a Instalar)
+S (kg) | Unidades | Fecha Siembra | Tipo de Siembra | Tipo Sustrato (siembra) | Tipo de Aplicación | N° de Aplicaciones | Productos Fitosanitarios | Dosis
+(gr/L- cc/L) | Frecuencia Semanal | Tipo de Riego | Nº Semillas Sembradas
+(parcela  ensayo) | Fecha  Inicio Germinación
+ (Control 1) | Fecha Evaluación Emergencia
+(Control 2)  | Nº Plántulas  Emergidas
+(Control 2) | Fecha Término Evaluación Emergencia
+(Control 3) | Nº Total Plantúlas  Emergidas
+(Control 3) | Porcentaje Germinación
+(Pg ) | Porcentaje No Germinación
+(%) | Causas del Porcentaje de  no Germinación, Muertes y/o Pérdidas | Fecha del Repique  | Nº Plantas Repicadas | N° Total de Plantas Ingresadas a Inventario (un mes post repique) | Factor de Viverización
+(Ps) | OBSERVACIONES GENERALES DEL PROCESO DE PRODUCCIÓN |  | 
+ | Vivero Centro de Semillas, Genética y Entomología | Región de Ñuble - Centro de Semillas, Genética y Entomología | Diguillin | Chillán | Juan Contreras C. | 56 9 8596 1236 | Programa de Arborización | Zinnia sp. | Zinnia sp. | Exótico | Gestión propia | 2025-09-11 00:00:00 | China Muerta | Lonquimay | 18 | 680444 | 5708084 | 1000 | Kilos | Cosecha manual directa | Al aire Libre | Manual | En cámara de frio | Estratificación fría en arena húmeda | 10000 | En laboratorio de semillas | 5000 | 0.9 | 0.8 | 0.9 | 2.92 | Kilos | 2026-09-01 00:00:00 | Almacigueras | Compost | Fungicida | 5 | Capta + Polyben | 2 y 1,5 | 2 | Manual | 100 | 2025-11-20 00:00:00 | 2025-10-30 00:00:00 | 0.9 | 2026-01-15 00:00:00 | 0.95 | 0.5 | 0.5 | Ataques de gusanos cortadores | 2026-01-30 00:00:00 | 4000 | 2500 | 0.375 |  |  | 
+ | Vivero Alejandro Caipa | Región de Tarapacá | Tamarugal | Pozo Almonte | Luis Ayala J. | 56 2 2663 6666 | Bosque Nativo |  |  |  |  |  |  |  |  |  |  |  | Plántulas Reg.natural |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ | Vivero Regional Antofagasta | Región de Antofagasta | Antofagasta | Antofagasta | Ana Paredes A. | 56 4 1253 9654 | Programa de Reactivación Económica Forestal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 10000 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 4000 | 2500 | 0.375 |  |  | 
+
+--- Sheet: DATOS ---
+N | Nombre Científico | Nombre Común | Origen | Hábito |  | N° | VIVERO, CENTRO DE ACONDICIONAMIENTO O ACOPIO | UNIDAD ADMINISTRATIVA | PROVINCIA | COMUNA |  | TIPO DE RIEGO | TIPO DE REPRODUCCIÓN   | TIPO DE CONTENEDOR  |  |  |  | Tratamientos pregerminativos |  |  | 
+1 | Abelia x grandiflora | Abelia | Exótico | Arbustivo |  | 1 | Vivero Las Maitas | Región de Arica y Parinacota | Arica | Arica |  | Manual | Semilla | Almácigo |  | Secado semillas |  | Lixiviación Remojo en agua |  | DESTINO DE PLANTAS | 
+2 | Abies alba | Abeto blanco / Abeto común | Exótico | Arbóreo |  | 2 | Vivero Putre | Región de Arica y Parinacota | Parinacota | Putre |  | Aspersión | Vegetativa | Bandeja_Speedling |  | Al aire Libre |  | Escarificación física |  | Áreas Silvestres Protegidas | 
+3 | Abutilon incanum | Pelotazo / Tronadora | Exótico | Arbustivo |  | 3 | Vivero Alejandro Caipa | Región de Tarapacá | Tamarugal | Pozo Almonte |  | Mixto |  | Bandeja_Tubetes |  | Cámara de secado |  | Escarificación mecánica |  | Bosque Nativo | 
+4 | Abutilon sp. | Abutilón | Exótico | Arbustivo |  | 4 | Vivero Regional Antofagasta | Región de Antofagasta | Antofagasta | Antofagasta |  | Microaspersión |  | Bolsas |  | En bodega calefaccionada |  | No requiere tratamiento |  | Compensación R. N. Pampa del Tamarugal | 
+5 | Abutilon striatum  | Abutilón | Exótico | Arbustivo |  | 5 | Vivero Quillagua | Región de Antofagasta | Tocopilla  | María Elena |  |  |  | Raíz_Desnuda |  |  |  | Remojo en Ácido giberelico |  | Conservación | 
+6 | Acacia caven / Vachellia caven | Espino | Nativo | Arbóreo |  | 6 | Vivero Copiapó | Región de Atacama | Copiapó | Copiapó |  | Unidades medida |  | Patrik |  | Limpieza/selección |  | Estratificación fría en arena húmeda |  | Difusión | 
+7 | Acacia cultriformis | Acacia de hoja de cuchillo | Exótico | Arbustivo |  | 7 | Vivero Vallenar | Región de Atacama | Huasco | Vallenar |  | kg |  |  |  | Manual |  | Estratificación fría en tierra vegetal |  | Especies con fines melíferos | 
+8 | Acacia cyclops | Acacia de costa | Exótico | Arbustivo |  | 8 | Vivero Illapel | Región de Coquimbo | Choapa | Illapel |  | n° semillas |  | Huso |  | Mecánica |  | Almacenamiento en cámara de Frío |  | Forestación Campesina | 
+9 | Acacia dealbata | Aromo común | Exótico | Arbóreo |  | 9 | Vivero Archipiélago Juan Fernández | Región de Valparaíso | Valparaíso | Juan Fernández |  | gr |  | 12 |  | Otros equipos |  | Desinfección semillas |  | Forestación Participativa | 
+10 | Acacia horrida / Vachellia horrida | Acacia espinosa | Exótico | Arbóreo |  | 10 | Vivero Reserva Nacional Lago Peñuelas | Región de Valparaíso | Valparaíso | Valparaíso |  | unidades |  | 17 |  |  |  | Sin tratamiento. |  | Germoplasma | 
+11 | Acacia karroo | Aromo de Sudáfrica | Exótico | Arbóreo |  | 11 | Vivero La Ligua | Región de Valparaíso | Petorca | La Ligua |  | estacas |  | 18 |  |  |  |  |  | Plantaciones Forestales | 
+12 | Acacia koa | Koa | Exótico | Arbóreo |  | 12 | Vivero Llay Llay | Región de Valparaíso | San Felipe de Aconcagua | Llay Llay |  | Plántulas Reg.natural |  | 19 |  | Almacenaje |  |  |  | Plantas Gobierno Regional Aysén  | 
+13 | Acacia longifolia | Acacia trinervis | Exótico | Arbóreo |  | 13 | Vivero Chomedahue | Región del Libertador Gral. Bernardo O'Higgins | Colchagua | Santa Cruz |  | esquejes |  |  |  | Abierto |  | Análisis de las semillas |  | Programa Castor | 
+14 | Acacia macracantha | Acacia macacranta | Exótico | Arbóreo |  | 14 | Centro de Acopio Pantanillo | Región del Maule | Talca | Constitución |  | Plantas |  | Forma de la Colecta |  | Cálido con control de humedad |  |  |  | Programa de Arborización | 
+15 | Acacia melanoxylon | Aromo australiano | Exótico | Arbóreo |  | 15 | Centro Experimental Cauquenes | Región del Maule | Cauquenes | Cauquenes |  |  |  | Cosecha manual directa |  | En cámara de frío |  | En sala de semillas (En el vivero)  |  | Programa Manejo Sustentable de la Tierra (PMST) | 
+16 | Acacia nilotica / Acacia arabica | Acacia arabiga / Goma arábica | Exótico | Arbóreo |  | 16 | Base Brigada La Granja | Región del Biobío | Arauco | Cañete |  |  |  | Escalamiento |  | Ambiente frío-húmedo |  | En laboratorio de semillas |  | Proyecto Conservación Raulí | 
+17 | Acacia rubida | Zarzo rojo | Exótico | Arbustivo |  | 17 | Centro de Acondicionamiento Duqueco | Región del Biobío | BioBio | Los Ángeles |  |  |  | Golpe o corte de ramas desde el suelo |  | Salas o bodegas |  | Sin análisis de semillas |  | Proyecto Plantas Medicinales | 
+18 | Acacia salicina | Zarzo | Exótico | Arbóreo |  | 18 | Liceo Nueva Zelandia | Región del Biobío | Concepción | Santa Juana |  |  |  | Instalación de carpa o malla bajo el árbol |  | Frízer o refrigerador |  |  |  | Proyectos de Investigación | 
+19 | Acacia saligna / Acacia cyanophylla | Acacia azul | Exótico | Arbóreo |  | 19 | Vivero Curacautín | Región de La Araucanía | Malleco | Curacautín |  |  |  | Recolección desde el suelo |  |  |  |  |  | Reforestación P. N. Torres del Paine | 
+20 | Acacia semperflorens | Acacia semperflorens | Exótico | Arbóreo |  | 20 | Vivero Imperial | Región de La Araucanía | Cautín | Nueva Imperial |  |  |  | Sacudir o golpear las ramas para desprender los frutos o semillas |  |  |  |  |  | Restauración | 
+21 | Acacia senegal | Acacia Senegal | Exótico | Arbóreo |  | 21 | Vivero Huillilemu | Región de Los Ríos  | Valdivia | Mariquina |  |  |  | Selección y corte  de estacas o esquejes |  |  |  |  |  | Ventas | 
+22 | Acacia sp. | Acacia | Exótico | Arbóreo |  | 22 | Vivero San Juan | Región de Los Ríos  | Valdivia | Panguipulli |  |  |  |  |  |  |  |  |  | Araucaria | 
+23 | Acacia tomentosa / Vachellia tomentosa | Acacia | Exótico | Arbóreo |  | 23 | Vivero Chabranco | Región de Los Ríos  | Valdivia | Futrono |  |  |  | Tipo de Abastecimiento |  |  |  |  |  | Fondo Verde del Clima | 
+24 | Acacia victoriae | Gundabluie | Exótico | Arbustivo |  | 24 | Vivero Liceo Técnico de Ignao | Región de Los Ríos  | Ranco | Lago Ranco |  |  |  | Compra |  | Tipo de siembra |  |  |  | Programa de Reactivación Económica Forestal | 
+25 | Acacia visco | Vilca | Exótico | Arbóreo |  | 25 | Vivero Mashue | Región de Los Ríos  | Ranco | La Unión |  |  |  | Donación |  | Almacigueras |  |  |  | Otro (especificar en observaciones) | 
+26 | Acalypha wilkesiana | Acalifa  | Exótico | Arbustivo |  | 26 | Vivero Llancacura | Región de Los Ríos  | Ranco | La Unión |  |  |  | Gestión propia |  | Cama caliente |  |  |  |  | 
+27 | Acer japonicum | Arce japónico | Exótico | Arbóreo |  | 27 | Vivero Butalcura | Región de Los Lagos | Chiloé | Dalcahue |  |  |  | Traspaso interno de CONAF |  | Raíz desnuda |  |  |  | Causas de pérdidas de plantúlas | 
+28 | Acer negundo | Arce negundo | Exótico | Arbóreo |  | 28 | Vivero Augusto Falcón | Región de Aysén del Gral. Carlos Ibáñez del Campo | General Carrera | Chile chico |  |  |  | Otro (Especificar en observaciones) |  | Siembra directa (bolsa) |  |  |  | Ataques de gusanos cortadores | 
+29 | Acer palmatum | Arce palmeado japonés | Exótico | Arbóreo |  | 29 | Centro de Acondicionamiento Cochrane | Región de Aysén del Gral. Carlos Ibáñez del Campo | Capitán Prat | Cochrane |  |  |  |  |  | Siembra directa (bandejas) |  |  |  | Larvas de insectos | 
+30 | Acer platanoides | Arce de Noruega / Arce real | Exótico | Arbóreo |  | 30 | Vivero El Mallín | Región de Aysén del Gral. Carlos Ibáñez del Campo | Aysén | Aysén |  |  |  | Unidad de Medida |  | Almácigo o semillero |  |  |  | Lagomorfos | 
+31 | Acer pseudoplatanus | Falso plátano | Exótico | Arbóreo |  | 31 | Vivero Las Lengas | Región de Aysén del Gral. Carlos Ibáñez del Campo | Coyhaique | Coyhaique |  |  |  | Estacas  |  |  |  |  |  | Pájaros | 
+32 | Acer sp. | Acer | Exótico | Arbóreo |  | 32 | Vivero Dorotea | Región de Magallanes y de La Antártica Chilena | Última Esperanza | Natales |  |  |  | Esquejes |  | Tipo de Aplicación |  |  |  | Roedores | 
+33 | Achillea millefolium | Milenrama | Exótico | Herbáceo |  | 33 | Vivero Río de Los Ciervos | Región de Magallanes y de La Antártica Chilena | Magallanes | Punta Arenas |  |  |  | N° de semillas |  | Acaricida |  |  |  | Hongos del Follaje (Botritis) | 
+34 | Adesmia balsamica | Jarilla | Nativo Conservación | Arbustivo |  | 34 | Vivero Buin | Región Metropolitana | Maipo | Buin |  |  |  | Gramos |  | Fungicida |  |  |  | Hongos del suelo (dumping off) | 
+35 | Adesmia confusa | Palhuén / Espinillo / Varilla brava | Nativo | Arbustivo |  | 35 | Vivero Reserva Nacional Río Clarillo | Región Metropolitana | Cordillera | Pirque |  |  |  | Kilos |  | Insecticida |  |  |  | Nemátodos | 
+36 | Adesmia echinus | Adesmia | Nativo | Arbustivo |  | 36 | Vivero San Pedro | Región Metropolitana | Melipilla | San Pedro |  |  |  | Plántulas Reg.natural |  | Molusquicida |  |  |  | Bacterias | 
+37 | Adesmia emarginata | Paramela / Paramilla | Nativo | Arbustivo |  | 37 | Vivero Centro de Semillas, Genética y Entomología | Región de Ñuble - Centro de Semillas, Genética y Entomología | Diguillin | Chillán |  |  |  | Unidad |  | Nematicida |  |  |  | Falta de riego | 
+38 | Adesmia hystrix | Adesmia | Nativo | Arbustivo |  | 38 | Vivero Mataveri Otai | Isla de Pascua | Isla de Pascua | Isla de Pascua |  |  |  |  |  | No se aplica tratamiento (Explicar en observaciones) |  |  |  | Exceso de riego | 
+39 | Adesmia loudonia | Adesmia | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  | Tipo material propagación |  | Otros (especificar en observaciones) |  |  |  | Calidad de la semilla | 
+40 | Adesmia phylloidea | Adesmia | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  | Semillas |  |  |  |  |  |  | 
+41 | Adesmia radicifolia | Adesmia | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  | Vegetativo |  |  |  |  |  |  | 
+42 | Adesmia resinosa | Paramela de Tiltil | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+43 | Adesmia volckmannii / Adesmia campestris | Mata espinosa | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  | Responsable Colecta |  |  |  |  |  |  | 
+44 | Adiantum chilense | Palito negro / Helecho de palo negro | Nativo | Helecho |  |  |  |  |  |  |  |  |  | Personal Áreas Silvestre Protegidas |  |  |  |  |  |  | 
+45 | Aesculus hippocastanum | Castaño de las indias | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  | Personal Centro de Semillas de Chillán |  |  |  |  |  |  | 
+46 | Aesculus sativa  | Castaño  | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  | Personal de Bosque Nativo |  |  |  |  |  |  | 
+47 | Aesculus x carnea | Castaño de indias rojo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  | Personal de Viveros |  |  |  |  |  |  | 
+48 | Aextoxicon punctatum | Olivillo / Tique | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  | Personal Programa de Arborización |  |  |  |  |  |  | 
+49 | Agapanthus sp. | Agapanto | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  | Personal Programa Empleo de Emergencia (PEE) |  |  |  |  |  |  | 
+50 | Agathea coelestis | Margarita azul / Felicia / Agatea | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  | Personal Externo (subcontratación) |  |  |  |  |  |  | 
+51 | Agave americana | Pita / Agave amarillo | Exótico | Suculenta |  |  |  |  |  |  |  |  |  | Personal Plantaciones |  |  |  |  |  |  | 
+52 | Agavoideae sp. | Ágave | Exótico | Suculenta |  |  |  |  |  |  |  |  |  | Otros (especificar en observaciones) |  |  |  |  |  |  | 
+53 | Ailanthus altissima | Árbol de cielo / Ailanto | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  | Compra de semillas |  |  |  |  |  |  | 
+54 | Albizia falcataria | Falcata | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+55 | Albizia julibrissin | Acacia de constantinopla / Albizia / Árbol de la seda | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+56 | Albizia lebbeck | Ébano / Albizia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+57 | Albizia lophanta | Albizia amarilla | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+58 | Albizia sp. | Albizia  | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+59 | Alnus acuminata | Aliso andino | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+60 | Alnus glutinosa | Aliso común | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+61 | Alnus sp. | Aliso | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+62 | Aloe arborescens | Aloe | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+63 | Aloea vera | Aloe vera | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+64 | Aloysia citrodora / Aloysia triphylla | Cedrón / Hierba Luisa | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+65 | Althaea rosea | Malva | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+66 | Ambrosia chamissonis | Ambrosia | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+67 | Ammophila arenaria | Barrón | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+68 | Amomyrtus luma | Luma | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+69 | Amomyrtus meli | Meli | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+70 | Anisomeria coriacea | Pirco | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+71 | Anisomeria littoralis | Pircún | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+72 | Apium graveolens | Apio | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+73 | Aptenia cordifolia | Rocío / Escarcha | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+74 | Araucaria angustifolia | Pino de Brasil | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+75 | Araucaria araucana | Araucaria | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+76 | Araucaria bidwillii | Araucaria Australiana | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+77 | Araucaria heterophylla | Araucaria excelsa | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+78 | Araucaria sp. | Araucaria | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+79 | Arbutus unedo | Madroño | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+80 | Archidasyphylluym excelsum | Tayú del Norte | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+81 | Argyranthemum frutescens / Chrysanthemum frutescens | Paquerette | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+82 | Argyranthemum sp. | Ventosilla | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+83 | Argythamnia berteroana | Ventosilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+84 | Argythamnia tricuspidata | Ventosilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+85 | Aristotelia chilensis | Maqui | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+86 | Armeria maritima | Clavelina de mar | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+87 | Artemisia absinthium | Ajenjo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+88 | Artemisia vulgaris | Artemisa / Hierba de San Juan | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+89 | Asteriscium vidalii | Anisillo | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+90 | Astragalus paposanus | Arvejilla de Paposo | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+91 | Atriplex atacamensis | Cachiyuyo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+92 | Atriplex coquimbana | Atriplex cachiyuyo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+93 | Atriplex nummularia | Tiple | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+94 | Atriplex repanda | Sereno | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+95 | Atriplex semibaccata | Cachiyuyo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+96 | Atriplex sp. | Atriplex | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+97 | Atriplex taltalensis | Cachiyuyo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+98 | Austrocedrus chilensis | Ciprés de la Cordillera | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+99 | Austrolycopodium paniculatum / Lycopodium paniculatum | Pimpinela / Palmita / Llanca | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+100 | Avellanita bustillosii | Avellanita | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+101 | Azara celastrina | Lilén | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+102 | Azara dentata | Corcolén | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+103 | Azara integrifolia | Corcolín | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+104 | Azara lanceolata / Azara serrata | Aromo de castilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+105 | Azara microphylla | Chinchín | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+106 | Azara petiolaris | Lilén / Maqui blanco | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+107 | Azorella compacta | Llareta / Yareta | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+108 | Azorella valentini | Mulino | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+109 | Baccharis alnifolia | Chilka blanca | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+110 | Baccharis boliviensis | Tolita | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+111 | Baccharis concava | Vuatru | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+112 | Baccharis elaeoides | Vautro | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+113 | Baccharis genistelloides | Quimsa chucu | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+114 | Baccharis linearis | Romerillo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+115 | Baccharis rhomboidalis | Chilca | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+116 | Baccharis sagittalis | Verbena de tres esquinas | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+117 | Baccharis salicifolia | Chilca | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+118 | Baccharis santelicis | Ñaca | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+119 | Baccharis scandens | Chilca | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+120 | Baccharis sphaerocephala | Radín | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+121 | Baccharis tola | Tola | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+122 | Balbisia peduncularis | Flor de San José | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+123 | Balsamocarpon brevifolium | Algarrobilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+124 | Bartsia chilensis | Bartsia | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+125 | Bauhinia forficata | Pezuña de buey / Pata de vaca | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+126 | Begonia elatior | Begonia | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+127 | Beilschmiedia berteroana | Belloto del sur | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+128 | Beilschmiedia miersii | Belloto del norte | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+129 | Berberidopsis corallina | Michay rojo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+130 | Berberis chilensis | Michay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+131 | Berberis corymbosa | Michay | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+132 | Berberis darwinii | Michay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+133 | Berberis empetrifolia | Zarcilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+134 | Berberis grevilleana | Michay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+135 | Berberis ilicifolia | Michay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+136 | Berberis linearifolia | Michay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+137 | Berberis litoralis | Michay de raposo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+138 | Berberis microphylla / Berberis buxifolia | Calafate | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+139 | Berberis montana | Palo amarillo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+140 | Berberis negeriana | Michay de Nigeria | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+141 | Berberis sp. | berberis | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+142 | Berberis thunbergii | Berberis | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+143 | Berberis trigona | Calafate | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+144 | Berberis valdiviana | Esp.ina en cruz | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+145 | Betula papyrifera | Abedul papirífero | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+146 | Betula pendula | Abedul | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+147 | Blechnum arcuatum | Palmita | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+148 | Blechnum chilense / Parablechnum chilense | Costilla de vaca | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+149 | Blechnum corralense / Austroblechnum corralense | Helecho palmilla | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+150 | Blechnum cycadifolium | Palmilla | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+151 | Blechnum hastatum | Quilquil | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+152 | Blechnum magellanicum | Katalapi | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+153 | Blepharocalyx cruckshanksii | Temu | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+154 | Boehmeria excelsa | Manzano de Juan Fernández | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+155 | Boquila trifoliolata | Pilpilvoqui | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+156 | Bougainvillea spectabilis | Bugambilia | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+157 | Brachychiton acerifolius | Brachichito | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+158 | Brachychiton discolor | Brachichito rosa | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+159 | Brachychiton populneus | Brachichito | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+160 | Brachychiton sp. | Brachichito | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+161 | Brahea armata | Palma blanca | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+162 | Brahea edulis | Palmera de guadalupe | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+163 | Bridgesia incisifolia | Rumpaito | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+164 | Broussonetia papyrifera | Morera del papel | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+165 | Browningia candelaris | Candelabro | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+166 | Buddleja globosa | Matico | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+167 | Bulnesia chilensis | Retama del cerro | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+168 | Butia capitata | Palmera capitata | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+169 | Buxus sempervirens | Boj común | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+170 | Caesalpinia angulata | Retamo /Retamilla / Porotera | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+171 | Caesalpinia gilliesii | Ponciano | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+172 | Caesalpinia major | Ngaoho | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+173 | Caesalpinia spinosa | Tara | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+174 | Caldcluvia paniculata | Tiaca | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+175 | Calliandra tweedii | Arbusto de la llama / Plumerillo rojo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+176 | Callistemon speciosus | Calistemo rojo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+177 | Camellia japonica | Camelia | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+178 | Campsidium valdivianum | Voqui de canasta | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+179 | Cantua buxifolia | Qantu | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+180 | Capparis spinosa | Alcaparro | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+181 | Caragana spinosa | Caragana | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+182 | Carex comans amazon mist | Carex amazon | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+183 | Carex comans bronze | Carex bronze | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+184 | Carex hachijoensis | Carex hachijoensis | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+185 | Carica chilensis / Vasconcellea chilensis | Papayo silvestre / Palo gordo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+186 | Carpobrotus chilensis / Carpobrotus aequilaterus | Doca | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+187 | Carpobrotus edulis | Doca | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+188 | Carpobrotus sp. | Carpobrotus | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+189 | Cassia sturtii | Casia | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+190 | Castanea sativa | Castaño | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+191 | Casuarina equisetifolia | Casuarina | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+192 | Casuarina sp. | Casuarina | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+193 | Casuarina stricta | Casuarina colgante | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+194 | Catalpa bignonioides | Catalpa | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+195 | Cedrela odorata | Cedro americano | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+196 | Cedrus atlantica | Cedro plateado | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+197 | Cedrus deodara | Cedro del Himalaya | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+198 | Cedrus libani | Cedro del Líbano | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+199 | Celtis australis | Almez | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+200 | Centaurea cachinalensis | Flor del minero | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+201 | Centaurium cachanlahuen | Canchanlahue | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+202 | Ceratonia siliqua | Algarrobo europeo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+203 | Cercis siliquastrum | Árbol del amor | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+204 | Cestrum parqui | Palqui | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+205 | Chamaecyparis lawsoniana | Falso ciprés de Lawson | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+206 | Chamaecyparis lawsoniana var Ellwoodii | Ciprés azul | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+207 | Chamaecyparis sp. | Chamaecyparis | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+208 | Chamaemelum nobile | Manzanilla | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+209 | Chenopodium crusoeanum | Chenopodium | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+210 | Chenopodium sanctae-clarae | Chenopodio | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+211 | Chorizanthe vaginata | Sanguinaria | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+212 | Chrysopogon zizanioides / Vetiveria zizanioides | Vetiver | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+213 | Chuquiraga oppositifolia | Hierba blanca | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+214 | Chusquea culeou | Colihue | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+215 | Chusquea cumingii | Quila chica | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+216 | Chusquea quila | Quila | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+217 | Chusquea uliginosa | Quililla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+218 | Chusquea valdiviensis | Quila | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+219 | Cissus striata | Voqui colorado | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+220 | Citronella mucronata / Villaresia micronata | Naranjillo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+221 | Citrus reticulata | Mandarino | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+222 | Citrus sp. | Citrus | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+223 | Citrus x limon | Limonero | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+224 | Citrus x nobilis | Mandarino | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+225 | Citrus x sinensis | Naranjo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+226 | Citrus x tangerina | Mandarino | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+227 | Clinopodium multiflorum / Satureja multiflora | Menta de árbol | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+228 | Cocus plumosa | Palmera coco plumosa | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+229 | Colletia hystrix | Crucero | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+230 | Colletia ulicina | Crucero | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+231 | Colliguaja dombeyana | Colliguay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+232 | Colliguaja integerrima | Colliguay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+233 | Colliguaja odorifera | Colliguay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+234 | Conanthera bifolia | Pajarito | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+235 | Copiapoa cinerea | Copiapoa   | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+236 | Copiapoa dealbata | Copiapoa de Carrizal | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+237 | Coprosma baueri | Coprosma | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+238 | Coprosma oliveri | Olivillo de Juan Fernández | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+239 | Coprosma pyrifolia | Peralillo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+240 | Coprosma repens | Planta espejo / Brillantisima | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+241 | Cordia decandra | Carbonillo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+242 | Cordyline australis | Cordiline | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+243 | Cordyline indivisa | Dracena indivisa | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+244 | Coreopsis fasciculata | Misico | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+245 | Correa pulchella | Correa | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+246 | Corryocactus brevistylus | Quisco de flores amarillas | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+247 | Cortaderia sp. | Cola de zorro | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+248 | Corylus avellana | Avellano común | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+249 | Corymbia citriodora | Eucalipto olor de limón | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+250 | Corymbia ficifolia | Eucalipto de flores rojas | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+251 | Corynabutilon ceratocarpum | Malva de cordillera | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+252 | Corynabutilon ochsenii | Huella chica | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+253 | Corynabutilon viride | Huella verde | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+254 | Corynabutilon vitifolium | Huella | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+255 | Cotoneaster horizontalis | Cotoneaster horizontal | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+256 | Cotoneaster salicifolius | Cotoneaster hoja de sauce | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+257 | Cotoneaster sp. | Cotoneaster | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+258 | Crataegus monogyna | Crataegus blanco | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+259 | Crataegus oxyacantha | Crataegus | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+260 | Crataegus sp. | Crataegus | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+261 | Crinodendron hookerianum | Chaquihue | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+262 | Crinodendron patagua | Patagua | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+263 | Cristaria integerrima | Malvilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+264 | Croposma oliveri | Olivillo de Juan Fernández | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+265 | Croposma pyrifolia | Peralillo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+266 | Croton chilensis | Higuerilla de raposo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+267 | Cryptocarya alba | Peumo | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+268 | Cryptomeria japonica | Criptomeria japonesa | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+269 | Cuminia eriantha / Cuminia fernandezia | Mentita de Juan Fernández | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+270 | Cupressus arizonica | Ciprés de Arizona | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+271 | Cupressus funebris | Ciprés llorón | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+272 | Cupressus lusitanica | Ciprés de lusitania | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+273 | Cupressus macrocarpa | Ciprés de Monterrey | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+274 | Cupressus sempervirens | Ciprés común | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+275 | Cupressus torulosa | Ciprés del Himalaya | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+276 | Curcuma longa | Cúrcuma  | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+277 | Cydonia oblonga | Membrillo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+278 | Cytisus proliferus / Chamaecytisus proliferus | Árbol de Lucerna | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+279 | Cytisus striatus | Escobón | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+280 | Dalea azurea | Dalea | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+281 | Dasyphyllum diacanthoides | Trevo | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+282 | Dasyphyllum excelsum / Archidasyphyllum excelsum | Palo santo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+283 | Delonix regia | Framboyán | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+284 | Dendroseris gigantea | Dendroseris gigantea | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+285 | Dendroseris litoralis | Col de Juan Fernández | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+286 | Dendroseris macrantha | Colecillo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+287 | Dendroseris marginata | Colecillo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+288 | Dendroseris micrantha | Col de Juan Fernández | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+289 | Dendroseris neriifolia | Colecillo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+290 | Dendroseris pruinata | Col de Juan Fernández | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+291 | Dennstaedtia glauca | Dennstaedtia | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+292 | Desfontainia spinosa | Taique | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+293 | Deuterocohnia chrysantha | Chaguar del jote | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+294 | Dicksonia berteroana | Dicksonia | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+295 | Dimorphotheca ecklonis | Dimorfoteca / Matacabras / Estrella polar | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+296 | Diplostephium cinereum | Koa | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+297 | Discaria chacaye | Chacaye | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+298 | Discaria serratifolia | Chacay | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+299 | Discaria trinervis | Chacay | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+300 | Dodonaea viscosa | Dodonea | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+301 | Dolichandra unguis-cati | Uña de gato | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+302 | Donatia fascicularis | Donacia | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+303 | Drimys andina | Canelo enano | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+304 | Drimys confertifolia | Canelo de Juan Fernández | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+305 | Drimys winteri | Canelo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+306 | Dunalia spinosa | Chañar silvestre | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+307 | Dypsis lutescens | Palmera bambú | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+308 | Dysphania ambrosioides / Chenopodium ambrosioides | Paico | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+309 | Echinopsis atacamensis | Pasakana | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+310 | Echinopsis atacamensis / Trichocereus atacamensis | Pasakana | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+311 | Echinopsis chiloensis / Trichocereus chiloensis | Quisco | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+312 | Elaeagnus angustifolia | Olivo de bohemia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+313 | Elaeagnus pungens | Eleagno | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+314 | Elymus arenarius | Lyme marina | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+315 | Elytropus chilensis | Quilmay | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+316 | Embothrium coccineum | Notro | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+317 | Ephedra breana | Pingo pingo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+318 | Ephedra chilensis | Pingo pingo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+319 | Equisetum bogotense | Yerba de la plata | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+320 | Equisetum giganteum | Yerba del platero | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+321 | Erigeron aurantiacus | Vitadinia | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+322 | Erigeron fernandezianus | Erigeron  | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+323 | Eriobotrya japonica | Níspero japonés  | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+324 | Eriosyce aspillagae | Cactus de Tanumé | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+325 | Eriosyce chilensis | Chilenito | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+326 | Eriosyce curvispina | Quisquito colorado | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+327 | Eriosyce napina | Napín | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+328 | Eriosyce rodentiophila | Sandillón de los ratones | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+329 | Eriosyce senilis | Viejito | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+330 | Eriosyce subgibbosa | Quisquito | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+331 | Erodium moschatum | Alfilerillo | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+332 | Eryngium bupleuroides | Pomponero | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+333 | Eryngium paniculatum | Chupalla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+334 | Erythrina crista-galli | Ceibo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+335 | Erythrina umbrosa | Ceibo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+336 | Escallonia alpina | Ñipas | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+337 | Escallonia callcottiae | Escalonia | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+338 | Escallonia illinita | Barraco | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+339 | Escallonia myrtoidea | Luncalun | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+340 | Escallonia pulverulenta | Madroño | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+341 | Escallonia revoluta | Lun | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+342 | Escallonia rosea | Siete camisas | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+343 | Escallonia rubra | Siete camisas | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+344 | Escallonia virgata | Manta negra | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+345 | Escalonia callcottiae | Escalonia | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+346 | Eucalyptus camaldulensis | Eucalipto rojo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+347 | Eucalyptus cladocalyx | Eucalipto de azúcar | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+348 | Eucalyptus delegatensis | Eucalipto delegatensis | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+349 | Eucalyptus globulus | Eucalipto azul | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+350 | Eucalyptus gomphocephala | Eucalipto gomphocephala | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+351 | Eucalyptus gunnii | Eucalipto de gunn | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+352 | Eucalyptus nitens | Eucalipto nitens | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+353 | Eucalyptus regnans | Eucalipto regnans | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+354 | Eucalyptus robusta | Eucalipto robusta | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+355 | Eucalyptus sideroxylon | Eucalipto mugga | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+356 | Eucalyptus sp. | Eucalipto | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+357 | Eucalyptus torquata | Eucalipto coral | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+358 | Eucalyptus viminalis | Eucalipto viminalis | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+359 | Eucryphia cordifolia | Ulmo | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+360 | Eucryphia glutinosa | Guindo santo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+361 | Eulychnia acida | Candelabro | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+362 | Eulychnia castanea | Copao | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+363 | Eulychnia iquiquensis | Copao | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+364 | Euonymus europaeus | Bonetero | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+365 | Euonymus japonicus | Bonetero | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+366 | Euphorbia cotinifolia | Lechero rojo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+367 | Euphorbia lactiflua | Flor del lechero | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+368 | Euphorbia pulcherrima | Pastora | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+369 | Euryops pectinatus | Margarita amarilla | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+370 | Fabiana imbricata | Pichirromero | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+371 | Fagara mayu | Naranjillo de Juan Fernández | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+372 | Fagus grandifolia | Haya americana | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+373 | Fagus sylvatica | Haya común | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+374 | Falcataria moluccana | albizia moluqueña | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+375 | Fascicularia bicolor | Chupalla | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+376 | Festuca glauca | Festuca | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+377 | Festuca orthophylla | Paja brava | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+378 | Festuca rubra | cañuela común | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+379 | Ficus benjamina | Ficus benjamina | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+380 | Ficus carica | Higuera | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+381 | Ficus elastica | Gomero | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+382 | Ficus lyrata | Gomero Pera / Árbol de lira | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+383 | Fitzroya cupressoides | Alerce | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+384 | Flourensia thurifera | Incienso | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+385 | Foeniculum vulgare | Hinojo | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+386 | Fragaria chiloensis | Frutilla silvestre | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+387 | Fraxinus angustifolia | Fresno de hojas estrechas | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+388 | Fraxinus excelsior | Fresno | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+389 | Fraxinus ornus | Orno | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+390 | Fuchsia lycioides | Palo de yegua | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+391 | Fuchsia magellanica | Chilco  | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+392 | Gaultheria mucronata | Chaura | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+393 | Gaultheria phillyreifolia | Chaura | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+394 | Gaultheria poeppigii | Chaura | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+395 | Gaultheria pumila | Chaura | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+396 | Gaultheria renjifoana | Chaura de laraquete | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+397 | Gaultheria tenuifolia | Chaura | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+398 | Gaura lindheimeri | Gaura blanca | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+399 | Gazania nivea | Gazania | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+400 | Genista hispanica | Olaguina | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+401 | Geoffroea decorticans | Chañar | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+402 | Geranium sp. | Geranio | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+403 | Geum chiloense | Yerba del clavo | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+404 | Gevuina avellana | Avellano | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+405 | Ginkgo biloba | Ginkgo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+406 | Gleditsia triacanthos | Acacia de tres espinas | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+407 | Gleichenia cryptocarpa | Yerba loza | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+408 | Gnaphalium viravira | Viravira | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+409 | Gomortega keule | Keule | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+410 | Gossypium arboreum | Árbol del agodón | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+411 | Grabowskia glauca | Coralito del norte | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+412 | Grammitis patagonica | Helecho común | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+413 | Grammitis poeppigiana | Helecho común | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+414 | Greigia landbeckii | Ñocha | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+415 | Greigia sphacelata | Chupón | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+416 | Grevillea robusta | Árbol del fuego | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+417 | Griselinia jodinifolia | Patagua marina | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+418 | Gunnera bracteata | Pangue | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+419 | Gunnera peltata | Pangue | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+420 | Gunnera tinctoria | Nalca | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+421 | Haloragis masatierrana | Haloragis | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+422 | Handroanthus sp. |  Lapacho | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+423 | Haplorhus peruviana | Carza | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+424 | Hebe andersonii | Verónica | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+425 | Hebe salicifolia | Hebe | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+426 | Helichrysum italicum | Siempreviva del monte / Curry | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+427 | Heliotropium stenophyllum | Palito negro | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+428 | Hibiscus rosa-sinensis | Cucarda | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+429 | Hibiscus sp. | Hibisco | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+430 | Hibiscus syriacus | Rosa de Siria | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+431 | Hibiscus tiliaceus | Hibisco marítimo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+432 | Huperzia fuegiana | Licopodio | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+433 | Hydrangea macrophylla | Bella hortensia  | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+434 | Hypericum perforatum | Hierba de San Juan | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+435 | Hypolepis poeppigii | Pesebre | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+436 | Ilex aquifolium | Acebo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+437 | Inga edulis | Ingá | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+438 | Inga feuillei | Pacay | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+439 | Jacaranda angustifolia | Jacarandá | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+440 | Jacaranda mimosifolia | Jacarandá | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+441 | Juania australis | Chonta | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+442 | Jubaea chilensis | Palma chilena | Nativo Conservación | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+443 | Juglans nigra | Nogal | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+444 | Juglans regia | Nogal | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+445 | Juglans regia var. Chandler  | Nogal chandler  | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+446 | Juglans sp. | Nogal | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+447 | Juncus capillaceus | Juncos | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+448 | Juniperus communis | Enebro | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+449 | Juniperus horizontalis | Junípero horizontal | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+450 | Kageneckia angustifolia | Frangel | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+451 | Kageneckia oblonga | Bollén | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+452 | Koelreuteria paniculata | Jabonero de la china | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+453 | Krameria cistoidea | Pacul | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+454 | Laburnum anagyroides | Lluvia de oro | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+455 | Lactoris fernandeziana | Falsa pimienta | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+456 | Lagerstroemia indica | Árbol de júpiter | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+457 | Lagunaria patersonia | Lagunaria | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+458 | Lampranthus roseus | Lamprantus rosa | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+459 | Lampranthus sp. | Lampranthus | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+460 | Lantana camara | Camará | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+461 | Lantana sp. | Lantana | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+462 | Lapageria rosea | Copihue  | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+463 | Lardizabala biternata | Coile | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+464 | Laretia acaulis | Llareta | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+465 | Larix decidua | Alerce europeo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+466 | Larix griffithii / Pinus griffithii | Alerce del Himalaya | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+467 | Larrea nitida | Jarilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+468 | Lathyrus maritimus | Lathyrus maritimus | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+469 | Latua pubiflora | Latue | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+470 | Laurelia sempervirens | Laurel | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+471 | Laureliopsis philippiana | Tepa | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+472 | Laurus nobilis | Laurel de comer | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+473 | Lavandula angustifolia | Lavanda | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+474 | Lavandula dentata | Lavanda | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+475 | Lavandula latifolia | Lavanda | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+476 | Legrandia concinna | Luma del norte | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+477 | Lepidothamnus fonkii | Ciprés enano | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+478 | Leptocarpha rivularis | Palo negro | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+479 | Leucaena glauca | Vilca | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+480 | Leucaena leucocephala | Vilca | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+481 | Libertia chilensis | Calle-calle | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+482 | Ligustrum lucidum | Ligustro | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+483 | Ligustrum sinense | Aligustrina | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+484 | Ligustrum sp. | Ligustro | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+485 | Ligustrum vulgare | Aligustre | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+486 | Liquidambar styraciflua | Liquidámbar | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+487 | Liriodendron tulipifera | Tulipero | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+488 | Lithraea caustica | Litre | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+489 | Livistonia chinensis | Palmera abanico | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+490 | Llagunoa glandulosa | Atutemo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+491 | Lobelia bridgesii | Tupa rosada | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+492 | Lobelia excelsa | Tupa | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+493 | Lobelia polyphylla | Tupa | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+494 | Lobelia tupa | Tupa | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+495 | Lolium multifloreum | Lolium multiflorum | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+496 | Lomatia dentata | Avellanillo  | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+497 | Lomatia ferruginea | Fuinque | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+498 | Lomatia hirsuta | Radal | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+499 | Lophosoria quadripinnata | Palmilla | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+500 | Luma apiculata | Arrayán | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+501 | Luma chequen / Myrceugenella chequen | Chequen | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+502 | Lupinus arboreus | Chocho | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+503 | Lupinus microcarpus | Lupino | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+504 | Lupinus oreophilus | Campo azul | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+505 | Luzuriaga radicans | Quillineja | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+506 | Lycium sandwicense | Licium / pua nako nako | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+507 | Lycopodium magellanicum | Pimpinela | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+508 | Macadamia integrifolia | Nuez australiana | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+509 | Macfadyena unguis-cati | Uña de gato | Exótico | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+510 | Maclura pomifera | Naranjo de Luisiana | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+511 | Magnolia grandiflora | Magnolio | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+512 | Magnolia sp. | Magnolio | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+513 | Magnolia x soulangeana | Magnolia de Soulange | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+514 | Maihuenia patagonica | Chupa sangre / siempre verde | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+515 | Maihuenia poeppigii | Maihuén | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+516 | Maihueniopsis boliviana | Puskayo | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+517 | Malesherbia angustisecta | Malesherbia | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+518 | Malesherbia auristipulata | Ají de zorra | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+519 | Malesherbia tocopillana | Farolito | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+520 | Malus baccata | Manzano silvestre de siberia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+521 | Malus domestica | Manzano | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+522 | Malus floribunda | Manzano silvestre japonés | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+523 | Malus sylvestris | Manzano silvestre | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+524 | Malva sylvestris | Malva | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+525 | Mandevilla laxa | Jazmín chileno | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+526 | Mangifera indica | Mango | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+527 | Margyricarpus pinnatus | Sabinilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+528 | Marrubium vulgare | Torongil cuyano | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+529 | Maytenus boaria | Maitén | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+530 | Maytenus chubutensis | Maitén de Chubut | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+531 | Maytenus disticha | Racoma | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+532 | Maytenus magellanica | Leña dura | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+533 | Melaleuca alternifolia | Arbol del té | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+534 | Melaleuca sp. | Melaleuca | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+535 | Melia azedarach | Árbol del paraíso | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+536 | Melissa officinalis | Toronjil | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+537 | Menodora linoides | Linacillo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+538 | Mentha piperita | Menta piperita | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+539 | Mentha pulegium | Poleo | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+540 | Mentha sp. | Menta | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+541 | Mentha spicata | Hierba buena | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+542 | Metharme lanata | Metarma lanosa | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+543 | Microsorum parksii | Matua pua'a | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+544 | Microsorum scolopendria | Tía pito | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+545 | Miqueliopuntia miquelii / Austrocylindropuntia miquelii | Tunilla | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+546 | Mitraria coccinea | Botellita | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+547 | Monttea chilensis | Uvillo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+548 | Morella pavonis / Myrica pavonis | Pacama | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+549 | Morinda citrifolia | Noni | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+550 | Morus nigra | Morera | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+551 | Muehlenbeckia hastulata | Quilo | Nativo | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+552 | Mulinum spinosum | Hierba de la culebra | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+553 | Musa x paradisiaca | Plátano | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+554 | Mutisia acuminata | Chinchircoma | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+555 | Myoporum acuminatum | Mioporo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+556 | Myoporum laetum | Mioporo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+557 | Myoporum sp. | Mioporo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+558 | Myoschilos oblongum | Orcoipo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+559 | Myrceugenia chrysocarpa | Luma blanca | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+560 | Myrceugenia colchaguensis | Arrayan de colchagua | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+561 | Myrceugenia correifolia | Petrillo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+562 | Myrceugenia exsucca | Pitra | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+563 | Myrceugenia fernandeziana | Luma de Masatierra | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+564 | Myrceugenia lanceolata | Arrayancillo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+565 | Myrceugenia leptospermoides | Macolla | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+566 | Myrceugenia obtusa | Raran | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+567 | Myrceugenia parviflora | Patagüilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+568 | Myrceugenia pinifolia | Chequén de hoja fina | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+569 | Myrceugenia planipes | Pitra | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+570 | Myrceugenia rufa | Arrayan de hoja roja | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+571 | Myrceugenia schulzei | Luma de Masafuera | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+572 | Myrcianthes coquimbensis | Mirciantes | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+573 | Myrica pavonis | Perú | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+574 | Myrteola nummularia | Daudapo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+575 | Myrtus communis | Mirto | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+576 | N. Obliqua x N. Alpina (Híbrido) | N. Obliqua x N. Alpina (Híbrido) | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+577 | Nandina domestica | Nandina | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+578 | Nassella chilensis | Coirón | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+579 | Neoporteria villosa | Qisco peludo | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+580 | Neowerdermannia chilensis | Macso | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+581 | Nerium oleander | Laurel de flor | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+582 | Nicotiana cordifolia | Nicotiana | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+583 | Nolana balsamiflua | Suspiro | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+584 | Nothofagus alessandrii | Ruil | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+585 | Nothofagus alpina | Raulí | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+586 | Nothofagus antarctica | Ñirre | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+587 | Nothofagus betuloides | Coihue de magallanes | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+588 | Nothofagus dombeyi | Coihue | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+589 | Nothofagus glauca | Hualo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+590 | Nothofagus leonii | Huala | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+591 | Nothofagus macrocarpa | Roble de Santiago | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+592 | Nothofagus nitida | Coihue de chiloé | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+593 | Nothofagus obliqua | Roble | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+594 | Nothofagus pumilio | Lenga | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+595 | Nothomyrcia fernandeziana | Luma de Masatierra | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+596 | Ochagavia carnea | Cardoncillo | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+597 | Ochagavia elegans | Ajo dulce | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+598 | Ochagavia litoralis | Cardoncillo de acantilados | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+599 | Olea europaea | Olivo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+600 | Opuntia tilcarensis | Ayrampo | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+601 | Origanum vulgare | Orégano | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+602 | Orites myrtoidea | Radal enano | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+603 | Otholobium glandulosum | Culén | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+604 | Ovidia andina | Traro voqui | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+605 | Ovidia pillopillo | Pillo-pillo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+606 | Oxalis gigantea | Churqui | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+607 | Oxyphyllum ulicinum | Parafina | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+608 | Parastrephia lepidophylla |  Tola tola | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+609 | Parastrephia lucida | Parastrephia lucida | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+610 | Parastrephia teretiuscula | Chacha | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+611 | Parkinsonia aculeata | Parkinsonia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+612 | Passiflora mollisima  | Fruto de la pasión | Exótico | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+613 | Passiflora pinnatistipula | Grandilla | Nativo Conservación | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+614 | Passiflora sp. | Passiflora | Exótico | Enredadera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+615 | Paulownia imperialis | Paulonia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+616 | Paulownia tomentosa | Paulonia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+617 | Pelargonium hortorum | Geranio | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+618 | Pennisetum atropurpurea | Peniseto púrpura | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+619 | Pennisetum rupeliano | Pennisetum | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+620 | Pennisetum sp. | Peniseto | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+621 | Peperomia berteroana | Peperomia | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+622 | Peperomia fernandeziana | Congonilla | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+623 | Peperomia inaequalifolia | Congona | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+624 | Peperomia margaritífera | Peperomia sp.  | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+625 | Peperomia refleta | Cola de ratón | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+626 | Peperomia skottsbergii | Peperomia sp.  | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+627 | Perezia atacamensis | Marancel | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+628 | Pernettya mucronata | Chaura | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+629 | Pernettya pumila | Chaura | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+630 | Persea americana | Palto | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+631 | Persea lingue | Lingue | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+632 | Persea meyeniana | Lingue del norte | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+633 | Peumus boldus | Boldo | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+634 | Phoenix canariensis | Palma canaria | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+635 | Phoenix dactylifera | Palmera datilera | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+636 | Phoenix reclinata | Palmera | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+637 | Phoenix sp. | Palma | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+638 | Phornium tenax | Pita verde | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+639 | Phyla nodiflora | Tiqui tiqui | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+640 | Physalis peruviana | Uchuva | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+641 | Phytolaca dioica | Ombu | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+642 | Picea abies | Pícea común | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+643 | Picea glauca | Abeto blanco | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+644 | Picea sitchensis | Pícea de Stika | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+645 | Pilgerodendron uviferum | Ciprés de las Guaitecas | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+646 | Pintoa chilensis | Pintoa | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+647 | Pinus canariensis | Pino canario | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+648 | Pinus cembroides | Pino piñonero | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+649 | Pinus contorta | Pino contorta | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+650 | Pinus halepensis | Pino de Alepo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+651 | Pinus jeffreyi | Pino de Jeffrey | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+652 | Pinus maximartinezii | Maxipiñón | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+653 | Pinus monticola | Pino blanco occidental | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+654 | Pinus muricata | Pino muricata | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+655 | Pinus nigra | Pino salgareño | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+656 | Pinus pinaster | Pino marítimo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+657 | Pinus pinea | Pino piñonero | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+658 | Pinus ponderosa | Pino ponderosa | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+659 | Pinus radiata | Pino insigne | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+660 | Pinus sp. | Pino | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+661 | Pinus sylvestris | Pino silvestre | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+662 | Pinus taeda | Pino taeda | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+663 | Piperonia refleta L. | Congona | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+664 | Pirus sp. | Perales | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+665 | Pitavia punctata | Pitao | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+666 | Pittosporum crassifolium | Karo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+667 | Pittosporum sp. | Pitosp.oro | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+668 | Pittosporum tenuifolium / Pittosporum nigricans | Pitosporo de hojas tenues | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+669 | Pittosporum tobira | Azahar de la China | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+670 | Pittosporum undulatum | Pittosp.orum dulce | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+671 | Platanus occidentalis | Plátano occidental | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+672 | Platanus orientalis | Plátano oriental | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+673 | Platycerium bifurcatum | Cuerno de alce | Exótico | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+674 | Plumeria glabra | Flor de mayo / Frangipani | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+675 | Podanthus mitiqui | Mitique | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+676 | Podocarpus nubigenus | Mañío de hojas punzantes | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+677 | Podocarpus saligna | Mañío de hojas largas | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+678 | Podocarpus sp. | Mañío | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+679 | Polygonum sanguinaria | Sanguinaria | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+680 | Polylepis rugulosa | Queñoa | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+681 | Polylepis tarapacana | Queñoa de altura | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+682 | Polypodium feuillei | Hierba del lagarto | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+683 | Polypodium lanceolatum | Helecho | Exótico | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+684 | Populus alba | Álamo blanco | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+685 | Populus deltoides | Álamo americano | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+686 | Populus nigra | Álamo negro | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+687 | Populus sp. | Álamo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+688 | Populus tremula | Alamo temblón | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+689 | Populus trichocarpa | Álamo balsámico de california | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+690 | Populus x canadensis | Alamo negro de canadá | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+691 | Porlieria chilensis | Guayacán | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+692 | Portulaca oleracea | Verdolaga | Exótico | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+693 | Pouteria lucuma | Lúcumo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+694 | Pouteria splendens | Lúcumo chileno | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+695 | Prosopis alba | Algarrobo blanco | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+696 | Prosopis burkartii | Prosopis burkartii | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+697 | Prosopis chilensis | Algarrobo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+698 | Prosopis sp. | Prosopis | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+699 | Prosopis strombulifera | Mastuerzo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+700 | Prosopis tamarugo | Tamarugo | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+701 | Prumnopitys andina | Lleuque | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+702 | Prunus amygdalus | Almendro | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+703 | Prunus armeniaca | Damasco | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+704 | Prunus avium | Cerezo silvestre | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+705 | Prunus cerasifera | Ciruelo de flor | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+706 | Prunus cerasus | Cerezo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+707 | Prunus domestica | Ciruelo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+708 | Prunus dulcis | Almendro | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+709 | Prunus ilicifolia | Cerezo Catalina | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+710 | Prunus persica | Durazno | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+711 | Prunus serrulata | Cerezo japonés | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+712 | Prunus sp. | Cerezo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+713 | Pseudotsuga menziesii | Pino oregón | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+714 | Psidium guajava | Guayabo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+715 | Psoralea glandulosa | Culén | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+716 | Pteris chilensis | Pesebre | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+717 | Pteris semiadnata | Pesebre | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+718 | Punica granatum | Granado de flor | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+719 | Puya berteroniana | Puya | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+720 | Puya boliviensis | Chagual de paposo | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+721 | Puya chilensis | Chagual | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+722 | Puya coerulea | Chagualillo | Nativo | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+723 | Puya coquimbensis  | Chagual de coquimbo | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+724 | Puya venusta | Chagualillo | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+725 | Pyrrhocactus taltalensis | Quisquito de Taltal | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+726 | Pyrus communis | Peral común | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+727 | Pyrus pyrifolia | Pera asiática | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+728 | Pyrus sp. | Pyrus | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+729 | Quercus falcata | Roble rojo del sur | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+730 | Quercus ilex | Encino | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+731 | Quercus macrocarpa | Roble bur | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+732 | Quercus nigra | Roble de agua | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+733 | Quercus palustris | Roble de los pantanos | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+734 | Quercus polymorpha | Roble blanco | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+735 | Quercus robur | Encino | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+736 | Quercus rubra | Roble rojo del norte | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+737 | Quercus sp. | Quercus | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+738 | Quercus suber | Alcornoque | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+739 | Quillaja saponaria | Quillay | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+740 | Quinchamalium chilense | Qinchamali | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+741 | Raukaua laetevirens / Pseudopanax laetevirens | Sauco del diablo | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+742 | Reichea coquimbensis | Reichea | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+743 | Retanilla ephedra | Retamilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+744 | Retanilla trinerva | Tevo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+745 | Rhamnus diffusus | Arrayán negro | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+746 | Rhamnus lycioides | Espino negro | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+747 | Rhaphithamnus spinosus | Arrayán macho | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+748 | Rhaphithamnus venustus | Juan bueno | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+749 | Rhododendron sp. | Rododendro | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+750 | Rhus crenata | Rhus / Rus | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+751 | Ribes integrifolium | Parrilla falsa | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+752 | Ribes magellanicum | Zarzaparrilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+753 | Ribes punctatum | Zarzaparrilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+754 | Ribes trilobum | Parrilla | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+755 | Ricinus communis | Ricino | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+756 | Robinia pseudoacacia | Robinia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+757 | Robinia sp. | Robinia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+758 | Robinsonia gayana | Resino hembra | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+759 | Rosa eglanteria | Rosa mosqueta | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+760 | Rosa floribunda | Floribunda | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+761 | Rosa moschata | Rosa mosqueta | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+762 | Rosmarinus officinalis | Romero | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+763 | Rosmarinus officinalis var. prostratus  | Romero rastrero | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+764 | Roystonea regia | Palma real | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+765 | Rubus friticosus | Mora | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+766 | Rubus geoides | Miñe miñe | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+767 | Rumohra adiantiformis | Yerba del Lagarto | Nativo | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+768 | Rumohra berteroana | Rumohra | Nativo Conservación | Helecho |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+769 | Ruta graveolens | Ruda | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+770 | Sabal palmetto | Palmera cana | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+771 | Salix alba | Sauce blanco | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+772 | Salix babylonica | Sauce llorón | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+773 | Salix caprea | Sauce cabruno | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+774 | Salix fragilis | Mimbrera | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+775 | Salix humboldtiana | Sauce chileno | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+776 | Salix matsudana | Sauce tortuosa | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+777 | Salix sp. | Sauce | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+778 | Salix viminalis | Mimbrera blanca | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+779 | Salpiglossis spinescens | Palito amargo | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+780 | Salvia officinalis | Salvia | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+781 | Salvia tubiflora | Salvia roja | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+782 | Sambucus nigra | Saúco negro | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+783 | Santalum fernandezianum | Sándalo de Juan Fernández | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+784 | Sapindus saponaria | Marikuru | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+785 | Saxegothaea conspicua | Mañio de hoja corta | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+786 | Schinus latifolius | Molle | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+787 | Schinus marchandii | Laura | Nativo Conservación | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+788 | Schinus molle | Pimiento | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+789 | Schinus montanus | Muchi | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+790 | Schinus patagonicus | Laura / Litrecillo | Nativo  | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+791 | Schinus pearcei | Pimiento | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+792 | Schinus polygamus | Huingán | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+793 | Schinus sp. | Schinus | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+794 | Schinus terebinthifolius | Pimentero brasileño | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+795 | Schoenoplectus californicus | Totora | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+796 | Scutellaria valdiviana | Teresa | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+797 | Selkirkia berteroi | Selkirkia | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+798 | Senecio eriophyton | Chachacoma | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+799 | Senecio fistulosus | Hualtata | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+800 | Senecio nutans | Tola hembra | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+801 | Senna birostris | Senna | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+802 | Senna candolleana / Cassia closiana | Quebracho | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+803 | Senna coquimbensis  | Alcaparra | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+804 | Senna cumingii / Cassia coquimbensis | Alcaparra | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+805 | Senna glandulosa | Senna | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+806 | Senna multiglandulosa / Cassia tomentosa | Alcaparro enano | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+807 | Senna sp. | Senna | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+808 | Senna stipulacea | Quebracho Blanco | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+809 | Sequoia sempervirens | Sequoia | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+810 | Sequoiadendron giganteum | Sequoia gigante | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+811 | Sideritis eriocephala | Sideritis | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+812 | Simmondsia chinensis | Jojoba | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+813 | Skytanthus acutus | Cuerno de cabra | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+814 | Solanum capsicastrum | Tomatito | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+815 | Solanum chilense | Tomatillo | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+816 | Solanum crispum | Natre | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+817 | Solanum crispum / Solanum ligustrinum | Natre | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+818 | Solanum forsteri | Poporo | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+819 | Solanum nigrum | Hierba mora | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+820 | Solanum nitidum | Ñuñumaya | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+821 | Solanum pseudocapsicum | Cerezo de Jerusalén | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+822 | Solidago chilensis | Huellén / Fulel | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+823 | Sophora fernandeziana | Leña dura | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+824 | Sophora macrocarpa | Mayo | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+825 | Sophora microphylla / Sophora cassioides | Pelú | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+826 | Sophora toromiro | Toromiro | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+827 | Sorbus aria | Mostajo común | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+828 | Sorbus aucuparia | Serbal de los cazadores | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+829 | spiraea sp. | Spirea | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+830 | spiraea thunbergii | Corona de novia | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+831 | Stenocarpus sp. | stenocarpus | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+832 | Sterculia coccinea | Castaño tropical | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+833 | Stipa caudata | Pasto puna dulce | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+834 | Stipa sp. | Stipa | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+835 | Stipa tenuissima | Stipa | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+836 | Strelitzia nicolai | Ave del Paraíso Blanco / Plátano del Viajero | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+837 | Styphnolobium japonicum / Sophora japonica | Acacia de Japón / Sófora | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+838 | Syagrus romanzoffiana | Palmera pindó | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+839 | Talguenea quinquinervia | Tralhuen | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+840 | Tamarindus indica | Tamarindo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+841 | Tamarix articulata | Tamarix  | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+842 | Tamarix gallica | Taray | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+843 | Tanacetum balsamita | Menta coca | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+844 | Tanacetum parthenium | Altamisa | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+845 | Tanacetum vulgare | Tanaceto | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+846 | Tarasa umbellata | Abutiloncillo | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+847 | Taxodium distichum | Ciprés calvo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+848 | Taxus baccata | Tejo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+849 | Tecoma fulva | Chuvé | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+850 | Tecoma stans | Bignonia amarilla / Trompeta amarilla | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+851 | Tectona grandis | Teca | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+852 | Tepualia stipularis | Tepú | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+853 | Tessaria absinthioides | Brea | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+854 | Thespesia populnea | Milo | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+855 | Thevetia peruviana | Campanilla amarilla | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+856 | Thuja occidentalis | Tuja del Canadá | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+857 | Thuja orientalis | Tuja oriental | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+858 | Thuja plicata | Tuja gigante | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+859 | Thuja sp. | Tuja | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+860 | Thymus serpyllum | Hierbaluna | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+861 | Thymus vulgaris | Tomillo | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+862 | Thypha angustifolia | Totora | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+863 | Tilia americana | Tilo americano | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+864 | Tilia cordata | Tilo hoja pequeña | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+865 | Tillandsia geissei | Clavel del aire de paposo | Nativo Conservación | Suculenta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+866 | Tipuana tipu | Tipuana | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+867 | Trachycarpus fortunei | Palmera excelsa | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+868 | Trevoa quinquenervia | Tralhuén / Talguén | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+869 | Triumfetta semitriloba | Abrojo | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+870 | Trixis cacalioides | Visavisa | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+871 | Tsuga heterofylla | Tsuga heterofylla | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+872 | Ugni candollei | Tautau | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+873 | Ugni molinae | Murta | Nativo | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+874 | Ulmus americana | Olmo americano | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+875 | Ulmus glabra | Olmo montano | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+876 | Valdivia gayana | Valdivia | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+877 | Verbena gynobasis | Verbena | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+878 | Veronica buxifolia | Verónica | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+879 | Viburnum mascantha | Viburno mascantha | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+880 | Viburnum tinus | Durillo | Exótico | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+881 | Vicia vielosa | Vicia vielosa | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+882 | Viguiera pazensis | Sorona | Nativo | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+883 | Vinca major | Vinca major | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+884 | Wahlenbergia berteroi | Wahlenbergia | Nativo Conservación | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+885 | Washingtonia filifera | Palmera abanico | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+886 | Washingtonia robusta | Palmera de abanico mexicana | Exótico | Palmera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+887 | Weinmannia trichosperma | Tineo | Nativo | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+888 | Yucca elephantipes | Yuca gigante / Yuca pie de elefante | Exótico | Arbóreo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+889 | Yunquea tenzii | Yunquea | Nativo Conservación | Arbustivo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+890 | Zinnia sp. | Zinnia sp. | Exótico | Herbáceo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+--- Sheet: Comunas y regiones ---
+Nº | Región  | Comunas | Provincia  |  | Región_de_Arica_y_Parinacota | Región_de_Tarapacá | Región_de_Antofagasta | Región_de_Atacama | Región_de_Coquimbo | Región_de_Valparaíso | Región_del_Libertador_B_O'Higgins | Región_del_Maule | Región_del_Bíobío | Región_de_Ñuble | Región_de_La_Araucanía | Región_de_Los_Ríos  | Región_de_Los_Lagos | Región_de_Aysén_del_Gral_C_Ibáñez_del_Campo | Región_de_Magallanes_y_de_La_Antártica_Chilena | Región_Metropolitana_de_Santiago |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Región de Arica y Parinacota | Arica | Arica   |  | Arica | Iquique | Antofagasta | Copiapó | La Serena | Valparaíso | Rancagua | Talca | Concepción | Chillán | Temuco | Valdivia | Puerto Montt | Coihaique | Punta Arenas | Santiago |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+2 |  | Camarones | Arica   |  | Camarones | Camiña | Mejillones | Caldera | Coquimbo | Casablanca | Codegua | Constitución | Coronel | Bulnes | Carahue | Corral | Calbuco | Lago Verde | Laguna Blanca | Cerrillos |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+3 |  | Putre | Parinacota |  | Putre | Colchane | Sierra Gorda | Tierra Amarilla | Andacollo | Concón | Coinco | Curepto | Chiguayante | Cobquecura | Cunco | Futrono | Cochamó | Aisén | Río Verde | Cerro Navia |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+4 |  | General Lagos | Parinacota |  | General Lagos | Huara | Taltal | Chañaral | La Higuera | Juan Fernández | Coltauco | Empedrado | Florida | Coelemu | Curarrehue | La Unión | Fresia | Cisnes | San Gregorio | Conchalí |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+5 | Región de Tarapacá | Iquique | Iquique   |  |  | Pica | Calama | Diego de Almagro | Paiguano | Puchuncaví | Doñihue | Maule | Hualqui | Coihueco | Freire | Lago Ranco | Frutillar | Guaitecas | Cabo de Hornos | El Bosque |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+6 |  | Camiña | Tamarugal |  |  | Pozo Almonte | Ollagüe | Vallenar | Vicuña | Quilpué | Graneros | Pelarco | Lota | Chillán Viejo | Galvarino | Lanco | Los Muermos | Cochrane | Antártica | Estación Central |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+7 |  | Colchane | Tamarugal |  |  | Alto Hospicio | San Pedro de Atacama | Alto del Carmen | Illapel | Quintero | Las Cabras | Pencahue | Penco | El Carmen | Gorbea | Los Lagos | Llanquihue | O'Higgins | Porvenir | Huechuraba |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+8 |  | Huara | Tamarugal |  |  |  | Tocopilla | Freirina | Canela | Villa Alemana | Machalí | Río Claro | San Pedro de la Paz | Ninhue | Lautaro | Máfil | Maullín | Tortel | Primavera | Independencia |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+9 |  | Pica | Tamarugal |  |  |  | María Elena | Huasco | Los Vilos | Viña del Mar | Malloa | San Clemente | Santa Juana | Ñiquén | Loncoche | Mariquina | Puerto Varas | Chile Chico | Timaukel | La Cisterna |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+10 |  | Pozo Almonte | Tamarugal |  |  |  |  |  | Salamanca | Isla  de Pascua | Mostazal | San Rafael | Talcahuano | Pemuco | Melipeuco | Paillaco | Castro | Río Ibáñez | Natales | La Florida |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+11 |  | Alto Hospicio | Iquique   |  |  |  |  |  | Ovalle | Los Andes | Olivar | Cauquenes | Tomé | Pinto | Nueva Imperial | Panguipulli | Ancud |  | Torres del Paine | La Granja |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+12 | Región de Antofagasta | Antofagasta | Antofagasta |  |  |  |  |  | Combarbalá | Calle Larga | Peumo | Chanco | Hualpén | Portezuelo | Padre Las Casas | Río Bueno | Chonchi |  |  | La Pintana |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+13 |  | Mejillones | Antofagasta |  |  |  |  |  | Monte Patria | Rinconada | Pichidegua | Pelluhue | Lebu | Quillón | Perquenco |  | Curaco de Vélez |  |  | La Reina |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+14 |  | Sierra Gorda | Antofagasta |  |  |  |  |  | Punitaqui | San Esteban | Quinta de Tilcoco | Curicó | Arauco | Quirihue | Pitrufquén |  | Dalcahue |  |  | Las Condes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+15 |  | Taltal | Antofagasta |  |  |  |  |  | Río Hurtado | La Ligua | Rengo | Hualañé | Cañete | Ránquil | Pucón |  | Puqueldón |  |  | Lo Barnechea |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+16 |  | Calama | El Loa |  |  |  |  |  |  | Cabildo | Requínoa | Licantén | Contulmo | San Carlos | Saavedra |  | Queilén |  |  | Lo Espejo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+17 |  | Ollagüe | El Loa |  |  |  |  |  |  | Papudo | San Vicente | Molina | Curanilahue | San Fabián | Teodoro Schmidt |  | Quellón |  |  | Lo Prado |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+18 |  | San Pedro de Atacama | El Loa |  |  |  |  |  |  | Petorca | Pichilemu | Rauco | Los Álamos | San Ignacio | Toltén |  | Quemchi |  |  | Macul |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+19 |  | Tocopilla | Tocopilla   |  |  |  |  |  |  | Zapallar | La Estrella | Romeral | Tirúa | San Nicolás | Vilcún |  | Quinchao |  |  | Maipú |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+20 |  | María Elena | Tocopilla   |  |  |  |  |  |  | Quillota | Litueche | Sagrada Familia | Los Ángeles | Treguaco | Villarrica |  | Osorno |  |  | Ñuñoa |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+21 | Región de Atacama | Copiapó | Copiapó   |  |  |  |  |  |  | Calera | Marchihue | Teno | Antuco | Yungay | Cholchol |  | Puerto Octay |  |  | Pedro Aguirre Cerda |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+22 |  | Caldera | Copiapó   |  |  |  |  |  |  | Hijuelas | Navidad | Vichuquén | Cabrero |  | Angol |  | Purranque |  |  | Peñalolén |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+23 |  | Tierra Amarilla | Copiapó   |  |  |  |  |  |  | La Cruz | Paredones | Linares | Laja |  | Collipulli |  | Puyehue |  |  | Providencia |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+24 |  | Chañaral | Chañaral   |  |  |  |  |  |  | Limache | San Fernando | Colbún | Mulchén |  | Curacautín |  | Río Negro |  |  | Pudahuel |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+25 |  | Diego de Almagro | Chañaral   |  |  |  |  |  |  | Nogales | Chépica | Longaví | Nacimiento |  | Ercilla |  | San Juan de la Costa |  |  | Quilicura |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+26 |  | Vallenar | Huasco |  |  |  |  |  |  | Olmué | Chimbarongo | Parral | Negrete |  | Lonquimay |  | San Pablo |  |  | Quinta Normal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+27 |  | Alto del Carmen | Huasco |  |  |  |  |  |  | San Antonio | Lolol | Retiro | Quilaco |  | Los Sauces |  | Chaitén |  |  | Recoleta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+28 |  | Freirina | Huasco |  |  |  |  |  |  | Algarrobo | Nancagua | San Javier | Quilleco |  | Lumaco |  | Futaleufú |  |  | Renca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+29 |  | Huasco | Huasco |  |  |  |  |  |  | Cartagena | Palmilla | Villa Alegre | San Rosendo |  | Purén |  | Hualaihué |  |  | San Joaquín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+30 | Región de Coquimbo | La Serena | Elqui |  |  |  |  |  |  | El Quisco | Peralillo | Yerbas Buenas | Santa Bárbara |  | Renaico |  | Palena |  |  | San Miguel |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+31 |  | Coquimbo | Elqui |  |  |  |  |  |  | El Tabo | Placilla |  | Tucapel |  | Traiguén |  |  |  |  | San Ramón |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+32 |  | Andacollo | Elqui |  |  |  |  |  |  | Santo Domingo | Pumanque |  | Yumbel |  | Victoria |  |  |  |  | Vitacura |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+33 |  | La Higuera | Elqui |  |  |  |  |  |  | San Felipe | Santa Cruz |  | Alto Biobío |  |  |  |  |  |  | Puente Alto |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+34 |  | Paiguano | Elqui |  |  |  |  |  |  | Catemu |  |  |  |  |  |  |  |  |  | Pirque |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+35 |  | Vicuña | Elqui |  |  |  |  |  |  | Llaillay |  |  |  |  |  |  |  |  |  | San José de Maipo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+36 |  | Illapel | Choapa |  |  |  |  |  |  | Panquehue |  |  |  |  |  |  |  |  |  | Colina |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+37 |  | Canela | Choapa |  |  |  |  |  |  | Putaendo |  |  |  |  |  |  |  |  |  | Lampa |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+38 |  | Los Vilos | Choapa |  |  |  |  |  |  | Santa María |  |  |  |  |  |  |  |  |  | Tiltil |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+39 |  | Salamanca | Choapa |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | San Bernardo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+40 |  | Ovalle | Limari |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Buin |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+41 |  | Combarbalá | Limari |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Calera de Tango |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+42 |  | Monte Patria | Limari |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Paine |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+43 |  | Punitaqui | Limari |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Melipilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+44 |  | Río Hurtado | Limari |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Alhué |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+45 | Región de Valparaíso | Valparaíso | Valparaíso   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Curacaví |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+46 |  | Casablanca | Valparaíso   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | María Pinto |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+47 |  | Concón | Valparaíso   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | San Pedro |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+48 |  | Juan Fernández | Valparaíso   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Talagante |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+49 |  | Puchuncaví | Valparaíso   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | El Monte |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+50 |  | Quilpué | Marga Marga |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Isla de Maipo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+51 |  | Quintero | Valparaíso   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Padre Hurtado |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+52 |  | Villa Alemana | Marga Marga |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Peñaflor |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+53 |  | Viña del Mar | Valparaíso   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+54 |  | Isla  de Pascua | Isla de Pascua   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+55 |  | Los Andes | Los Andes   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+56 |  | Calle Larga | Los Andes   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+57 |  | Rinconada | Los Andes   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+58 |  | San Esteban | Los Andes   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+59 |  | La Ligua | Petorca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+60 |  | Cabildo | Petorca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+61 |  | Papudo | Petorca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+62 |  | Petorca | Petorca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+63 |  | Zapallar | Petorca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+64 |  | Quillota | Quillota   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+65 |  | Calera | Quillota   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+66 |  | Hijuelas | Quillota   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+67 |  | La Cruz | Quillota   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+68 |  | Limache | Marga Marga |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+69 |  | Nogales | Quillota   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+70 |  | Olmué | Marga Marga |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+71 |  | San Antonio | San Antonio   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+72 |  | Algarrobo | San Antonio   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+73 |  | Cartagena | San Antonio   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+74 |  | El Quisco | San Antonio   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+75 |  | El Tabo | San Antonio   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+76 |  | Santo Domingo | San Antonio   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+77 |  | San Felipe | San Felipe   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+78 |  | Catemu | San Felipe   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+79 |  | Llaillay | San Felipe   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+80 |  | Panquehue | San Felipe   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+81 |  | Putaendo | San Felipe   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+82 |  | Santa María | San Felipe   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+83 | Región del Libertador B. O'Higgins | Rancagua | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+84 |  | Codegua | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+85 |  | Coinco | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+86 |  | Coltauco | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+87 |  | Doñihue | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+88 |  | Graneros | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+89 |  | Las Cabras | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+90 |  | Machalí | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+91 |  | Malloa | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+92 |  | Mostazal | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+93 |  | Olivar | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+94 |  | Peumo | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+95 |  | Pichidegua | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+96 |  | Quinta de Tilcoco | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+97 |  | Rengo | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+98 |  | Requínoa | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+99 |  | San Vicente | Cachapoal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+100 |  | Pichilemu | Cardenal Caro |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+101 |  | La Estrella | Cardenal Caro |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+102 |  | Litueche | Cardenal Caro |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+103 |  | Marchihue | Cardenal Caro |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+104 |  | Navidad | Cardenal Caro |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+105 |  | Paredones | Cardenal Caro |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+106 |  | San Fernando | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+107 |  | Chépica | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+108 |  | Chimbarongo | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+109 |  | Lolol | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+110 |  | Nancagua | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+111 |  | Palmilla | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+112 |  | Peralillo | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+113 |  | Placilla | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+114 |  | Pumanque | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+115 |  | Santa Cruz | Colchagua |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+116 | Región del Maule | Talca | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+117 |  | Constitución | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+118 |  | Curepto | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+119 |  | Empedrado | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+120 |  | Maule | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+121 |  | Pelarco | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+122 |  | Pencahue | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+123 |  | Río Claro | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+124 |  | San Clemente | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+125 |  | San Rafael | Talca |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+126 |  | Cauquenes | Cauquenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+127 |  | Chanco | Cauquenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+128 |  | Pelluhue | Cauquenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+129 |  | Curicó | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+130 |  | Hualañé | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+131 |  | Licantén | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+132 |  | Molina | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+133 |  | Rauco | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+134 |  | Romeral | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+135 |  | Sagrada Familia | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+136 |  | Teno | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+137 |  | Vichuquén | Curico |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+138 |  | Linares | Linares   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+139 |  | Colbún | Linares   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+140 |  | Longaví | Linares   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+141 |  | Parral | Linares   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+142 |  | Retiro | Linares   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+143 |  | San Javier | Linares   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+144 |  | Villa Alegre | Linares   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+145 |  | Yerbas Buenas | Linares   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+146 | Región del Bíobío | Concepción | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+147 |  | Coronel | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+148 |  | Chiguayante | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+149 |  | Florida | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+150 |  | Hualqui | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+151 |  | Lota | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+152 |  | Penco | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+153 |  | San Pedro de la Paz | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+154 |  | Santa Juana | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+155 |  | Talcahuano | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+156 |  | Tomé | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+157 |  | Hualpén | Concepción   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+158 |  | Lebu | Arauco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+159 |  | Arauco | Arauco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+160 |  | Cañete | Arauco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+161 |  | Contulmo | Arauco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+162 |  | Curanilahue | Arauco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+163 |  | Los Álamos | Arauco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+164 |  | Tirúa | Arauco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+165 |  | Los Ángeles | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+166 |  | Antuco | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+167 |  | Cabrero | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+168 |  | Laja | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+169 |  | Mulchén | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+170 |  | Nacimiento | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+171 |  | Negrete | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+172 |  | Quilaco | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+173 |  | Quilleco | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+174 |  | San Rosendo | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+175 |  | Santa Bárbara | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+176 |  | Tucapel | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+177 |  | Yumbel | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+178 |  | Alto Biobío | Bío- Bío |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+179 | Región de Ñuble | Chillán | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+180 |  | Bulnes | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+181 |  | Cobquecura | Itata |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+182 |  | Coelemu | Itata |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+183 |  | Coihueco | Punilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+184 |  | Chillán Viejo | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+185 |  | El Carmen | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+186 |  | Ninhue | Itata |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+187 |  | Ñiquén | Punilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+188 |  | Pemuco | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+189 |  | Pinto | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+190 |  | Portezuelo | Itata |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+191 |  | Quillón | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+192 |  | Quirihue | Itata |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+193 |  | Ránquil | Itata |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+194 |  | San Carlos | Punilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+195 |  | San Fabián | Punilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+196 |  | San Ignacio | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+197 |  | San Nicolás | Punilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+198 |  | Treguaco | Itata |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+199 |  | Yungay | Diguillín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+200 | Región de La Araucanía | Temuco | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+201 |  | Carahue | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+202 |  | Cunco | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+203 |  | Curarrehue | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+204 |  | Freire | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+205 |  | Galvarino | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+206 |  | Gorbea | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+207 |  | Lautaro | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+208 |  | Loncoche | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+209 |  | Melipeuco | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+210 |  | Nueva Imperial | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+211 |  | Padre Las Casas | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+212 |  | Perquenco | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+213 |  | Pitrufquén | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+214 |  | Pucón | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+215 |  | Saavedra | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+216 |  | Teodoro Schmidt | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+217 |  | Toltén | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+218 |  | Vilcún | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+219 |  | Villarrica | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+220 |  | Cholchol | Cautín |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+221 |  | Angol | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+222 |  | Collipulli | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+223 |  | Curacautín | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+224 |  | Ercilla | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+225 |  | Lonquimay | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+226 |  | Los Sauces | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+227 |  | Lumaco | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+228 |  | Purén | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+229 |  | Renaico | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+230 |  | Traiguén | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+231 |  | Victoria | Malleco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+232 | Región de Los Ríos  | Valdivia | Valdivia   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+233 |  | Corral | Valdivia   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+234 |  | Futrono | Ranco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+235 |  | La Unión | Ranco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+236 |  | Lago Ranco | Ranco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+237 |  | Lanco | Valdivia   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+238 |  | Los Lagos | Valdivia   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+239 |  | Máfil | Valdivia   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+240 |  | Mariquina | Valdivia   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+241 |  | Paillaco | Valdivia   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+242 |  | Panguipulli | Valdivia   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+243 |  | Río Bueno | Ranco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+244 | Región de Los Lagos | Puerto Montt | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+245 |  | Calbuco | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+246 |  | Cochamó | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+247 |  | Fresia | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+248 |  | Frutillar | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+249 |  | Los Muermos | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+250 |  | Llanquihue | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+251 |  | Maullín | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+252 |  | Puerto Varas | Llanquihue |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+253 |  | Castro | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+254 |  | Ancud | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+255 |  | Chonchi | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+256 |  | Curaco de Vélez | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+257 |  | Dalcahue | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+258 |  | Puqueldón | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+259 |  | Queilén | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+260 |  | Quellón | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+261 |  | Quemchi | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+262 |  | Quinchao | Chiloe |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+263 |  | Osorno | Osorno   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+264 |  | Puerto Octay | Osorno   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+265 |  | Purranque | Osorno   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+266 |  | Puyehue | Osorno   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+267 |  | Río Negro | Osorno   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+268 |  | San Juan de la Costa | Osorno   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+269 |  | San Pablo | Osorno   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+270 |  | Chaitén | Palena |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+271 |  | Futaleufú | Palena |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+272 |  | Hualaihué | Palena |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+273 |  | Palena | Palena |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+274 | Región de Aysén del Gral. C. Ibáñez del Campo | Coihaique | Coihaique   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+275 |  | Lago Verde | Coihaique   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+276 |  | Aisén | Aisén   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+277 |  | Cisnes | Aisén   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+278 |  | Guaitecas | Aisén   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+279 |  | Cochrane | Capitan Prat |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+280 |  | O'Higgins | Capitan Prat |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+281 |  | Tortel | Capitan Prat |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+282 |  | Chile Chico | General Carrera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+283 |  | Río Ibáñez | General Carrera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+284 | Región de Magallanes y de La Antártica Chilena | Punta Arenas | Magallanes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+285 |  | Laguna Blanca | Magallanes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+286 |  | Río Verde | Magallanes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+287 |  | San Gregorio | Magallanes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+288 |  | Cabo de Hornos | Antártica Chilena |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+289 |  | Antártica | Antártica Chilena |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+290 |  | Porvenir | Tierra del Fuego |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+291 |  | Primavera | Tierra del Fuego |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+292 |  | Timaukel | Tierra del Fuego |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+293 |  | Natales | Ultima Esperanza |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+294 |  | Torres del Paine | Ultima Esperanza |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+295 | Región Metropolitana de Santiago | Santiago | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+296 |  | Cerrillos | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+297 |  | Cerro Navia | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+298 |  | Conchalí | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+299 |  | El Bosque | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+300 |  | Estación Central | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+301 |  | Huechuraba | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+302 |  | Independencia | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+303 |  | La Cisterna | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+304 |  | La Florida | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+305 |  | La Granja | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+306 |  | La Pintana | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+307 |  | La Reina | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+308 |  | Las Condes | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+309 |  | Lo Barnechea | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+310 |  | Lo Espejo | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+311 |  | Lo Prado | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+312 |  | Macul | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+313 |  | Maipú | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+314 |  | Ñuñoa | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+315 |  | Pedro Aguirre Cerda | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+316 |  | Peñalolén | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+317 |  | Providencia | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+318 |  | Pudahuel | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+319 |  | Quilicura | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+320 |  | Quinta Normal | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+321 |  | Recoleta | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+322 |  | Renca | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+323 |  | San Joaquín | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+324 |  | San Miguel | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+325 |  | San Ramón | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+326 |  | Vitacura | Santiago   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+327 |  | Puente Alto | Cordillera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+328 |  | Pirque | Cordillera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+329 |  | San José de Maipo | Cordillera |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+330 |  | Colina | Chacabuco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+331 |  | Lampa | Chacabuco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+332 |  | Tiltil | Chacabuco |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+333 |  | San Bernardo | Maipo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+334 |  | Buin | Maipo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+335 |  | Calera de Tango | Maipo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+336 |  | Paine | Maipo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+337 |  | Melipilla | Melipilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+338 |  | Alhué | Melipilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+339 |  | Curacaví | Melipilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+340 |  | María Pinto | Melipilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+341 |  | San Pedro | Melipilla |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+342 |  | Talagante | Talagante   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+343 |  | El Monte | Talagante   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+344 |  | Isla de Maipo | Talagante   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+345 |  | Padre Hurtado | Talagante   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+346 |  | Peñaflor | Talagante   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 

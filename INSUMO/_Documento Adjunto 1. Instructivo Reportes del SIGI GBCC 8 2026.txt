@@ -1,0 +1,2024 @@
+=== Documento Adjunto 1. Instructivo Reportes del SIGI GBCC 8 2026.pdf (pages: 45) ===
+
+
+--- Page 1 ---
+ 
+ 
+CORPORACIÓN NACIONAL FORESTAL 
+ 
+ 
+ 
+INSTRUCTIVO PARA COMPLETAR FORMULARIO S 
+RELACIONADOS AL INDICADOR SIGI G BCC 8 2026 
+Departamento de Arbolado Urbano 
+Gerencia de Bosques y Cambio Climático 
+Corporación Nacional Forestal 
+ 
+ 
+ 
+PROGRAMA 06 
+ 
+SANTIAGO 
+FEBRERO 2026
+
+--- Page 2 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 1 de 44 
+ 
+ÍNDICE 
+1 INTRODUCCIÓN 4 
+2 OBJETIVOS 5 
+2.1 Objetivo General 5 
+2.2 Objetivos Específicos 5 
+3 INDICADOR SIGI GBCC 8 2026 6 
+3.1 Indicaciones Especiales 9 
+4 PARTE 1: PROGRAMA DE PRODUCCIÓN Y EVALUACIÓN DE PLANTAS 2026 10 
+4.1 Programa de Producción de Plantas 2026 10 
+4.1.1 Antecedentes Administrativos 10 
+4.1.2 Información de la Colecta de Semillas o Material de Propagación 11 
+4.1.3 Proceso, Análisis y Siembra de la Semillas o Material de Propagación 13 
+4.1.4 Manejo Fitosanitario de la Producción en Etapa Inicial 15 
+4.2 Evaluación de la Producción de Plantas 2026 16 
+4.2.1 Evaluación mediante Parcela de Ensayo de Germinación (Columnas AQ-AY) 16 
+4.2.2 Evaluación Plantas Repicadas e Ingresadas a Inventario (Columnas AZ-BD) 17 
+5 PARTE 2: CONTROL DE INVENTARIO DE PLANTAS (REPORTES 1, 2, 3 Y 4) 19 
+5.1 Control de Inventario de Plantas 19 
+5.2 Formato Explicativo del Control de Inventario de Plantas 19 
+5.3 Antecedentes del Vivero 20 
+5.4 Antecedentes de la Especie 21 
+5.5 Valorización y Observaciones 23 
+5.6 Información de Control de Inventario en Reporte 1 Marzo 2026 23 
+5.7 Ingresos de Plantas en el Primer Trimestre (enero a marzo) Reporte 1 Marzo 2026 24 
+5.8 Ingresos y Egresos de Plantas en el Primer Trimestre (enero a marzo) Reporte 1 Marzo 
+2026 25 
+5.9 Información de Control de Inventario en Reporte 2 Junio 2026 26 
+5.10 Información de Control de Inventario en Reporte 3 Septiembre 2026 27 
+5.11 Información de Control de Inventario en Reporte 4 Diciembre 2026 27 
+5.12 Informes de Ayuda 27 
+6 PROCEDIMIENTO DE BAJA DE PLANTAS 28 
+6.1 Procedimiento de Baja de Plantas 28 
+6.2 Formalización de Baja de Plantas 28 
+6.3 Propuesta Base para Documentos de Procedimiento de Baja de Plantas 30 
+--- Page 3 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 2 de 44 
+ 
+6.3.1 Informe de Baja de Plantas 30 
+6.3.2 Acta de Baja de Plantas 31 
+6.3.3 Resolución de Baja de Plantas 32 
+7 PROCEDIMIENTO DE TRASLADO DE PLANTAS DE PRODUCCIÓN PROPIA 33 
+7.1 Respecto al Excel Control de Inventario y sus Reportes 33 
+8 METODOLOGÍA DE CONTABILIZACIÓN DE PLANTAS PARA CONTROL DE 
+INVENTARIO 35 
+8.1 Sectores o Áreas de Trabajo 35 
+8.2 Ordenar por Tipo de Contenedor, Tamaño y Especie 36 
+8.3 Definir Dimensiones de Platabandas 36 
+8.4 Muestreo de Plantas en Contenedor Bolsa 37 
+8.5 Muestreo de Plantas en Contenedor Bandeja Speedling 40 
+9 ANEXOS 42 
+9.1 Planilla Control de Inventario. 42 
+9.2 Planilla Programa de Producción y Evaluación de Plantas. 42 
+9.3 Ejemplo de Resolución e Informe de Baja de Plantas. 42 
+10 BIBLIOGRAFÍA 43 
+ 
+ 
+  
+--- Page 4 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 3 de 44 
+ 
+ÍNDICE DE TABLAS 
+Tabla 1. Fecha de recepción de reportes de gestión de producción de plantas en los viveros y centros de 
+acondicionamiento de CONAF en el año 2026. .................................................................................................. 6 
+Tabla 2. Descripción del indicador SIGI GBCC 8 2026. ........................................................................................ 7 
+Tabla 3. Detalle Indicador SIGI GBCC 8 2026 referido a metas y responsables por unidad administrativa . ...... 8 
+Tabla 4. HUSOS correspondientes al territorio nacional. ................................................................................. 12 
+Tabla 5. Tipo de Siembra. ................................................................................................................................. 14 
+Tabla 6. Tabla resumen de los resultados del ejemplo. ................................................................................... 38 
+ 
+ÍNDICE DE IMÁGENES 
+Imagen 1. Antecedentes administrativos y objetivos de las plantas. ............................................................... 10 
+Imagen 2. Información de colecta de semillas o material de propagación. ..................................................... 11 
+Imagen 3. Información de proceso, análisis y siembra de las semillas o material de propagación. ................ 13 
+Imagen 4. Información del manejo fitosanitario de la producción en etapa inicial.  ........................................ 15 
+Imagen 5. Evaluación de producción de plantas nuevas (Parte A). .................................................................. 16 
+Imagen 6. Evaluación producción de plantas nuevas (Parte B). ....................................................................... 18 
+Imagen 7. Esquema metodológico para el ingreso de datos a planilla de control de inventario.  .................... 19 
+Imagen 8. Figura referencial el Excel en sus columnas de Antecedentes del Vivero. ....................................... 20 
+Imagen 9. Figura referencial el Excel en sus columnas de Antecedentes de la Especie. ................................... 21 
+Imagen 10. Figura referencial del Excel en sus columnas de Valorización y Observaciones. ........................... 23 
+Imagen 11. Ejemplos de hojas verdaderas. ...................................................................................................... 24 
+Imagen 12. Figura referencial del Excel en sus Columnas T a AF en el Reporte 1 Marzo 2026.  ....................... 25 
+Imagen 13. Contenido referencial para la caracterización de las plantas que se darán de baja.  .................... 30 
+Imagen 14. Contenido referencial para la caracterización de las plantas que se darán de baja.  .................... 30 
+Imagen 15. Esquema referencial de distribución de áreas dentro del vivero, según objetivo.  ......................... 35 
+Imagen 16. Esquema respecto de dimensiones de una platabanda con bolsas.  .............................................. 36 
+Imagen 17. Ejemplo de muestreo sistemático en platabandas. ........................................................................... 38 
+ 
+--- Page 5 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 4 de 44 
+ 
+1 INTRODUCCIÓN 
+El Indicador SIGI G BCC 8 2026, ha sido  diseñado para medir la gestión de las actividades que se 
+desarrollan en la Red de Viveros CONAF que están vinculados con el Departamento de Arbolado 
+Urbano de la Gerencia de Bosques y Cambio Climático (GBCC). 
+Este indicador está compuesto por cuatro reportes anuales por unidad administrativa, que forman 
+parte de los puntos de control que dan cuenta del  número de Plantas nuevas ingresadas a los 
+inventarios de viveros y/o centros de acondicionamiento de CONAF en el año t , información 
+relevante para la ejecución de actividades técnicas y administrativas, referidas a la Corporación.  
+Los reportes registran el proceso de gestión del vivero desde la planificación de la producción de 
+plantas, culminando con la planta -objetivo, las cuales reúnen las características para ser 
+entregadas a los destinatarios de los diferentes programas de la Corporación, tales como: 
+Programa de Arborización, Plantaciones Forestales, Cambio Climático, Restauración, Plan Siembra 
+por Chile (Restauración de Bosques Nativos a Gran Escala), Programa +Bosques financiado por el 
+Fondo Verde del Clima, entre otros. 
+Con el objetivo de mejorar continuamente el control de los procesos productivos y mantener 
+actualizada la información de inventario, se reportan durante el año los siguientes controles: 
+● Programa de Producción y Evaluación de Plantas. 
+● Control de Inventario de Plantas (Ingresos y Egresos). 
+● Salida de Plantas con Informe de Bajas. 
+Adicionalmente, la información generada para el Indicador SIGI G BCC 8 2026 contribuye para 
+atender los requerimientos de información establecidos en la  Ley de Presupuesto 2026 (Glosa 02 
+del Programa 05 de Gestión Forestal y Glosa 03 del Programa 06 de Arborización Urbana)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- Page 6 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 5 de 44 
+ 
+2 OBJETIVOS 
+2.1 Objetivo General 
+Recopilar información de índole cualitativa y cuantitativa de la gestión de producción y 
+mantención de plantas en los viveros de CONAF, mediante los reportes generados en respuesta a 
+los compromisos adquiridos en el Indicador SIGI GBCC 8 2026. 
+2.2 Objetivos Específicos 
+• Entregar la información necesaria para completar  las planillas Microsoft Excel de los 
+formularios del Indicador SIGI GBCC 8 2026. 
+• Informar las fechas de entrega de los reportes solicitados. 
+• Mantener actualizada información referida a control de inventario, en cuanto a ingresos y 
+egresos.  
+• Entregar lineamientos respecto de baja de plantas. 
+ 
+ 
+  
+--- Page 7 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 6 de 44 
+ 
+3 INDICADOR SIGI GBCC 8 2026 
+Como es de conocimiento, el Sistema de Información para la Gestión Institucional (SIGI) 
+corresponde a una herramienta  diseñada para la medición del cumplimiento de objetivos  
+institucionales a través de indicadores , que miden el  cumplimiento de las etapas comprometidas 
+en el Programa de Mejoramiento de la Gestión (PMG). 
+Los indicadores de desempeño1 forman parte de las herramientas de control de gestión que utiliza 
+la Dirección de Presupuestos del Ministerio de Hacienda y el Congreso Nacional, con los cuales se 
+mide y evalúa la gestión de las instituciones públicas, cuya medición debe ser continua y 
+sistemática en el tiempo para generar tendencias y sean utilizadas para tomar decisiones. 
+Por lo anterior,  se consideró evaluar los puntos críticos en el  funcionamiento de los viveros, 
+centros de acondicionamiento y acopio de CONAF, por medio de reportes trimestrales, que den 
+cuenta de los resultados obtenidos en las etapas de producción y la entrada y salida de plantas en 
+los viveros y centros de acondicionamiento de CONAF, ver Tabla 1. 
+Tabla 1. Fecha de recepción de reportes de gestión de producción de plantas en los viveros y centros de 
+acondicionamiento de CONAF en el año 2026. 
+FECHA DE RECEPCIÓN REPORTES SIGI GBCC 8 2026 
+REPORTE 1 REPORTE 2 REPORTE 3 REPORTE 4 
+Avance al 31 de marzo de 
+2026 
+Avance al 30 de junio de 
+2026 
+Avance al 30 de septiembre 
+de 2026 
+Avance al 28 de noviembre 
+de 2026 
+Entrega máxima martes 07 
+de abril 
+Entrega máxima martes 07 
+de julio 
+Entrega máxima miércoles 
+07 de octubre 
+Entrega máxima miércoles 
+09 de diciembre  
+Programa de Producción y 
+Evaluación de Plantas 
+(Programación) 
+Control de Inventario de 
+Plantas (Ingresos y Egresos) 
+Control de Inventario de 
+Plantas (Ingresos y Egresos) 
+Programa de Producción y 
+Evaluación de Plantas 
+(Evaluación) 
+Control de Inventario de 
+Plantas (Ingresos y Egresos) 
+Salida de Plantas con 
+Informe de Bajas 
+Control de Inventario de 
+Plantas (Ingresos y Egresos) 
+Salida de Plantas con 
+Informe de Bajas 
+Nota: En la información del 31 de marzo de  2026 se debe entregar el Reporte 1, el cual considera la información del programa de la 
+nueva producción de plantas y el control de inventario a marzo, que corresponderá al inventario de diciembre 2025, modificado con los 
+registros de ingresos o salidas de plantas en el período enero-marzo. 
+ 
+ 
+ 
+ 
+1 http://intra.CONAF.cl/sistema-de-informacion-para-la-gestion-institucional/ 
+--- Page 8 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 7 de 44 
+ 
+A continuación, en el Tabla 2 se describe el Indicador SIGI G BCC 8 2026 denominado “ Plantas 
+nuevas ingresadas a los inventarios de viveros y/o centros de acondicionamiento de CONAF en el 
+año t”. 
+Tabla 2. Descripción del indicador SIGI GBCC 8 2026. 
+ÍTEM DESCRIPCIÓN 
+Nombre del Indicador 
+de Desempeño 
+Porcentaje de plantas nuevas ingresadas a los inventarios de viveros y/o centros de 
+acondicionamiento de CONAF en el año t. 
+Responsable Nacional Jefatura del Departamento de Arbolado Urbano. 
+Responsable Regional 
+Jefe(a) del Departamento de Bosques y Cambio Climático de cada región, (excepto la Región de 
+Ñuble), Director del Centro de Semillas, Genética y Entomología de Chillán y Jefatura Provincial 
+Rapa Nui. 
+Descripción General 
+del Indicador 
+El abastecimiento de plantas nuevas proviene de tres fuentes principales que son: producción 
+propia, compras y donaciones. Para el registro de las plantas nuevas ingresadas a los 
+inventarios de la Red de Viveros CONAF provenientes de producción, compras y donaciones 
+inventariadas el año 2026 para lo cual se dispone de un protocolo que estará basado en una 
+Base de Datos en formato Excel que compilará el detalle de las plantas ingresadas (avance 
+acumulativo) a los inventarios de los viveros y/o centros de aco ndicionamiento de CONAF. Se 
+ingresarán en los reportes trimestrales, todas las plantas ingresadas a los inventarios durante 
+el año 2026, independiente del programa de destino. En el último periodo se incorporaron 
+dos programas que requieren plantas estos son: el Plan Siembra por Chile (Restauración de 
+Bosques y Formaciones Xerofíticas a gran escala) y el Programa +Bosques financiado por el 
+Fondo Verde del Clima. Los dos programas anteriores más el Programa de Arborización son de 
+los mayores requirentes de p lantas de la Red de Viveros CONAF, todos con un énfasis en las 
+especies nativas acondicionadas al territorio.   
+Fórmula de Cálculo del 
+Indicador 
+(Número de plantas nuevas ingresadas a los inventarios de viveros y/o centros de 
+acondicionamiento de CONAF en el año t / Número de plantas nuevas programadas a ingresar a 
+los inventarios de viveros y/o centros de acondicionamiento de CONAF en el año t) * 100 
+Meta Nacional 2026 100% (2.306.000 plantas nuevas ingresadas a inventario). 
+Medio de Verificación 
+Regional de Estado de 
+Avance 
+Base de datos digital (formato Microsoft Excel) con avances acumulativos reportados 4 veces en el 
+año, de las plantas nuevas ingresadas a los inventarios de cada vivero y/o centro de 
+acondicionamiento de CONAF. Se reporta la Planificación de la Producción, Control de Existencias, 
+Registro de Baja de Plantas y Evaluación de la Producción, según formatos que serán enviados por 
+Oficina Central. 
+Medio de Verificación 
+Final Nacional 
+Informe emitido por el Departamento de Arbolado Urbano de Oficina Central, con la información 
+acumulada en los reportes emitidos por cada unidad administrativa y validada por el Departamento 
+de Arbolado Urbano de OC. La fecha de entrega máxima es el 08 de enero de 2027. 
+Fecha de Entrega al 
+Departamento de 
+Arbolado Urbano 
+Corresponde a cuatro reportes en el año enviados vía CeroPapel con información de las siguientes 
+fechas: 31 de marzo de 2026, 30 de junio de 2026, 30 de septiembre de 2026 y 30 de noviembre de 
+2026. 
+ 
+En Tabla 3, se detalla la meta de plantas nuevas ingresadas a los inventarios CONAF y el 
+responsable por cada unidad administrativa en el año 2026, con el objeto de cumplir con el 
+Indicador SIGI GBCC 8. 
+ 
+--- Page 9 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 8 de 44 
+ 
+Tabla 3. Detalle Indicador SIGI GBCC 8 2026 referido a metas y responsables por unidad administrativa . 
+N Unidad Administrativa Numerador Denominador Meta 2026 Responsable 
+1 Arica y Parinacota 20.000 20.000 100,0% 
+Pamela Moscoso Astorga 
+Jefa Departamento de Bosques y Cambio 
+Climático 
+2 Tarapacá 20.000 20.000 100,0% 
+Enzo Solimano Fernández 
+Jefe Departamento de Bosques y Cambio 
+Climático 
+3 Antofagasta 9.000 9.000 100,0% 
+Eduth Chamorro Vargas 
+Jefe Departamento de Conservación de 
+Ecosistemas Boscosos y Xerofíticos 
+4 Atacama 30.000 30.000 100,0% 
+Boris Burgos Silva 
+ Jefe Departamento de Ecosistemas Boscosos y 
+Xerofíticos 
+5 Coquimbo 25.000 25.000 100,0% 
+Diego Morales Banda 
+Jefe Departamento de Conservación de 
+Ecosistemas Boscosos y Xerofíticos 
+6 Valparaíso 52.000 52.000 100,0% 
+Claudio Ilabaca Vergara 
+Jefe Departamento de Bosques y Cambio 
+Climático 
+7 Libertador General Bernardo 
+O'Higgins 480.000 480.000 100,0% 
+Felipe Sandoval Barahona 
+Jefe Departamento de Conservación de 
+Ecosistemas Boscosos y Xerofíticos 
+8 Maule 50.000 50.000 100,0% 
+Carlos Daziano León 
+Jefe Departamento de Bosques y Cambio 
+Climático 
+9 Ñuble     - - 
+10 Biobío 30.000 30.000 100,0% 
+Pablo Gajardo Caviedes 
+Jefe Departamento de Conservación de 
+Ecosistemas Boscosos y Xerofíticos 
+11 La Araucanía 300.000 300.000 100,0% 
+Omar Levet Cuminao 
+Jefe Departamento de Bosques y Cambio 
+Climático 
+12 Los Ríos 150.000 150.000 100,0% 
+Pamela Moreno Durán 
+Jefa Departamento de Conservación de 
+Ecosistemas Boscosos y Xerofíticos 
+13 Los Lagos 100.000 100.000 100,0% 
+Carolina Cárdenas Cisternas 
+Jefa Departamento de Bosques y Cambio 
+Climático 
+14 Aysén del General Carlos Ibáñez 
+del Campo 150.000 150.000 100,0% 
+Fernando Bascuñan Pino 
+Jefe Departamento de Bosques y Cambio 
+Climático 
+15 Magallanes y La Antártica 
+Chilena 150.000 150.000 100,0% 
+Pamela Duhalde Bertin 
+Jefa Departamento de Conservación de 
+Ecosistemas Boscosos y Xerofíticos 
+16 Metropolitana de Santiago 200.000 200.000 100,0% 
+Marcia Villanueva Faúndez 
+Jefa Departamento de Conservación de 
+Ecosistemas Boscosos y Xerofíticos 
+17 Centro de Semillas, Genética y 
+Entomología de Chillán 500.000 500.000 100,0% 
+Adán Díaz Gutiérrez 
+Director Centro de Semillas, Genética y 
+Entomología de Chillán 
+18 Isla de Pascua 40.000 40.000 100,0% Enrique Tucki  
+Jefe Provincial Rapa Nui 
+TOTAL 2.306.000 2.306.000 100  
+ 
+Para el presente año, el Indicador SIGI GBCC 8 posee además la categoría de Convenio de Estímulo 
+a la Eficiencia Instit ucional (CEEI), según Resolución 84/2026, seis regiones establecieron como 
+CEEI 2026 las “Plantas nuevas ingresadas a los inventarios de viveros y/o centros de 
+acondicionamiento de CONAF en el año t”.  Las regiones con dicho compromiso son: Arica y 
+Parinacota, Antofagasta, O’Higgins, Maule, Biobío y Los Lagos. 
+--- Page 10 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 9 de 44 
+ 
+3.1 Indicaciones Especiales 
+Las siguientes indicaciones son para llenar la planilla Microsoft Excel del formulario de los reportes 
+del Indicador SIGI GBCC 8 2026: 
+• La planilla debe ser completada íntegramente, en  caso contrario, será rechazada y no se 
+aceptará hasta que se reporte  como lo indica este instructivo, salvo excepciones que 
+señalen oportunamente vía memorándum a  la Jefatura del Departamento de Arbolado 
+Urbano con copia a la jefatura de la Sección Red de Viveros, las causas para no cumplir con 
+el cometido solicitado. 
+• Las planillas NO se deben MODIFICAR o ALTERAR en ninguna circunstancia, ante cualquier 
+duda, sugerencia o consulta, se debe comunicar con la Jefatura de la Sección Red de 
+Viveros del Departamento de Arbolado Urbano de Oficina Central. 
+• Los traslados internos en viveros de una misma región o de diferentes regiones, no se 
+consideran en la gestión de abastecimiento, ya que correspondería a la gestión del vivero 
+que produce las plantas y no al vivero que las recibe, a EXCEPCIÓN de aquellas regiones 
+que mantengan acuerdos de producción que consideren traspasos presupuestarios o de 
+bienes para financiar la producción de plantas en otros viveros de CONAF y que estas sean 
+consideradas como gestión propia de su unidad productiva para su contabilidad en el 
+Indicador SIGI GBCC 8 2026.  
+• Se deben considerar en el Indicador SIGI GBCC 8 2026 las compras directas de plantas que 
+se resguardan en vivero externo , para lo cual deben asociarse a un vivero de las unidades 
+productivas CONAF e identificar el lugar de resguardo de las plantas. Los anterior, se 
+identifica en la Columna B de Unidad Productiva. Esta consideración no aplica a encargos 
+de producción.  
+• Actualmente se trabaja con el Proyecto +Bosques financiado por el Fondo Verde del Clima 
+y gestionado en conjunto por FAO y CONAF. Donde el trabajo se expresa en la Red de 
+Viveros CONAF, siendo las Unidades Productivas el receptor de recursos económicos y de 
+plantas. Por lo anterior, e s importante destacar la correcta identificación del uso de las 
+plantas en la Columna L denominada “Destino de la Planta”, especial atención a la 
+identificación del Programa +Bosques (Fondo Verde del Clima) ya que puede tener un 
+trato diferencial en términos contables y de auditorías. 
+ 
+  
+--- Page 11 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 10 de 44 
+ 
+4 PARTE 1: PROGRAMA DE PRODUCCIÓN Y EVALUACIÓN DE PLANTAS 2026 
+4.1 Programa de Producción de Plantas 2026 
+Las siguientes indicaciones son para llenar la  planilla Microsoft Excel del formulario del Programa  
+de Producción y Evaluación del Indicador SIGI GBCC 8 2026. La planilla cuenta con campos de listas 
+desplegables, autocompletables y otras funciones para facilitar su llenado. 
+El programa de producción, informado a través del Reporte 1, consiste en una planificación donde 
+cada unidad administrativa informa lo programado respecto a reproducción por semillas y/o 
+vegetativa de cada vivero, centro de acondicionamiento y/o acopio para la temporada a ejecutar 
+en el año t (año 2026). A continuación , se detallan los campos del formulario y la información 
+solicitada. 
+ 
+4.1.1 Antecedentes Administrativos 
+A continuación, se  presenta Imagen 1  referencial se requiere incorporar antecedentes 
+administrativos de la unidad productiva y objetivos de la producción de plantas (Desde columnas B 
+hasta H). 
+ 
+Imagen 1. Antecedentes administrativos y objetivos de las plantas. 
+ 
+COLUMNA B (Unidad Productiva): Corresponde al nombre de las unidades productivas (viveros o 
+centros de acondicionamiento) de cada una de las regiones del país. Las unidades se muestran en 
+listas desplegables, las cuales se pueden registrar una a continuación de la otra de acuerdo con la 
+región.  
+En muchos casos e n esta planilla, la información deberá buscarse en la lista desplegable, ejemplo 
+“Unidad Productiva”. NO SE PUEDE MODIFICAR , en el caso necesario de que se deba incorporar 
+un nuevo dato que no aparezca en el listado, se debe informar a  la jefatura de la Sección Red de 
+Viveros a nivel central para realizar la incorporación de los nuevos antecedentes. 
+
+--- Page 12 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 11 de 44 
+ 
+COLUMNA C, D, y E: Corresponde a la Región, Provincia y Comuna donde se encuentra la unidad 
+productiva en la cual se realizará el programa de producción de plantas . Información se rellena 
+automáticamente al completar columna de Unidad Productiva (Columna B).  
+COLUMNA F y G (Nombre Encargado del Vivero y Teléfono): Se debe incorporar el nombre de la 
+persona encargada del vivero o del proceso productivo de las plantas, además se debe incorporar 
+un teléfono de contacto de dicha persona.  
+COLUMNA H (Objetivos de la Producción de Plantas): Se debe seleccionar de la l ista desplegable 
+el programa al cual está destinada la colecta de las semillas y/o el material vegetativo para la 
+producción de plantas. Algunos de los programas presentes en la lista desplegables son: Programa 
+de Arborización, +Bosques ( Fondo Verde del Clima ), Programa de Reactivación Económica 
+Forestal, Siembra por Chile, Programa Manejo Sustentable de la Tierra, entre otros.  
+En el caso necesario de que se deba incorporar un nuevo dato que no aparezca en el listado, se 
+debe informar a  la jefatura de la Sección Red de Viveros a nivel central para realizar la 
+incorporación de los nuevos antecedentes. 
+ 
+4.1.2 Información de la Colecta de Semillas o Material de Propagación 
+En Imagen 2 referencial se solicitará información respectiva a colecta de material de propagación 
+(Desde columna I hasta U). 
+ 
+Imagen 2. Información de colecta de semillas o material de propagación. 
+ 
+COLUMNA I, J y K (Nombre Científico, Nombre Común y Origen ): Se debe seleccionar de l ista 
+desplegable la información referente a las especies a propagar en el programa de producción o 
+colecta. La información se rellena automáticamente (Columnas J y K) al completar la columna de 
+Nombre Científico (Columna I).  
+COLUMNA L (Fuente de Abastecimiento del Material de Propagación): Lista desp legable con 
+información respecto de la fuente de abastecimiento del material  a utilizar  en el programa de 
+producción: compra de plantas o semillas, colecta  de semillas o material vegetativo por gestión 
+propia, donaciones, traslado interno de plantas, otras (se debe especificar en observaciones).  
+
+--- Page 13 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 12 de 44 
+ 
+COLUMNA M (Fecha de Colecta): Se deberá registrar la fecha de colecta o adquisición de las 
+semillas y/o del material vegetativo. El formato de fecha es DÍA -MES-AÑO (Ejemplo: 11-02-2026). 
+El rango de fechas que se pueden incorporar va desde 01-01-2016 al 31-12-2026.  
+COLUMNA N (Lugar de Colecta - Localidad): Se registrará el nombre de la localidad o sector, 
+donde se colectó la semilla y/o el material vegetativo, para la producción estimada del año en 
+curso. 
+COLUMNA O (Comuna de Colecta): Se debe seleccionar de la l ista desplegable la comuna donde 
+se colectó la semilla y/o el material vegetativo para la producción vigente , lo anterior, vinculado a 
+la Columna N. 
+Para el caso de la donación, traspaso, compra de semillas y el material vegetativo, se debe solicitar 
+la mayor cantidad de antecedentes de procedencia al proveedor. 
+COLUMNA P (Huso): Lista desplegable donde se deberá identificar el HUSO al cual corresponde el 
+lugar de colecta de la semilla  y/o el material vegetativo. Las coordenadas UTM dividen al mundo  
+en 60 Zonas o Husos, por lo anterior, el territorio chileno, por su localización geográfica, se 
+encuentra en cuatro de ellos, ver Tabla 4. 
+Tabla 4. HUSOS correspondientes al territorio nacional. 
+Huso Territorio 
+12 
+Chile Insular 
+17 
+18 
+Chile Continental 
+19 
+COLUMNA Q (Coordenadas X): Registrar las coordenadas X del punto de colecta de las semillas, 
+como ejemplo, la colecta de Lenga se localiza en coordenadas UTM X: 680.444. 
+COLUMNA R (Coordenadas Y): Registrar las coordenadas Y del pun to de colecta de las semillas, 
+como ejemplo: las semillas de Lenga se localizan en coordenada UTM Y: 5.708.084.  
+Para el caso de la donación, traspaso y compra de semillas o material vegetativo, se debe solicitar 
+la mayor cantidad de antecedentes de procedencia al proveedor. 
+COLUMNA S (Cantidad del Material Colectado): Registrar la cantidad de semillas y/o del material 
+vegetativo, que se requiere colectar para la producción estimada del año en curso, por ejemplo: se 
+colectaron 2 kilos de semillas de Quillay o 1.000 estacas de Álamo. 
+COLUMNA T (Unidad de Medida): Lista desplegable donde se deberá identificar  la unidad de 
+medida del material colectado. Las opciones disponibles son: kg, N° semillas, gr, unidades, estacas, 
+plántulas regeneración natural, esquejes y plantas. 
+COLUMNA U (Forma de Colecta): Lista desplegable donde se s eñalará la técnica o formato de 
+colecta de las semillas y/o el material vegetativo.  Las opciones disponibles son: Cosecha manual 
+directa; escalamiento; golpe o corte de ramas desde el suelo; instalación de carpa o malla bajo el 
+árbol; recolección desde el suelo; sacudir o golpear las ramas para desprender los frutos o 
+semillas; y selección y corte de estacas o esquejes. 
+ 
+ 
+--- Page 14 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 13 de 44 
+ 
+4.1.3 Proceso, Análisis y Siembra de la Semillas o Material de Propagación 
+En Imagen 3 referencial se solicitará antecedentes referentes al proceso, análisis y siembra de las 
+semillas o material de propagación colectado para la programación de la producción del año en 
+curso (Desde columnas V hasta AJ). 
+ 
+Imagen 3. Información de proceso, análisis y siembra de las semillas o material de propagación. 
+COLUMNAS V, W, X e  Y (Procesos de la Semillas): Se registrará cada uno de los procesos que se 
+realizarán a la semilla después de la colecta (secado, limpieza, selección, almacenaje, tratamientos 
+pre-germinativos). Informar el tipo de manejo de las semillas y/o el material vegetativo colectado, 
+según lista desplegable, por ejemplo: Las semillas una vez colectadas, son limpiadas y 
+almacenadas en frío, para proceder posteriormente con los tratamientos pre-germinativos, que 
+consisten en escarificación mecánica. 
+COLUMNA Z (Producción Estimada / N° Total de Plantas / Np ): En esta columna se debe rá 
+registrar el número de plantas estimadas a producir en el programa, para ello es necesario realizar 
+el cá lculo de la semilla o material a pr opagar (fó rmula de columna A F), teniendo en cuenta el 
+proceso de las semillas y los análisis de laboratorio correspondientes. 
+COLUMNAS AA, AB, AC, AD y AE (Análisis de Semillas): Se deberá registrar los análisis efectuados 
+a las semillas con el objeto de conocer los parámetros básicos necesarios para el cálculo de la 
+cantidad de semilla requerida para la Producción Estimada (Columna Z). 
+COLUMNA A A (Análisis de Muestras  de Semillas ): Lista desplegable que muestra 
+alternativas de análisis a realizar a la s semillas. Las opciones desplegadas son: En sala de 
+semillas, en laboratorio de semillas o bien, sin análisis de semillas. 
+COLUMNA AB (Ns: número de semillas por kg según especie): Este dato se puede obtener 
+mediante información bibliográfica de cada especie o mediante pesaje de muestras de 
+semilla colectada, por ejemplo: Si se quiere conocer  el número de semillas que tiene un 
+kilogramo de semillas de Gevuina avellana colectada, se puede tomar cuatro muestras de 
+50 semillas cada uno, se pesan y se obtiene el peso promedio de las 50 semillas, qu e 
+después se extrapolan a un kilo (kg). 
+COLUMNAS AC (Pg: P orcentaje de Germinación) y AD (Pv: Porcentaje de Viabilidad): 
+Corresponde a  los porcentajes germinación  y viabilidad de las semillas obtenidos en  
+análisis de laboratorio o análisis realizados en el vivero. 
+
+--- Page 15 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 14 de 44 
+ 
+COLUMNA AE (Ps: Porcentaje de Sobrevivencia): Corresponde al registro del porcent aje 
+de sobrevivencia estimado por  el viverista, de acuerdo con  las experiencias previas en el 
+manejo de la especie, bajo las condiciones propias del vivero.  
+COLUMNAS AF, AG, AH, AI y AJ (Siembra de las Semillas): Se debe rá registrar los parámetros 
+básicos del proceso de planificación de la siembra o instalación de estacas, según corresponda. 
+COLUMNA AF (Semillas Sembrar): Se registrará la cantidad de semilla (kg) o material de 
+propagación necesaria para la producción estimada.  Para ello se sugiere usar la fó rmula a 
+continuación detallada.  
+Fórmulas de Cálculo: 
+S = Np 
+(Ns x Pv x Pg x Ps) 
+Donde, 
+S: Cantidad de semillas para producir el número de plantas requeridas (kg). 
+Np: N° de plantas a producir. 
+Ns: N° de semillas por kg según especie. 
+Pv: Porcentaje de viabilidad (valor decimal). 
+Pg: Porcentaje de germinación (valor decimal). 
+Ps: Porcentaje de sobrevivencia (valor decimal). 
+ 
+Ps = 1 - Pp 
+ 
+Donde, 
+Pp: Porcentaje de pérdida de plantas en el vivero. 
+ 
+COLUMNA AG (Unidad): En lista desplegable se deberá indicar la unidad d e medida 
+correspondiente (kg, g, estacas, plantas, etc.). 
+COLUMNA AH (Fecha de Siembra): Se deberá registrar la fecha de siembra o instalación 
+del material vegetativo. El formato de fecha es DÍA-MES-AÑO. Ejemplo: 01-09-2026.  
+COLUMNA AI (Tipo de Siembra): Lista desplegable donde se deberá  identificar el tipo de 
+siembra que se implementará.  
+Tabla 5. Tipo de Siembra. 
+Tipo de Siembra 
+Almacigueras 
+Cama caliente 
+Raíz desnuda 
+Siembra directa (bolsa) 
+Siembra directa (bandejas) 
+Almácigo o semillero 
+COLUMNA AJ (Tipo de Sustrato): Se deberá informar el tipo de sustrato o mezcla utilizado 
+en el proceso de siembra  de las semillas o plántulas, ya sea en el almá cigo o en siembra 
+--- Page 16 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 15 de 44 
+ 
+directa en contenedor. Se recuerda que este sustrato a utilizar debe ser estéril o en su 
+efecto desinfectado.  
+ 
+4.1.4 Manejo Fitosanitario de la Producción en Etapa Inicial  
+Contar con un pr ograma de manejo fitosanitario permite realizar la prevención, control y 
+eliminación de plagas y enfermedades de las plántulas, garantizando una siembra de mejor calidad 
+y rápido crecimiento. 
+A continuación, se presentan las columnas desde AK a AP, referidas a manejo fitosanitario 
+asociados a la producción de plantas en primeras etapas de desarrollo.  
+ 
+Imagen 4. Información del manejo fitosanitario de la producción en etapa inicial.  
+ 
+COLUMNA AK (Tipo de Aplicación): Informar el tipo de programa fitosanitario a aplicar en forma 
+preventiva o curativa, en el caso de que se cuente con un programa fitosanitario de aplicaciones, 
+por ejemplo: acaricidas, fungicidas, molusquicidas, entre otros. 
+COLUMNA AL (N° de Aplicaciones): Informar cuantas veces se aplicará el producto en el período 
+del almácigo. 
+COLUMNA AM (Productos Fitosanitarios ): Identificar el producto fitosanitario a utilizar en el 
+programa fitosanitario, ejemplo: fungicida, Previcur® Energy 840 SL. 
+COLUMNA A N (Dosis): Identificar la dosis del producto  a utiliz ar en el programa fitosanitario , 
+ejemplo: 1cc/l (1 centímetro cúbico de producto por litro de agua). 
+COLUMNA AO (Frecuencia Semanal): Identificar la cantidad de veces que se aplica el producto en 
+la semana, ejemplo: 2 veces por semana. 
+COLUMNA AP (Tipo de Riego): Indicar, en lista desplegable, el tipo de riego empleado en el 
+proceso de almácigo.  
+ 
+
+--- Page 17 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 16 de 44 
+ 
+4.2 Evaluación de la Producción de Plantas 2026 
+Las siguientes indicaciones son para completar la planilla  EVALUACIÓN DE LA PRODUCCIÓN SIGI 
+GBCC 8 2026, éste debe ser llenado por cada uno de los responsables de informar los reportes de 
+los viveros y centros de acondi cionamiento, a lo largo del país , para ser entregado en diciembre 
+del año en curso. 
+El Reporte 4 incluye la E valuación de la P roducción, correspondiente al último componente del 
+Indicador SIGI GBCC 8 2026. En esta etapa, las unidades productivas deben in formar la evaluación 
+final del Programa de P roducción que se presentó a inicio del año calendario, como R eporte 1 del 
+indicador (ver Tabla 1). 
+El objetivo de esta evaluación es realizar un análisis que permita presentar mejoras en los futuros 
+programas de producción, reduciendo y ordenando la cantidad de especies a producir, 
+modificando las condiciones de germinación en el cas o de ser necesario, entre otros;  con la 
+finalidad de obtener la mayor cantidad de plántulas y mejorar las condiciones de su crecimiento , 
+para obtener una planta de calidad y adecuada a los distintos requerimientos. 
+A continuación, se de tallan los campos correspondientes a la planilla que representan la 
+Evaluación de Producción de Plantas y el carácter de la información solicitada. 
+ 
+4.2.1 Evaluación mediante Parcela de Ensayo de Germinación (Columnas AQ-AY) 
+Para evaluar el proceso de germinación y emergencia es necesario estable cer pequeñas parcelas 
+de ensayo  que permitan registrar la cantidad de plantas emergidas y obtener el porcentaje de 
+germinación real por especie. 
+ 
+Imagen 5. Evaluación de producción de plantas nuevas (Parte A). 
+ 
+COLUMNA AQ (N° Semillas Sembradas Parcela de Ensayo): Se deberá indicar el número de 
+semillas sembradas en parcela de ensayo. Por ejemplo: se puede sembrar 4 parcelitas con 100 
+semillas por especie, en las mismas condiciones del vivero (o en la misma siembra),  observar y 
+registrar la emergencia de las plántulas.  
+COLUMNA AR (Fecha Inicio Germinación): En el Control 1, se deberá registrar la fecha de inicio de 
+germinación de las semillas. El formato de fecha es DD-MM-AAAA. Ejemplo: 20-10-2026. 
+
+--- Page 18 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 17 de 44 
+ 
+COLUMNA A S (Fecha Evaluación Emergencia): En el Control 2, se deberá registrar la fecha de 
+evaluación de emergencia de las semillas. El formato de fecha es DD -MM-AAAA. Ejemplo: 30-10-
+2026. 
+COLUMNA A T (N° de Plántulas Emergidas) : En esta columna, dentro del  Control 2 s e deberá 
+registrar el número promedio de plántulas emergidas a la fecha (Columna AT). 
+COLUMNA A U (Fecha Término Evaluación de Emergencia ): Registrar la fecha de las últimas 
+plantas emergidas (Control 3). El formato de fecha es DD-MM-AAAA. Ejemplo: 15-11-2026. 
+COLUMNA AV (N° Total de Plantas Emergidas): En Control 3, se deberá registrar el número total 
+de plántulas emergida s a la fecha (Columna AU ) y el promedio de plantas de las parcelas 
+corresponderá al número total promedio de semillas germinadas de esa especie. 
+COLUMNA AW (Porcentaje de Germinación): Se registrará el porcentaje (%) de germinación (Pg), 
+que estará dado por el número promedio de semillas sembradas por parcela dividido por el 
+número promedio de plántulas emergidas. Ejemplo: Pg (%)  = ( 95 semillas / 100 plántulas 
+emergidas) x 100 = 95%, esto implica que se  logró la germinación de un 95% de la especie X,  y un 
+5% de semillas no germinadas. 
+Para el caso de las plántulas provenientes de material vegetativo colectado, se debe indicar el 
+porcentaje de plántulas que lograron enraizar en relación con el  total de plántulas o estacas 
+instaladas en la parcela. 
+COLUMNA A X (Porcentaje de Semillas No Germinadas): Corresponde a la diferencia entre las 
+semillas sembradas y las plántulas realmente emergidas, expresado en porcentaje (%). Por 
+ejemplo: 95% de germinación y un 5% de plantas no emergidas o no germinadas. 
+Para el caso de las plántulas provenientes de material vegetativo colectado, se debe informar el 
+porcentaje de plántulas que NO lograron sobrevivir o no enraizadas. 
+COLUMNA A Y (Causas del Porcentaje de NO Germinación, Muertes y/o Pérdidas ): Se debe rá 
+informar de manera resumida la probable causa de la no germinación, muer te y/o pérdida de las 
+plántulas. Elegir de la lista desplegable la causa más apropiada a cada caso. 
+ 
+4.2.2 Evaluación Plantas Repicadas e Ingresadas a Inventario (Columnas AZ-BD) 
+Las plantas estarán en condiciones de ser repicadas cuando tengan al menos dos pares de hojas 
+verdaderas y dependiendo de la especie una altura de al menos 5 cm. En el caso que se elija la 
+modalidad de trasplante tardío, debe rá realizarse cuando las plantas tengan el tamaño adecuado, 
+según experiencia del viverista. 
+--- Page 19 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 18 de 44 
+ 
+ 
+Imagen 6. Evaluación producción de plantas nuevas (Parte B). 
+ 
+COLUMNA AZ (Fecha del Repique o Trasplante): Se debe informar la fecha del repique o 
+trasplante en relación con  los procesos anteriores y al estado de  desarrollo de las plántulas. El 
+formato de fecha es DD-MM-AAAA. Ejemplo: 30-11-2026.  
+COLUMNA BA  (Número de Plantas R epicadas): Registra todas las plantas repicadas o 
+trasplantadas a la fecha (Columna AZ).  
+COLUMNA BB (Número Total de Plantas Ingresadas a Inventario): Se registrarán todas las plantas 
+realmente ingresadas a inventario. El ingreso de plantas debe hacerse posterior al repique o 
+trasplante. Se sugiere que e ste periodo sea entre 15 a 30 d ías posterior a esta actividad. Esto con 
+el fin de evitar el ingreso de plantas muertas en el proceso de valorización.  En este sentido, 
+especial atención en plantas ingresadas y provenientes de método repique de bosque , las cuales 
+requieren un tiempo mayor para asegurar prendimiento y posterior ingreso a inventario . Estas 
+pérdidas de plantas deben ser señaladas  en registr os internos del vivero y formará n parte del 
+porcentaje de pérdida de plantas del vivero (Pp).  
+COLUMNA BC (Factor de Viverización) : Registra el porcentaje de viverización o de sobrevivencia 
+(Ps) de las plantas , posterior a la germinación y repiques. En este caso será calculado mediante la 
+diferencia entre las plantas repicadas y las plantas realmente ingresadas a inventario. Este 
+Porcentaje de pérdidas es un indicativo de la gestión del vivero en la temporada de producción 
+correspondiente. 
+COLUMNA BD (Observaciones Generales del Proceso de Producción) : Registra las observaciones 
+generales respecto a la evaluación del proceso productivo, en especial con respecto al factor de 
+viverización o sobrevivencia.  Indicar los factores que explican el éxito  o fracaso de la producción 
+de la presente temporada o periodo de evaluación. 
+ 
+  
+
+--- Page 20 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 19 de 44 
+ 
+5 PARTE 2: CONTROL DE INVENTARIO DE PLANTAS (REPORTES 1, 2, 3 Y 4) 
+El presente capítulo tiene por objeto dar a conocer el procedimiento del Control de Inventario de 
+Plantas, componente principal del Indicador SIGI GBCC 8 2026. 
+ 
+5.1 Control de Inventario de Plantas 
+Uno de los requerimientos más importantes del Programa de Arborización  y de la Sección Red de 
+Viveros del Departamento de Arbolado Urbano, es contar con información actualizada del número 
+total de plantas inventariadas en las unidades productivas, información que debe ser generada en 
+detalle por cada vivero de las Unidades Administrativas de CONAF. 
+Es así, como en este capítulo se entrega un instructivo que permite completar el archivo 
+Microsoft® Office Excel denominado “SIGI GBCC 8 2026 Control de Inventario de Plantas (Ingresos 
+y Egresos) ”, donde se debe detallar la totalidad de plantas en inventario debidamente 
+identificadas por cada vivero y centros de acondicionamiento de cada Unidad Administrativa. 
+El archivo señalado es el respaldo principal que se debe subir a la plataforma del Sistema de 
+Seguimiento de Indicadores de Desempeño (SSID, http://www.psicus.cl/sig-bsc/) que administra la 
+Gerencia de Finanzas y Administración (GEFA) vía el Departamento de Planificación y Control de 
+Gestión. 
+Adicionalmente a lo anterior, cada Unidad Administrativa deberá informar trimestralmente  a las 
+áreas de Finanzas y/o Contabilidad respectiva l os antecedentes de inventarios  presente en los 
+Reportes (por unidad productiva) para fines contables y otros que estimen pertinente, con copia a 
+la jefatura del Departamento de Arbolado Urbano y a la jefatura de la Sección Red de Viveros, el 
+cual debe ser entregado en las fechas establecidas (ver Tabla 1). 
+ 
+5.2 Formato Explicativo del Control de Inventario de Plantas 
+En Imagen 7 se muestra un extracto del “Formato Explicativo” que entrega el funcionamiento de la 
+Planilla de Control de Inventario presente en el Excel “SIGI G BCC 8 2026 Control de Inventario de 
+Plantas (Ingresos y Egresos)”. 
+ 
+Imagen 7. Esquema metodológico para el ingreso de datos a planilla de control de inventario.  
+El “ Inventario 1” , en la Imagen 7 , corresponde al Inventario I nicial o inventario del mes de 
+diciembre del año anterior, en este caso, el inventario de diciembre de 2025. Este inventario se 
+ingresa en la matriz D6:F12 del ejemplo. Esta matriz debe permanecer inalterable durante todo el 
+año. Solo cambiará la Columna G, que corresponde al total, este cambio se realiza de acuerdo con 
+
+--- Page 21 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 20 de 44 
+ 
+el ejemplo: el total del inventario de diciembre se repite en la Columna M del Inventario de marzo 
+y el de total de marzo se repite en junio y así sucesivamente hasta diciembre 2026. 
+Los ingresos de datos de cada Unidad Administrativa deben ser ordenados en un a sola Planilla 
+de Control de Inventario (si tiene más de un vivero) , listando en forma ordenada cada unidad 
+según lista desplegable. 
+El Excel denominado “SIGI GBCC 8 2026 Control de Inventario de Plantas (Ingresos y Egresos)” 
+posee 12 Hojas de Cálculo. La primera hoja es el Formato Explicativo; las siguientes cinco hojas en 
+la información principal (Inventario Inicial y los cuatro Reportes); la siguiente hoja, denominada 
+“Datos”, es la que posee la información de las listas desplegables; y las siguientes cinco hojas 
+buscan ayudar en los informes de salidas asociados al Indicador SIGI GBCC 8 2026. 
+A continuación, se describe las consideraciones para el llenado de las Hojas de Cálculo 
+denominadas Inventario Inicial, Reporte 1 Marzo 2026, Reporte 2 Junio 2026, Reporte 3 
+Septiembre 2026 y Reporte 4 Diciembre Marzo 2026. Cabe destacar que las cinco Hojas de Cálculo 
+señaladas poseen tres grupos de información en común (Antecedentes del Vivero, Antecedentes 
+de la Especie y Valorización). En el caso de las Hojas de Cálculo de los “Reportes”, estas poseen un 
+área en común denominada “Ingresos y Egresos de Plantas del Trimestre Respectivo” de la cual se 
+extraen dos valores importantes para el SIGI que son: Número de Plantas Nuevas y Stock. 
+        
+5.3 Antecedentes del Vivero 
+A continuación , se describe las consideraciones para el llenado de Columnas A  hasta la G, que 
+incorpora información general de antecedentes del vivero  relacionado a las plantas . Tal como se 
+señaló con anterioridad, estas columnas están presentes en el Inventario Inicial y en los Reportes 
+Trimestrales y se van autocopiando y rellenado según corresponda en el desarrollo de los 
+reportes. 
+ 
+Imagen 8. Figura referencial el Excel en sus columnas de Antecedentes del Vivero. 
+ 
+COLUMNA A (Ítems ): Se identificará có mo ingresa la planta a inventario, por ejemplo: si 
+corresponde a una planta nueva, solo podrá ser ingresada a contar del mes de marzo del año en 
+curso, como un “ingreso”, en cambio s í es una planta que ya existe  en inventario, corresponde 
+identificarla como una planta de “inventario”  que deberá ser registrada s olo en el inventario de 
+diciembre año anterior. 
+
+--- Page 22 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 21 de 44 
+ 
+COLUMNA B (Unidad Productiva ): Se debe seleccionar de la l ista desplegable el nombre de la 
+unidad productiva donde se encuentran las plantas inventariadas. 
+COLUMNA C (Unidad Administrativa ): Determinación automática. El nombre de la unidad 
+administrativa se generará de forma automática, al incorporar el nombre de la unidad productiva, 
+ya que se encuentra enlazada con la celda anterior. NO SE PUEDE MODIFICAR. 
+COLUMNA D (Provincia ): Determinación automática. E l nombre de la unidad productiva de la 
+especie, ya que se encuentra enlazada con la celda anterior. NO SE PUEDE MODIFICAR. 
+COLUMNA E (Comuna): Determinación automática. El nombre de la comuna se generará de forma 
+automática, al incorporar el nombre de la unidad productiva de la especie, ya que se encuentra 
+enlazada con la celda anterior. NO SE PUEDE MODIFICAR. 
+COLUMNA F ( Nombre del Encargado): Se i dentificará con el primer nombre y apellido s al 
+encargado del vivero o centro de acondicionamiento. 
+COLUMNA G (Teléfono de Contacto): Completar el teléfono de contacto (celular o teléfono fijo 
+con código de área) del encargado del vivero o centro de acondicionamiento. 
+ 
+5.4 Antecedentes de la Especie 
+A continuación, se describe las consideraciones para el llenado de Columnas H hasta la S, que 
+incorpora información general de antecedentes de la especie. Tal como se señaló con 
+anterioridad, estas columnas están presentes en el Inventario Inicial y en los Reportes Trimestrales 
+y se van autocopiando y rellenado según corresponda en el desarrollo de los reportes. 
+ 
+Imagen 9. Figura referencial el Excel en sus columnas de Antecedentes de la Especie. 
+ 
+COLUMNA H (Nombre Científico): Lista desplegable donde se deberá indicar el nombre científico 
+de cada especie. NO SE PUEDE MODIFICAR . En el caso que se deba incorporar una nueva especie 
+en el listado, se debe solicitar a  La jefatura de la Sección Red de Viveros a nivel central, la 
+incorporación de ésta, para que se ingrese y se reenvié la planilla con los cambios solicitados. 
+COLUMNA I (Nombre Común): Determinación automática . El nombre común se generará de 
+forma automática, al incorporar el nombre científico de la especie , ya que se encuentra enlazada 
+con la celda anterior. NO SE PUEDE MODIFICAR. 
+COLUMNA J (Origen ): Determinación automática. La identificación de l origen se generará de 
+formar automática, al incorporar el nombre científico de la especie, ya que se encuentra enlazada 
+con la celda anterior. NO SE PUEDE MODIFICAR. 
+
+--- Page 23 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 22 de 44 
+ 
+COLUMNA K (Fuente de Abastecimiento): Lista desplegable. Se s eñalará si el abastecimiento de 
+las plantas corresponde a Producción Propia, Compra a Terceros, Donación de Terceros, Traslado 
+Interno CONAF con Aportes Presupuestarios , Traslado Internos de Otras Unidades CONAF y 
+Movimientos Internos en el Vivero. 
+Cabe destacar que los traslados internos no constituyen “plantas nuevas ingresadas a inventario”, 
+salvo que provenga de aquellas regiones que mantengan acuerdos de producción que consideren 
+traspasos presupuestarios o de bienes para financiar la producción de plantas en otros viveros de 
+CONAF y que estas sean consideradas como gestión propia de su unidad productiva para su 
+contabilidad en el Indicador SIGI GBCC 8 2026.  
+COLUMNA L (Destino de la Planta): Lista desplegable. Se deberá indicar a qué programa o 
+proyecto de destino  corresponde la planta en inventario . Algunos de los programas presentes en 
+la lista desplegables son: Programa de Arborización, +Bosques (Fondo Verde del Clima), Programa 
+de Reactivación Económica Forestal, Siembra por Chile, Programa Manejo Sustentable de la Tierra, 
+entre otros. 
+Cabe destacar que, actualmente se trabaja con el Proyecto +Bosques financiado por el Fondo 
+Verde del Clima y gestionado en conjunto por FAO y CONAF. Donde el trabajo se expresa en la Red 
+de Viveros CONAF, siendo las Unidades Productiva s el receptor de recursos económicos y de 
+plantas. Por lo anterior, se hace necesario diferenciar el Destino de las Plantas para el P rograma 
++Bosques (Fondo Verde del Clima). 
+La clasificación señalada busca diferenciar los recursos “plantas” de stinados al programa 
+principalmente, por las temáticas contables del área de finanzas y de auditorías. 
+COLUMNA M (Tipo de Reproducción): Lista desplegable. Señalará si la reproducción de la especie 
+corresponde a semilla o vegetativa (esquejes y/o estacas). 
+COLUMNA N (Tipo de Contenedor): Lista desplegable. Identificar á en qué tipo de contenedor se 
+encuentra en proceso de crecimiento la planta, por ejemplo: bolsa, raíz desnuda, entre otros. 
+COLUMNA O ( Fecha Ingreso a Inventario (Día -Mes-Año)): Registrará la fecha de ingreso a 
+inventario de las plántulas, por ejemplo: si se realiza una compra de plantas, la fecha que se debe 
+considerar es desde el momento en que la planta es ingresada físicamente al vivero y acopiada en 
+un sector para su mantención. El formato de fecha es DD-MM-AAAA. Ejemplo: 01-10-2026. 
+COLUMNA P ( Tiempo de Viverización (años) ): Lista desplegable. Identificará cuánto tiempo lleva 
+la planta en viverización (desde siembra o fecha de ingreso a inventario a fecha actual del 
+Inventario). 
+COLUMNA Q (Rango de Altura): Lista desplegable. Identificará a qué rango de altura corresponde 
+el tamaño de la planta se debe considerar que el rango de altura 1A, corresponde a una planta que 
+está en inicio de su  proceso de crecimiento , por lo tanto , no es recomendable que se realice su 
+entrega a programas o proyectos CONAF, ya que no se puede garantizar su sobrevivencia y no 
+cumple con los parámetros de calidad en altura y diámetro de cuello.  Los rangos de altura 
+disponibles son:  
+• Igual o menor a 20 cm (1A = 1 - 20 cm). 
+• Igual o mayor a 21 cm y menor o igual a 40 cm (1B = 21 - 40 cm).  
+• Igual o mayor a 41 cm y menor o igual a 80 cm (2 = 41 - 80 cm).  
+• Igual o mayor a 81 cm y menor o igual a 150 cm (3 = 81 - 150 cm).  
+--- Page 24 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 23 de 44 
+ 
+• Igual o mayor a 151 cm (4 = Mayor a 151 cm). 
+COLUMNA R ( Sectores del Vivero ): Lista desplegable. Identificará en que se sector del vivero, se 
+ubican las plantas. El contar con un ordenamiento por sector en los viveros, permite una mejor 
+clasificación y facilita la gestión de la información que se maneja internamente. 
+COLUMNA S (N° Total Plantas Control Inventario Diciembre 202 5): En esta columna se registra el 
+número de plantas presentes en el Control de Inventario de Diciembre 2025. 
+ 
+5.5 Valorización y Observaciones 
+A continuación, se describe las consideraciones para el llenado de Columnas de Valorización 
+presentes en el Inventario Inicial (Columnas T y U) y en los Reportes (Columnas AG y AH). 
+Adicionalmente, se dispone de la Columna V para Observaciones en el Inventario Inicial.  Estas 
+columnas están presentes en el Inventario Inicial y en los Reportes Trimestrales y se van 
+autocopiando y rellenado según corresponda en el desarrollo de los reportes. 
+ 
+Imagen 10. Figura referencial del Excel en sus columnas de Valorización y Observaciones. 
+ 
+COLUMNA T ( Valor Neto ($) por Planta ): Se identificará el valor neto de las plantas de acuerdo 
+con la Matriz de Valorización (y Resolución de costos respectiva asociada). 
+COLUMNA U ( Valor Total ($) por Lote ): Determinación automática. Esta valorización se obtiene 
+desde la multiplicación de la Columna S (N° Total Plantas Control Inventario Diciembre 2025) con 
+la Columna T (Valor Neto ($) por Planta ) para la Hoja de C álculo llamada Inventario Inicial. Caso 
+similar en las Hojas de Cálculos denominadas “Reportes” donde se multiplican las Columnas AF y 
+AG. 
+COLUMNA V  (Observaciones): Incluirá las observaciones y comentarios necesarios para 
+complementar la información solicitada en el formulario en el Inventario Inicial. 
+ 
+ 
+5.6 Información de Control de Inventario en Reporte 1 Marzo 2026 
+La Hoja de Cálculo denominado Reporte 1 Marzo 2026 posee tres grandes grupos de información: 
+1) El Inventario Inicial que se autocopia de la Hoja de Cálculo anterior (Rango de Celdas 
+A7:S257), la cual no debe ser modificada; 
+2) Ingreso y Egresos de Plantas en el Primer Trimestre asociadas al Inventario Inicial (Rango 
+de Celdas T7:AH257); y 
+
+--- Page 25 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 24 de 44 
+ 
+3) Ingresos y Egresos de Plantas en el Primer Trimestre (enero a marzo) (Rango de Celdas 
+A258:AH328).  
+5.7 Ingresos de Plantas en el Primer Trimestre (enero a marzo) Reporte 1 Marzo 2026 
+Tal como se explicó en Capitulo 5.2, la matriz de ingreso s del inventario de diciembre  2025 NO 
+DEBE SER MODIFICADA, y que corresponde al Rango de Celdas A7:S257, en esta zona s olo deben 
+ocultarse las filas vacías o que no hayan sido completadas en Hoja de Cálculo denominada 
+“Inventario Inicial”. 
+Nuevos Ingresos de Plantas al Inventario: Los nuevos ingresos de plantas deben ser registrados en 
+la matriz A258:R328 (filas color salmón) y las cantidades de plantas de dichos ingresos registrados 
+solo en columna T258:T328. 
+Respecto a los Ingresos de Plantas en el Primer Trimestre (enero a marzo), Columnas A hasta R se 
+trabaja de igual forma a lo expresado para el Inventario Inicial, explicado anteriormente en los 
+Capítulos 5.3 y 5.4, cada ingreso debe ser agregado en forma ordenada según fila 
+correspondiente. Esta metodología de ingresos de plantas se repite para todas las hojas o 
+inventarios del año en curso. 
+El procedimiento de ingreso de plantas es una actividad obligatoria  dentro de las unidades 
+productivas, principalmente porque corresponden a bienes valorizados (existencias).  Cada ingreso 
+deberá ser acompañado de una nota o formulario de registros de ingresos. 
+Según lo instruido por el Manual de Procedimientos del Programa de Arborización (CONAF, 2020), 
+los rangos de alturas son cinco (Igual o menor a 20 cm; Igual o mayor a 21 cm y menor o igual a 40 
+cm; Igual o mayor a 41 cm y menor o igual a 80 cm; Igual o mayor a 81 cm y menor o igual a 150 
+cm; e Igual o mayor a 151 cm) para la clasificación  de las distintas especies en la s unidades 
+productivas, al momento de realizar el control de existencias de plantas. 
+Por lo anterior, para aquellas plantas provenientes de los procesos de producción, se entenderá 
+como planta disponible a ingresar al inventario aquellas que presenten  dos o más hojas 
+verdaderas como se muestra en la Imagen 11 , lo cual deberá ser informado en los avances de 
+existencias (Reportes) en los meses de marzo, junio, septiembre y diciembre de presente año.  
+ 
+Imagen 11. Ejemplos de hojas verdaderas. 
+En este contexto, se debe prestar especial atención a las plantas obtenidas mediante extracción 
+directa (repique) de bosque , ya que requieren un periodo de adaptación más prolongado para 
+garantizar su supervivencia y su posterior ingreso en el inventario. 
+
+--- Page 26 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 25 de 44 
+ 
+De lo anterior, las especies y cantidad de plantas deberán ser informadas y clasificadas en el rango 
+Igual o menor a 20 cm (1A = 1 - 20 cm) salvo contadas excepciones . Es importa nte señalar que 
+estas plantas aun cuando estén disponibles a ingresar al inventario no serán necesariamente 
+plantas disponibles para la entrega, ya que podrán pasar por un período de acondicionamiento, 
+repique y crecimiento adecuado, previo a la entrega.  
+El ingreso de plantas compradas o donadas por terceros debe ingresar al inventario  y a la matriz 
+de valorización con el precio de compra (valor neto) o donación que registra la factura o guía de 
+despacho y los valores correspondientes a fletes y mano de obra, si procede.  
+Los ingresos de información de cada región deben ser ordenados en un solo archivo o planilla 
+Excel, listando en forma ordenada cada uno de los viveros según lista desplegable. 
+ 
+5.8 Ingresos y Egresos de Plantas en el Primer Trimestre (enero a marzo) Reporte 1 
+Marzo 2026 
+En el inventario de m arzo, los egresos (salidas) solo corresponderán a entregas en sus diferentes 
+modalidades, movimientos internos y traslados entre unidades de CONAF. No se deben registrar 
+los egresos por bajas en este reporte, misma  situación ocurre en el inventario de septiembre.  El 
+procedimiento de baja de plantas se llevará a cabo en los reportes de junio y diciembre ( explicado 
+en Capítulo 6). En Imagen 12  se identifican las columnas de los ingresos y egresos del inventario 
+del vivero.  
+ 
+Imagen 12. Figura referencial del Excel en sus Columnas T a AF en el Reporte 1 Marzo 2026. 
+ 
+Columna S (N° Total Plantas Inventario Diciembre 202 5): En el Inventario Inicial se registra el 
+número de plantas presentes en el Control de Inventario de Diciembre 202 5, en el Reporte 1 
+Marzo 2026 está columna se autocompleta con la información del Inventario Inicial en la parte que 
+corresponda.  
+En los Reportes 2, 3 y 4 (de junio, septiembre y diciembre  respectivamente) la información se 
+autocompleta con los antecedentes de la Columna AF (STOCK) presentes en el Reporte anterior. 
+Columna T (N° Plantas NUEVAS Ingresadas a Inventario) : Columna de importancia para el 
+respaldo del Indicador SIGI GBCC 8 2026, en ella se registran TODAS las plantas nuevas que se 
+ingresan a los inventarios dispuestos en los Reportes 1, 2, 3 y 4. 
+Columnas U,  V y W ( N° de Plantas Entregadas y/o Vendidas ): En esta s columnas se deberá 
+registrar la cantidad de plantas entregadas o donadas a diferentes programas, por difusión o 
+ventas. 
+
+--- Page 27 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 26 de 44 
+ 
+Columna X (Movimientos Internos, Cambios Rango de Altura o Contenedor ): En esta columna se 
+registrará la cantidad de plantas descontadas por especie en la línea correspondiente producto de 
+los movimientos internos realizados  en la unidad productiva  por cambios de rango de altura, 
+contenedores, sectores, entre otros.  
+La cantidad de plantas descontadas en la  Columna X (Rango de Celdas X 7:X257) deben ser 
+ingresadas al inventario como un nuevo ingreso con toda la información que tiene la especie en la 
+fila original, exceptuando los cambios correspondientes. La zona de ingreso corresponde a la 
+matriz de ingresos A258:R328 y la cantidad de plantas registradas en las celdas T258:T328 (Hoja de 
+Cálculo “Reporte 1 Marzo 2026"). 
+Columnas Y y Z (Traslados Internos a Otras Unidades CONAF ): En estas columnas se deberá 
+registrar la cantidad de plantas correspondientes a traslados a otras unidades de CONAF y l a 
+unidad de recepción correspondiente.  
+Columnas AA  (N° de Documento, Factura o Guía de Despacho) : En esta columna se deberá 
+registrar el número del documento, factura o guía de despacho, según sea el ca so: Ingresos por 
+compras, producción propia, entregas, traslados, bajas, entre otros.  
+Columnas AB, AC, AD y AE (Baja de Plantas de Inventario) : Estas columnas de información se 
+explican en el Reporte 2 Junio 2026, ya que se espera, solo se utilicen en los trimestres donde se 
+deben realizar los Informes de Baja de Plantas (Reporte 2 Junio 2026 y Reporte 4 Diciembre 2026). 
+Columna AF (STOCK) : Determinación automática. Registrará el número de plantas del inventario 
+de marzo, correspondiente al saldo o stock producto de la diferencia de los ingresos o egresos de 
+plantas (entregas, movimientos internos, traslados y bajas).  La cantidad de plantas en la Columna 
+AF debe ser mayor o igual a cero, es decir, las existencias más los ingresos de plantas (Columnas S 
+y T) deben ser mayor o igual a la cantidad de plantas de salidas  (Columnas U, V, W, X, Y y AB por 
+entregas, ventas, movimientos internos, traslados internos y bajas de plantas). Si son distintas o se 
+anotan valores negativos, se registrará un mensaje de error (o "FALSO"), que indica una operación 
+de descuento mal realizadas y que provoca problemas en el inventario. 
+Columnas AG y AH (Valorización): Registrará el valor neto o costo por planta obtenido mediante 
+la matriz de valorización y su respectiva resolución de precio de plantas de la temporada 
+correspondiente (y las adicionales resoluciones de precios según corresponda). 
+• COLUMNA AG (Valor Neto ($) por Planta ): Se identificará el valor neto de las plantas de 
+acuerdo con la matriz de valorización (y resolución de precios respectiva asociada), así 
+como también las adicionales resoluciones de precios según corresponda.  
+• COLUMNA AH (Valor Total ($) por Lote ): Determinación automática. Esta valorización se 
+obtiene desde la multiplicación de la Columna AF (STOCK, N° Total Plantas Control 
+Inventario Marzo 2026) con la Columna AG (Valor Neto ($) por Planta). 
+ 
+5.9 Información de Control de Inventario en Reporte 2 Junio 2026 
+En general, la información que se dispondrá en el Reporte 2 Junio 2026, se completa tal como se 
+señaló en los Capitulo 5.3, 5.4, 5.7 y 5.8. En esta planilla de inventario, la diferencia de la anterior 
+se debe a que aquí considera el registro de baja de plantas , ocurridas desde enero a j unio. Para 
+todo lo demás, se registra de igual forma como el inventario de marzo. 
+--- Page 28 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 27 de 44 
+ 
+Las Columnas afectas a la Baja de Plantas de Inventario son: AB, AC, AD y AE. Se espera que solo se 
+utilicen en los trimestres donde se deben realizar los Informes de Baja de Plantas (Reporte 2 Junio 
+2026 y Reporte 4 Diciembre 2026). 
+Columna AB (Número de Plantas de Baja): En esta columna se deberá registrar el número total de 
+plantas inventariadas que se darán de baja o se eliminarán del stock. 
+Columna AC  (Causa): En esta columna se deberá registrar la o las causas de  mortalidad de 
+plántulas. Por ejemplo: daño o deterioro mecánico, plagas o enfermedades, hurto o robo u otros 
+motivos debidamente detallados. 
+Columna AD (Número de Resolución): Deberá ingresar el número del documento que oficializa y 
+autoriza la baja de plantas del inventario de existencias, otorgado por el Director Regional donde 
+se ubica cada Unidad Administrativa. 
+Columna AE (Fecha de Resolución) : Deberá registrar la fecha en que se emitió la Resolución de 
+Baja de Plantas, ingresando el día, mes y añ o. El formato de fecha es DD -MM-AAAA. Ejemplo: 05-
+08-2026. 
+ 
+5.10 Información de Control de Inventario en Reporte 3 Septiembre 2026 
+La forma que se debe completar la información del Reporte 3 Septiembre 2026 es igual a lo 
+expresado para el Reporte 1 Marzo 2026. 
+ 
+5.11 Información de Control de Inventario en Reporte 4 Diciembre 2026 
+La forma que se debe completar la información del Reporte 4 Diciembre 2026 es igual a lo 
+expresado para el Reporte 2 Junio 2026, ya que considera la baja de plantas de los inventarios.  
+ 
+5.12 Informes de Ayuda 
+El Excel denominado “SIGI G BCC 8 2026 Control de Inventario de Plantas (Ingresos y Egresos)” 
+posee 12 Hojas de Cálculo , siendo las últimas cinco Hojas de Cálculo  las que buscan ayudar en los 
+informes de salidas asociados al Indicador SIGI G BCC 8 2026. Los nombres de las hojas son:  
+Informes de Ingreso, Informe de Salidas, Informe de Bajas, Informe STOCK y una Tabla Dinámica 
+para edición. 
+  
+--- Page 29 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 28 de 44 
+ 
+6 PROCEDIMIENTO DE BAJA DE PLANTAS 
+6.1 Procedimiento de Baja de Plantas 
+De acuerdo con el “Manual de Procedimientos Administrativos, Activo Fijo Físico de Uso” (CONAF, 
+2018), el proceso de baja corresponde al registro de salida de cualquier bien de la Corporación de 
+los inventarios producto de pérdidas, hurto o robo, daño o deterioro, obsolescencias técnicas o 
+desgaste, u otras debidamente calificadas, de manera de consolidar la base de datos del inventario 
+de forma actualizada. 
+Si bien es cierto, las plantas no son activos fijos, éstas sí son consideradas como especies valoradas 
+(existencias), por lo cual es necesario contar con los procedimientos para su baja. En el caso de las 
+plantas se debe considerar como motivo de baja o eliminación de los inventarios, todos aquellos 
+ejemplares con daño o deterioro, plagas o enfermedades, hurto o robo u otros motivos 
+debidamente justificados. 
+La implementación de este procedimiento en las unidades productivas es de gran importancia, ya 
+que permitirá en primer lugar llevar un adecuado y correcto control de nuestros bienes (plantas), 
+además de conocer los factores asociados a estas bajas y tomar las medidas correctivas a futuro. 
+6.2 Formalización de Baja de Plantas 
+El procedimiento de baja de plantas tiene como objetivo retirar aquellos individuos muertos, que 
+no sobrevivieron a una temporada, o que por otros factores como plagas, clima, hurto, robo u 
+otros motivos no han sobrevivido (o que no cumplen con un estándar mínimo) y deben ser 
+retirados y descontados de los inventarios de existencias, optimizando además el espacio de las 
+diversas áreas productivas del vivero, centros de acondicionamiento y/o acopio donde éstas se 
+encontraban. Este procedimiento debe llevarse a cabo dos veces al año para reportarse en los 
+meses de junio y diciembre según lo establecido en la programación de los Reportes del Indicador 
+SIGI GBCC 8 2026 (Ver Tabla 1). 
+El Procedimiento de Baja de Plantas contempla la emisión de tres documentos: 
+• Informe de Baja de Plantas. 
+• Acta de Baja de Plantas. 
+• Resolución de Baja de Plantas. 
+El Informe de Baja de Plantas  es el documento inicial que contempla la mayor cantidad de 
+información del procedimiento. El informe debe ser emitido por el Encargado de la Unidad 
+Productiva (vivero o centro de acondicionamiento) y el contenido mínimo es:  
+• Determinación de las plantas que serán incluidas en la baja (caracterización y 
+cuantificación de las plantas);  
+• Determinación del porcentaje de baja de plantas respecto al inventario de la Unidad 
+Productiva según lo expresado en los Reportes del Indicador SIGI GBCC 2026 
+• Periodo que contempla el Procedimiento de Baja de Plantas (ejemplo: primer semestre del 
+año 2026, desde 01 de enero de 2026 al 31 de mayo de 2026, entre otras formas). 
+• Determinación de las causas de las bajas de plantas, debe especificarse por grupo de 
+plantas. 
+--- Page 30 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 29 de 44 
+ 
+• Propuestas de medidas preventivas para evitar o minimizar la ocurrencia de la causa de las 
+bajas en las próximas temporadas.  
+• Medidas correctivas para contrarrestar el efecto de las pérdidas de plantas en el 
+inventario y en la programación de las plantas, de manera de cumplir con las metas de 
+producción de plantas nuevas (Indicador SIGI GBCC 8 2026). 
+• Registro fotográfico de las plantas dadas de baja, se debe considerar un registro 
+fotográfico que muestre de manera clara los diferentes grupos de plantas ordenadas en 
+platabanda. 
+Es importante señalar que todos los bienes, en este caso plantas que sean objeto de baja dentro 
+de los viveros y centros de acondicionamiento, deben corresponder estrictamente a la 
+información generada del control de inventario de plantas asociado a éstas, que se realizará los 
+meses de junio y diciembre de cada año, por lo cual, el procedimiento y cantidad de plantas dadas 
+de baja debe ser realizado lo más minuciosamente posible. 
+El Acta de Baja de Plantas  es el documento resumen del Informe de Baja de Plantas. El Acta de 
+Baja de Plantas debe ser emitido por el Encargado del Vivero o Centro de Acondicionamiento, el 
+cual deberá ser firmado por, al menos, tres personas: Encargado del Vivero; Jefatura del 
+Departamento Bosques y Cambio Climático; y por Jefatura del Departamento de Finanzas y 
+Administración. En el caso de del vivero del Centro de Semillas, Genética y Entomología de Chillán 
+debe ser firmado por su Director, Encargado del Vivero y Profesional DEFA. En el caso del Vivero 
+Mataveri Otai de la Provincial de Isla de Pascua debe ser firmado por Jefe Departamento  Bosques 
+y Cambio Climático, Encargado de Vivero y Jefe de Administración y Finanzas. 
+Una vez que el Acta de Baja de Plantas sea validado y firmado por la comisión reunida para tal 
+efecto, la Jefatura del Departamento Bosques  y Cambio Climático  de la Unidad Administrativa, 
+solicitará, vía memorándum al Director Regional, la autorización de Resolución de Baja de Plantas 
+de la respectiva Unidad Productiva. Acción similar deben realizar el Centro de Semillas, Genética y 
+Entomología de Chillán, v ía el Director Ejecutivo, y la Ofici na Provincial de Isla de Pascua, vía la 
+Jefatura Provincial, con los antecedentes de sus respectivos viveros. 
+La Resolución de Baja de Plantas es el acto administrativo final del procedimiento de baja donde 
+se establecen las atribuciones de cada jefatura por Unidad Administrativa, se entregan los 
+considerando y se resuelve el dar de baja un número finito de plantas. En la Resolución de Baja de 
+Plantas se debe adjuntar, al menos, el Acta de Baja de Plantas y el Informe de Baja de Plantas. La 
+Resolución de Baja de Plantas debe ser firmado por los/las Directores Regional de cada Unidad 
+Administrativa, la Jefa Provincial de Isla de Pascua y del Director del Centro de Semillas, Genética y 
+Entomología de Chillán (vía el Director Ejecutivo CONAF). 
+La Resolución de Baja de Plantas (con sus archivos adjuntos denominados Acta de Baja de Plantas 
+e Informe de Baja de Plantas) deben ser enviados a la jefatura del Departamento de Arbolado 
+Urbano y la jefatura de la Sección Red de Viveros, mediante copia en el CeroPapel de la Resolución 
+o el reenvío del documento en el Expediente del CeroPapel. 
+Finalmente, es importante señalar que cada proceso de baja de plantas debe ser una instancia de 
+análisis de los  procesos productivos que se llevan a cabo en los viveros, principalmente de los 
+motivos o causas que provocaron la pérdida de plantas, para que a futuro se aborden las medidas 
+de corrección que minimicen estas causas. 
+--- Page 31 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 30 de 44 
+ 
+6.3 Propuesta Base para Documentos de Procedimiento de Baja de Plantas 
+6.3.1 Informe de Baja de Plantas 
+El Informe de Baja de Plantas es el documento inicial que contempla la mayor cantidad de 
+información del procedimiento, además de ser el documento que considera el mayor número de 
+modificaciones producto del análisis y mejora continua de la información y procedimientos. 
+El Informe de Baja de Plantas debe caracterizar y cuantificar las plantas que tienen salida por este 
+medio, un contenido referencial se presenta en el siguiente cuadro, el cual deriva de la 
+caracterización y valorización de plantas. 
+N 
+Nombre 
+de Unidad 
+Productiva 
+Procedencia 
+de las 
+Plantas 
+Nombre 
+Científico 
+Nombre 
+Común Origen 
+Año de 
+Ingreso a 
+Inventario 
+Contenedor Tamaño de 
+Contenedor 
+Rango 
+de 
+Altura 
+Número 
+de Bajas 
+de 
+Plantas 
+Causa 
+1                       
+2                       
+3                       
+4                       
+5                       
+6                       
+7                       
+8                       
+TOTAL    
+Imagen 13. Contenido referencial para la caracterización de las plantas que se darán de baja.  
+En el Informe de Baja de Plantas se debe determinar el porcentaje de baja de plantas respecto al 
+inventario de la Unidad Productiva según lo expresado en los Reportes del Indicador SIGI G BCC 
+2026, para lo cual se propone el siguiente cuadro. Cabe destacar que se propone dos métodos 
+para determinar el porcentaje: 1) respecto al Número Total de Plantas en Inventario según el 
+Reporte de Junio y Diciembre;  y 2) respecto al Número de Plantas Promedio en los Cuatro 
+Reportes 2026. 
+Periodo 
+Reporte 1 
+Marzo  
+2026 
+Reporte 2 
+Junio  
+2026 
+Reporte 3 
+Septiembre 
+2026 
+Reporte 4 
+Diciembre 
+2026 
+NÚMERO DE 
+PLANTAS 
+PROMEDIO EN 
+LOS CUATRO 
+REPORTES 2026 
+Número Total de Baja de 
+Plantas 
+     
+Número Total de Plantas en 
+Inventario 
+     
+Porcentaje de Baja de Plantas 
+Respecto al Inventario 
+     
+NOTA: El Número Total de Plantas en Inventario proviene de la Columna AF de los Reportes 2026 asociados al Indicador SIGI G BCC 8 
+2026 Control de Inventario de Plantas Ingresos y Egresos. 
+Imagen 14. Contenido referencial para la caracterización de las plantas que se darán de baja.  
+Es importante señalar el periodo que contempla el Procedimiento de Baja de Plantas (ejemplo: 
+primer semestre del año 2026, desde 01 de enero de 2026 al 31 de mayo de 2026, entre otros 
+rangos de fechas). Lo anterior se debe a la necesidad de comparar cifras estandarizadas. 
+--- Page 32 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 31 de 44 
+ 
+La determinación de las causas de las bajas de plantas se establece en el cuadro antes señalado y 
+deben especificarse por grupo de plantas según el orden que se dispone en los inventarios. 
+Una buena determinación de las causas de baja de plantas es importante para generar propuestas 
+de medidas preventivas para evitar o minimizar la ocurrencia de la causa de las bajas en las 
+próximas temporadas, todos los Informes de Baja de Plantas deben considerar estas propuestas. 
+Cada vez que se dan de baja las plantas se debe establecer medidas correctivas para contrarrestar 
+el efecto de las pérdidas de plantas en el inventario y en la programación de las plantas, de 
+manera de cumplir con las metas de producción de plantas nuevas (Indicador SIGI G BCC 8 2026), 
+todos los Informe de Baja de Plantas deben considerar estas medidas.  
+Todos los Informe de Baja de Plantas deben incorporar un registro fotográfico de las plantas dadas 
+de baja, se debe considerar un registro fotográfico que muestre de manera clara los diferentes 
+grupos de plantas ordenadas en platabanda y que sean representativas del procedimiento de 
+bajas. 
+ 
+6.3.2 Acta de Baja de Plantas 
+El Acta de Baja de Plantas es el documento resumen del Informe de Baja de Plantas, a 
+continuación se entrega un contenido referencial para el Acta de Baja de Plantas. 
+En Santiago, 28 de junio de 2026, se procede a dar de baja la cantidad de 10.001 plantas de 
+distintas especies, según detalle en listado adjunto en Informe de Baja de Plantas, en donde se 
+indica la causal de la baja por cada especie. Las 10.001 plantas corresponden al 6,6% del Número 
+Total de Plantas en Inventario según lo expresado en el Reporte 2 Junio 2026, el periodo 
+corresponde a las plantas del primer semestre 2026. En términos generales, las bajas fueron 
+generadas por las siguientes causas: 
+• Problemas fitosanitarios (enferm edades a nivel radicular, como P hytophthora sp.), 
+especialmente en Nothofagus alessandrii (Ruil) y Nothofagus obliqua (Roble) que son muy 
+susceptibles a esta enfermedad. 
+• Problemas de adaptabilidad de algunas especies a factores de stress a elementos abióticos 
+(temperatura, humedad, y exceso de radiación solar, entre otros); en especial posterior a la 
+labor de repique o trasplante. 
+• Pérdidas por problemas con botritys spp, posterior al trasplante, producto del crecimiento 
+explosivo de algunas especies que provocan problemas de espacio y aireación entre las 
+plantas. Ejemplo…Ciprés macrocarpa. 
+La baja de estas plantas de debió a los problemas m encionados en puntos anteriores, los que 
+fueron ordenadas en lotes por especies, contabilizadas y depositadas en la unidad, para luego 
+realizar el respectivo compostaje de los desechos. Respecto al sustrato, éste fue esterilizado y 
+desinfectado para ser reutilizado en las próximas producciones o mantenciones de las plantas del 
+vivero según corresponda. 
+En Informe de Baja de Plantas se adjuntan fotografías en color de las plantas a dar de baja. 
+Firman la presente Acta de Baja de Plantas, 
+ 
+ 
+--- Page 33 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 32 de 44 
+ 
+ 
+ 
+ 
+  
+Nombre y Apellidos 
+RUT: 
+Encargado del Vivero o Centro de Acondicionamiento 
+ 
+  
+  
+Nombre y Apellidos 
+RUT: 
+Jefatura del Departamento Bosques y Cambio Climático 
+ 
+  
+  
+Nombre y Apellidos 
+RUT: 
+Jefatura del Departamento de Finanzas y Administración 
+ 
+Santiago, Junio 2026. 
+ 
+6.3.3 Resolución de Baja de Plantas 
+Tal como se señaló anteriormente, la Resolución de Baja de Plantas es el acto administrativo final 
+del procedimiento de baja donde se establecen las “Atribuciones” de cada jefatura por Unidad 
+Administrativa, se entregan los “Considerando” y se “Resuelve” el dar de baja un número finito de 
+plantas.  
+En la Resolución de Baja de Plantas se debe adjuntar el Acta de Baja de Plantas y el Informe de 
+Baja de Plantas y debe ser enviado a la jefatura del Departamento de Arbolado Urbano y la 
+jefatura de la Sección Red de Viveros, mediante copia en el CeroPapel de la Resolución o el 
+reenvío del documento en el Expediente del CeroPapel.  
+En archivo adjunto se entrega una Resolución de Baja de plantas de la Región de La Araucanía del 
+año 2022 que puede servir de ejemplo. ANEXO Documento Adjunto 2. Ejemplo de Resolución de 
+Baja de Plantas (Resolución 289/2022 La Araucanía). 
+ 
+ 
+--- Page 34 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 33 de 44 
+ 
+7 PROCEDIMIENTO DE TRASLADO DE PLANTAS DE PRODUCCIÓN PROPIA 
+a) Consideraciones Principales 
+Las regiones interesadas en trasladar plantas desde otros viveros, ubicados en otras regiones del 
+país, deberán solicitar formalmente vía memorándum a través del Director Regional o jefatura del 
+Departamento de Bosques y Cambio Climático  de la  región interesada, a la contraparte 
+responsable de la región donde estén ubicadas las plantas, indicando en detalle las especies que 
+requiere, cantidades y lugar de destino (vivero, centro de acondicionamiento y/o destino final de 
+plantación, entre otros). Dicho memorándum deberá ser remitido con copia a la jefatura del 
+Departamento de Arbolado Urbano y la jefatura de la Sección Red de Viveros. 
+El traslado de plantas s olo se podrá llevar a efecto, previa coordinación y autorización de  la 
+jefatura del Departamento de Bosques y Cambio Climático o Encargado del Programa de 
+Arborización de la región de origen, indicando el detalle de las plantas autorizadas a retirar, quien 
+deberá comunicar estos acuerdos a través de un memorándum de respuesta al solicitante, con 
+copia a la jefatura del Departamento de Arbolado Urbano y la jefatura de la Sección Red de 
+Viveros. 
+b) Trasporte de Plantas 
+El transporte de las plantas queda bajo la absoluta responsabilidad de la región interesada, p or lo 
+cual la jefatura del Departamento de Bosques y Cambio Climático o Encargados del Programa a 
+nivel regional, deberán gestionar anticipadamente el llamado a propuesta pública por el servicio 
+de traslado de las plantas , si correspondiese, de acuerdo con el  volumen, o si é ste se realizará a 
+través de un medio de trasporte de CONAF. Para lo anterior, se deberá incluir obligatoriamente la 
+mano de obra necesaria para la carga y descarga de las plantas, el equipamiento adecuado para el 
+tamaño de las plantas en bolsas y/o bandejas de speedling. 
+Es necesario considerar los costos del traslado (valor de flete, mano de obra, viáticos, entre otros), 
+ya que  deberán ser incorporados en la valorización de plantas cuando se realice el ingreso al 
+inventario en el vivero de destino. 
+ 
+7.1 Respecto al Excel Control de Inventario y sus Reportes  
+La información de traslado de plantas se debe detallar en el archivo “ SIGI GBCC 8 2026 Control de 
+Inventario de Plantas (Ingresos y Egresos) ” en los Reportes que correspondan . A continuación, se 
+describe las consideraciones para su llenado: 
+Columna Y (Número de Plantas Trasladadas): En esta columna se deberá registrar el número total 
+de plantas inventariadas que serán trasla dadas a otras unidades productivas de CONAF, ya sea 
+entre unidades administrativas de una misma  región o entre unidades productivas de diferentes 
+regiones. 
+ 
+Columna Z  (Unidad Recepción de Traslado): En esta columna se deberá registrar la unidad de 
+destino de las plantas, las cuales pasaran a formar parte del control de existencias de la unidad 
+productiva de recepción, descontándolas de la unidad de origen.  Sin embargo, para efectos de la 
+contabilidad de las plantas producidas , los traslados internos en viveros de una misma región o 
+de diferentes regiones, no se consideran en la gestión de abastecimiento, ya que correspondería 
+a la gestión del vivero que produce las plantas y no al vivero que las recibe, a EXCEPCIÓN de 
+aquellas regiones que mantengan acuerdos de producción que consideren traspasos 
+--- Page 35 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 34 de 44 
+ 
+presupuestarios para financiar la producción de plantas en otros viveros de CONAF y que estas 
+sean consideradas co mo gestión propia de su Unidad Productiva para su contabil idad en el 
+Indicador SIGI GBCC 8 2026. 
+ 
+Columnas AA (N° de Documento, Factura o Guía de Despacho): En esta columna se deberá indicar 
+el número de guía de despacho del traslado interno, con los antecedentes tributarios legales y 
+reglamentarios vigentes. 
+ 
+ 
+ 
+--- Page 36 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 35 de 44 
+ 
+8 METODOLOGÍA DE CONTABILIZACIÓN DE PLANTAS PARA CONTROL DE INVENTARIO 
+Para comenzar el proceso de conteo de plantas y poder determinar las existencias de cada unidad 
+productiva (vivero y/o centro de acondicionamiento) a nivel nacional, se debe realizar de manera 
+progresiva y continua en cada una de estas unidades una distribución y ordenamiento total de las 
+plantas, que facilite y haga eficiente el conteo con el menor sesgo posible, de manera que permita 
+muestrear y determinar la cantidad total de plantas en forma óptima. Para lo anterior , se debe 
+realizar progresivamente lo siguiente: 
+1) Definir sectores o áreas de trabajo para el caso de las unidades productivas.  
+2) Ordenar por tipo de contenedor, tamaño y especie. 
+3) Definir dimensiones de platabandas. 
+ 
+8.1 Sectores o Áreas de Trabajo  
+Definir para el caso de los viveros un área de producción, crecimiento, entrada, descarga, carga y 
+uno de salida o entrega de plantas, y preferentemente un área de repique y endurecimiento, 
+como en el esquema referencial de la Imagen 1 5. Mientras que para los centros de 
+acondicionamiento y/o acopio se debe como mínimo contar con un área de crecimiento, descarga, 
+carga y uno de salida y entrega de plantas. 
+ 
+Imagen 15. Esquema referencial de distribución de áreas dentro del vivero, según objetivo. 
+El área de producción se define como el sector donde se ingresan los contenedores con la siembra 
+hasta que se realice el repique , en caso de ser necesario. El área de crecimiento está destinada 
+para las plantas que requieren de cuidados silviculturales y nutricionales para que logren una 
+altura determinada. El área de acondicionamiento es el sector donde se endurecen las plantas 
+para llevarlas a su destino final de plantación. Cuando la s plantas cumplan con la calidad de 
+plantación, se seleccionan y se llevan al sector de despacho, para la preparación de la entrega de 
+plantas. 
+
+--- Page 37 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 36 de 44 
+ 
+8.2 Ordenar por Tipo de Contenedor, Tamaño y Especie 
+Separar y ordenar las plantas por especie, tipo de conten edor y por rango de altura, según lo 
+instruido en el Manual de Procedimientos , de manera que permita diferenci arlos al momento de 
+la entrega. 
+Se deben identificar los cinco rangos de altura definidos en el Manual de Procedimientos Técnicos 
+del P rograma de Arborización, para lo que se refiera a clasificación de especies en base a este 
+factor, se sugiere utilizar una vara dimensionada o huincha con los cuatro rangos de altura 
+señalados, la cual al momento del conteo de plantas debe presentarse al lado de las plantas en sus 
+contenedores correspondientes, lo cual nos permitirá ir clasificando y separando durante el 
+proceso de ordenamiento las plantas bajo sus distintos rangos de altura. 
+8.3 Definir Dimensiones de Platabandas 
+Definir un ancho (constante) y largo de las platabandas en que se ordenará n las plantas en sus 
+respectivos contenedores (ver Imagen 1 6), etiquetando la platabanda como mínimo con el 
+nombre de la especie y fecha de producción (señalética). Si en una platabanda existe más de una 
+especie, los letreros deben ser dispuestos desde donde se inicia la distribución de la nueva 
+especie. 
+ 
+Imagen 16. Esquema respecto de dimensiones de una platabanda con bolsas. 
+Lo anterior , debe realizarse bajo un proceso continuo dentro de cada vivero  y/o, centros de 
+acondicionamiento, debido a que es fundamental mantener el orden de las plantas en sus 
+distintos contenedores y rango de altura, de manera de facilitar el inventario de control de 
+existencia y su actualización, proceso que debe ser informado trimestralmente (marzo, junio, 
+septiembre y diciembre). 
+  
+1.2 
+m 
+20 
+m 
+--- Page 38 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 37 de 44 
+ 
+8.4 Muestreo de Plantas en Contenedor Bolsa 
+El sistema de contabilización de plantas se puede llevar a cabo por medio de censo o muestreo. El 
+censo implica el conteo de la totalidad de plantas (total de la población) por especie, mientras que 
+el muestreo corresponde a una parte del total de plantas o población por especie , resultado que 
+es extrapolado al total de la existencia del vivero. 
+Para el siguiente procedimiento, el sistema de muestreo a aplicar como metodología base en el 
+conteo de plantas por platabanda es del tipo sistemático. Este muestreo es aplicable cuando los 
+elementos de la población sobre la que se realiza el muestreo están ordenados. Este 
+procedimiento se basa en tomar muestras de una manera directa y ordenada a partir de una regla 
+determinística, también llamada sistemática. La selección sistemática implica un número de 
+arranque y un intervalo de muestreo. Concretamente, el primer elemento seleccionado 
+condiciona los siguientes que son elegidos a partir del arranque aleatorio y según un salto de 
+amplitud constante (Vivanco, 2005).  
+Con el fin de evitar un sesgo durante el muestreo sistemático, se inicia el trabajo con la asignación 
+de la primera unidad muestral (parcela), en la primera platabanda, bajo algún método aleatorio. A 
+partir entonces de esta primera parcela ubicada en forma aleatoria, se continúa con el resto del 
+muestreo en forma sistemática (Murillo y Camacho, 1997). 
+Para el caso del conteo de plantas, el método consiste en utilizar parcelas cuadradas de tamaño 
+fijo, ubicadas a lo largo de cada platabanda que se desea inventariar. Cada una de estas parcelas 
+representará un porcentaje a muestrear respecto del tamaño o superficie total de la platabanda 
+que se desea muestrear, que no puede ser inferior al 5%. Esta intensidad de muestreo se debe a 
+que los viveros, centro de acondicionamiento y/o acopio, se encuentran iniciando el proceso de 
+ordenamiento de plantas en sus distintos contenedores y rangos de altura, por lo cual no se 
+conoce la variabilidad existente en cada uno de estos, lo cual implica que entre más grande es la 
+muestra, menor es el error de muestreo (Peters, 1982). 
+Se debe realizar un mínimo de 3 parcelas (tamaño de la muestra) de acuerdo con las dimensiones 
+de platabandas de cada vivero, centro de acondicionamiento y/o acopio, además la totalidad de 
+unidades muestral es (parcelas) no puede ser inferior al 5% de muestreo. Como se mencionó 
+anteriormente, la primera parcela se asigna en forma aleatoria y las siguientes se ubicarán 
+sistemáticamente a una distancia determinada. 
+A continuación, en Imagen 15 , se detalla  un ejemplo para determinar las parcelas en las 
+platabandas mediante el muestreo sistemático. La superficie de cada platabanda es de 100 m2, por 
+lo cual el 5% mínimo a muestrear corresponde a 5 m 2 por platabanda. Por lo anterior al realizar 3 
+parcelas de 1m x 2m (2 m2 cada una) se está muestreando una superficie de 6 m2 (6%). 
+La primera parcela se asigna en forma aleatoria y las siguientes se ubicarán sistemáticamente a 
+una distancia de 10 metros. 
+En las parcelas se contabilizará el número de plantas vivas, muertas y contenedores sin plantas, de 
+manera de poder obtener además el porcentaje de sobrevivencia, lo cual permitirá especialmente para 
+el caso de los viveros visualizar la eficiencia de su proceso de producción. 
+--- Page 39 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 38 de 44 
+ 
+Del ejemplo presente en la Imagen 17, el total de plantas muestreadas es el siguiente: 
+Imagen 17. Ejemplo de muestreo sistemático en platabandas. 
+ 
+Tabla 6. Tabla resumen de los resultados del ejemplo. 
+Superficie Platabanda: 100 m2       
+Superficie Total Parcelas: 6 m2       
+Parcela N° de plantas 
+Vivas Muertas Vacíos Total 
+1 105 5 4 114 
+2 112 0 3 115 
+3 102 15 3 120 
+Suma 319 20 10 349 
+Promedio (pl/parcela) 106.3 6.7 3.3 116.3 
+Cálculo plantas 106.3 x 100/6 6.7 x 100/6 3.3 x 100/6 116 x 100/6 
+Total (pl/platabanda) 1.772 112 55 1.939 
+% Plantas 91.4% 5.8% 2.8% 100% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Segunda parcela 
+(ej. 112 plantas 
+vivas, 0 muertas, 3 
+vacíos) 
+  
+Platabandas de 50 x 1,2 m 
+1 
+ 2 
+ 3 
+ 4 
+ 5 
+1,2 m 
+ 50 m 
+1,2 m 
+50 m 
+Platabanda 
+Primera parcela 
+(asignación 
+aleatoria) 
+(ej. 105 plantas 
+vivas, 5 muertas, 4 
+vacíos) 
+Tercera parcela 
+(ej. 102 plantas 
+vivas, 15 muertas, 3 
+vacíos) 
+  
+x m 
+ 10 m 
+10 m 
+5 
+1m 
+2 m 
+--- Page 40 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 39 de 44 
+ 
+Para el cálculo del número total de plantas vivas, muertas y contenedores vacíos por platabanda 
+se debe calcular el promedio de estas por parcela el cual está dado por las siguientes fórmulas: 
+Dónde:  
+X̅vivas = N° promedio de plantas vivas por parcela 
+X̅muertas= N° promedio de plantas muertas por parcela  
+X̅vacíos= N° promedio de contenedores vacios por parcela 
+STplatabanda = Superficie total de platabanda 
+STparcela = Superficie de parcela 
+Luego el número total de plantas vivas, muertas o contenedores vacíos, de la platabanda 
+muestreada, se puede calcular primero tomando el valor promedio por parcela de plantas vivas, 
+muertas, o contenedor vacío y multiplicando por la superficie total (m²) de la platabanda, dividido 
+por la superficie (m2) de una parcela.  
+ 
+Dónde, 
+Vi = N° de plantas vivas 
+Mi = N° plantas muertas 
+Cvi = N° de contenedores vacíos 
+n = Tamaño de la muestra 
+ 
+El porcentaje de sobrevivencia se calcula de la siguiente forma: 
+%𝒔𝒐𝒃𝒓𝒆𝒗𝒊𝒗𝒆𝒏𝒄𝒊𝒂 = 𝑉𝑖
+∑ (𝑉𝑖 + 𝑀𝑖 + 𝐶𝑣𝑖)𝑛
+𝑖=1
+× 100 
+Dónde:  
+Vi = N° de plantas vivas 
+Mi = N° de plantas muertas 
+Cvi = N° de contenedores sin plantas 
+TOTAL PLANTAS VIVAS  TOTAL PLANTAS MUERTAS  TOTAL CONTENDORES VACÍOS 
+ 
+𝑇𝑣𝑖𝑣𝑎𝑠 = 𝑋̅𝑣𝑖𝑣𝑎𝑠× 𝑆𝑇𝑝𝑙𝑎𝑡𝑎𝑏𝑎𝑛𝑑𝑎
+𝑆𝑇𝑝𝑎𝑟𝑐𝑒𝑙𝑎
+ 
+ 
+  
+𝑇𝑚𝑢𝑒𝑟𝑡𝑎𝑠 = 𝑋̅𝑚𝑢𝑒𝑟𝑡𝑎𝑠× 𝑆𝑇𝑝𝑙𝑎𝑡𝑎𝑏𝑎𝑛𝑑𝑎
+𝑆𝑇𝑝𝑎𝑟𝑐𝑒𝑙𝑎
+ 
+  
+𝑇𝑣𝑎𝑐í𝑜𝑠 = 𝑋̅𝑣𝑎𝑐í𝑜𝑠 × 𝑆𝑇𝑝𝑙𝑎𝑡𝑎𝑏𝑎𝑛𝑑𝑎
+𝑆𝑇𝑝𝑎𝑟𝑐𝑒𝑙𝑎
+ 
+     
+PROMEDIO DE PLANTAS VIVAS POR 
+PARCELA  PROMEDIO DE PLANTAS MUERTAS POR 
+PARCELA  PROMEDIO DE CONTENEDORES 
+VACÍOS POR PARCELA 
+ 
+𝑋̅𝑣𝑖𝑣𝑎𝑠 = ∑ 𝑉𝑖𝑛
+𝑖=1
+𝑛  (𝑛° 𝑑𝑒 𝑝𝑙𝑎𝑛𝑡𝑎𝑠) 
+ 
+ 
+ 
+𝑋̅𝑚𝑢𝑒𝑟𝑡𝑎𝑠= ∑ 𝑀𝑖𝑛
+𝑖=1
+𝑛  (𝑛° 𝑑𝑒 𝑝𝑙𝑎𝑛𝑡𝑎𝑠) 
+ 
+ 
+𝑋̅𝑣𝑎𝑐𝑖𝑜𝑠
+= ∑ 𝐶𝑣𝑖𝑛
+𝑖=1
+𝑛  (𝑛° 𝑑𝑒 𝑝𝑙𝑎𝑛𝑡𝑎𝑠) 
+--- Page 41 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 40 de 44 
+ 
+8.5 Muestreo de Plantas en Contenedor Bandeja Speedling 
+El sistema de contabilización de plantas se puede llevar a cabo por medio de censo o muestreo. El 
+censo implica el conteo de la totalidad de plantas (total de la población) por especie, mientras que 
+el muestreo corresponde a una parte del total de plantas o población por especie.  
+Para el caso del conteo de plantas en bandejas speedling se utilizará el mismo tipo de muestreo 
+sistemático del punto 8.1, donde para este caso cada parcela estará dada por una bandeja 
+completa, pero para lo cual se debe tener en consideración que el número de cavidades debe ser 
+el mismo en cada uno de estas (ej. 84 cavidades). 
+Para el caso del conteo de plantas, el método consiste en que cada bandeja speedling 
+corresponderá a una parcela de tamaño fijo, ubicadas a lo largo de cada mesón o platabanda que 
+se desea inventariar. Cada uno de estas parcelas o bandejas representará un porcentaje a 
+muestrear respecto al total de bandejas por mesón o platabanda que se desea muestrear, que no 
+puede ser inferior al 5%, por lo cual es fundamental conocer el total de bandejas presentes en 
+cada mesón. 
+La primera parcela (bandeja) se asigna en forma aleatoria y las siguientes se ubicarán 
+sistemáticamente a una distancia de 5 - 8 metros sucesivamente, o a una distancia menor según el 
+tamaño del mesón o platabanda del vivero, centro de acondicionamiento y/o acopio. 
+En la parcela (bandeja) se contabilizará el número de plantas vivas, muertas y cavidades sin 
+plantas, de manera de poder obtener además el porcentaje de sobrevivencia,  lo cual permitirá 
+especialmente para el caso de los viveros visualizar la eficiencia de su proceso de producci ón. La 
+fórmula es la siguiente: 
+Porcentaje de sobrevivencia 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+De la misma forma, se podrá determinar el porcentaje de plantas muertas o el porcentaje de 
+cavidades sin plantas. 
+El número total de plantas (vivas, muertas o contenedores vacíos) respecto del total de bandejas 
+muestreadas, se puede calcular primero promediando el valor de cada parcela (bandeja) 
+muestreada de plantas vivas, muertas, o contenedor vacío y multiplicando por número total de 
+bandejas del mesón o platabanda. Las fórmulas son las siguientes:  
+ 
+ 
+ 
+ 
+ 
+CV 
+100*%
+1
+CSPiMiVi
+Vi
+n
+i
+++
+=
+
+=
+CVi
+= N° de cavidades sin plantas 
+Mi
+= N° de plantas muertas 
+Vi
+= N° de plantas vivas 
+--- Page 42 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 41 de 44 
+ 
+ 
+ 
+ 
+PROMEDIO DE PLANTAS VIVAS POR 
+PARCELA (BANDEJA) 
+  
+ 
+PROMEDIO DE PLANTAS MUERTAS POR 
+PARCELA (BANDEJA) 
+ 
+  
+ 
+PROMEDIO DE CAVIDADES VACÍAS POR 
+PARCELA (BANDEJA) 
+ 
+ 
+𝑋̅𝑣𝑖𝑣𝑎𝑠 = ∑ 𝑉𝑖𝑛
+𝑖=1
+𝑛  (𝑛° 𝑑𝑒 𝑝𝑙𝑎𝑛𝑡𝑎𝑠) 
+ 
+  
+𝑋̅𝑚𝑢𝑒𝑟𝑡𝑎𝑠= ∑ 𝑀𝑖𝑛
+𝑖=1
+𝑛  (𝑛° 𝑑𝑒 𝑝𝑙𝑎𝑛𝑡𝑎𝑠) 
+  
+𝑋̅𝑣𝑎𝑐𝑖𝑜𝑠= ∑ 𝐶𝑣𝑖𝑛
+𝑖=1
+𝑛  (𝑛° 𝑑𝑒 𝑝𝑙𝑎𝑛𝑡𝑎𝑠) 
+ 
+Dónde:  
+Vi = N° de plantas vivas 
+Mi = N° de plantas muertas 
+Cvi = N° de cavidades vacias 
+n = Tamaño de la muestra 
+ 
+ 
+Número total de plantas (vivas, muertas o cavidades sin plantas) 
+ 
+ 
+TOTAL PLANTAS VIVAS 
+  
+TOTAL PLANTAS MUERTAS 
+  
+TOTAL CONTENDORES VACÍOS 
+ 
+𝑇𝑣𝑖𝑣𝑎𝑠 = 𝑋̅𝑣𝑖𝑣𝑎𝑠× 𝑇𝑏𝑎𝑛𝑑𝑒𝑗𝑎𝑠 
+ 
+  
+𝑇𝑚𝑢𝑒𝑟𝑡𝑎𝑠 = 𝑋̅𝑚𝑢𝑒𝑟𝑡𝑎𝑠× 𝑇𝑏𝑎𝑛𝑑𝑒𝑗𝑎𝑠 
+  
+𝑇𝑣𝑎𝑐í𝑜𝑠 = 𝑋̅𝑣𝑎𝑐í𝑜𝑠 × 𝑇𝑏𝑎𝑛𝑑𝑒𝑗𝑎𝑠 
+ 
+X̅vivas = N° promedio de plantas vivas por parcela 
+X̅muertas= N° promedio de plantas muertas por parcela  
+X̅vacíos= N° promedio de cavidades vacías por parcela 
+Tbandejas = Total de bandejas de platabanda 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- Page 43 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 42 de 44 
+ 
+9 ANEXOS 
+9.1 Planilla Control de Inventario. 
+Documento Adjunto 4. SIGI GBCC 8 2026. Control de Inventario de Plantas Ingresos y Egresos. 
+ 
+9.2 Planilla Programa de Producción y Evaluación de Plantas. 
+Documento Adjunto 3. SIGI GBCC 8 2026 Programa Producción y Evaluación de Plantas. 
+ 
+9.3 Ejemplo de Resolución e Informe de Baja de Plantas. 
+Documento Adjunto  2. Ejemplo de Resolución de Baja de Plantas (Resolución 289/2022 La 
+Araucanía). 
+ 
+ 
+ 
+--- Page 44 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+Página 43 de 44 
+ 
+10 BIBLIOGRAFÍA 
+MANUEL VIVANCO, 2005.  Muestreo Estadístico Diseño y Aplicaciones. Editorial Universitaria S.A. 
+Santiago de Chile. P. 209. 
+MURILLO, O; CAMACHO, P., 1997. Metodología para la evaluación de la calidad de plantaciones 
+forestales recién establecidas. Revista Agronomía Costarricense. v. 21, no. 2, p. 189-206. 
+PETERS, R. 1982. Implementación de un modelo de simulación para el manejo de plantaciones de 
+pino insigne [monografías]. Santiago de Chile, INFOR. 80p, anexo. 
+CONAF, 2018. Manual de Procedimientos Administrativos, Activo Fijo Físico de Uso, CONAF . 
+https://intra.conaf.cl/wp-content/uploads/2018/08/Manual-de-Procedimientos-Administrativos-
+Activo-Fijo-Fisico-Diciembre-2017.pdf  
+CONAF, 2020. Manual de Procedimientos Técnicos del Programa de Arborización. Oficio 11/2020 
+del 9 de enero de 2020. 
+ 
+ 
+--- Page 45 ---
+ 
+INSTRUCTIVO PARA COMPLETAR  
+FORMULARIOS  RELACIONADOS AL  
+INDICADOR  SIGI G BCC 8 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
