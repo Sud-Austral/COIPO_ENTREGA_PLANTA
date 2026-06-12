@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es-CL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CONAF — Entrega de Plantas</title>
+    <script>
+      // Truco para SPA en GitHub Pages:
+      // Convierte la ruta 404 en un query param y redirige al index.html,
+      // donde el script de redirect.js la restaura antes de que React Router monte.
+      // Fuente: https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 1; // cantidad de segmentos del subpath del repositorio
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
