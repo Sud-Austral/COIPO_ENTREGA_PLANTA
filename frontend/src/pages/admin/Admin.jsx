@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { regiones, viveros, especies, mockInternos } from '../../api/mockData.js'
+import { getParametros, getDefaults, setParametros, resetParametros, tieneOverride } from '../../api/parametros.js'
 
 const tabs = ['Especies', 'Viveros', 'Usuarios', 'Parámetros']
 
@@ -85,22 +86,108 @@ export default function Admin() {
         </div>
       )}
 
-      {tab === 'Parámetros' && (
-        <div className="card">
-          <h3>Parámetros del sistema</h3>
-          <table>
-            <thead><tr><th>Parámetro</th><th>Valor</th></tr></thead>
-            <tbody>
-              <tr><td>Plazo de retiro (días)</td><td>30</td></tr>
-              <tr><td>Máximo de especies por solicitud</td><td>3</td></tr>
-              <tr><td>Máximo de unidades por solicitud</td><td>100</td></tr>
-              <tr><td>Máximo de solicitudes por persona por año</td><td>1</td></tr>
-              <tr><td>SLA disponibilidad (días caída/año)</td><td>5</td></tr>
-              <tr><td>Retención de datos personales (años)</td><td>5</td></tr>
-            </tbody>
-          </table>
-        </div>
-      )}
+      {tab === 'Parámetros' && <ParametrosRegion />}
+    </div>
+  )
+}
+
+const CAMPOS = [
+  { key: 'plazoRetiroDias',    label: 'Plazo de retiro (días)' },
+  { key: 'maxEspecies',        label: 'Máximo de especies por solicitud' },
+  { key: 'maxUnidades',        label: 'Máximo de unidades por solicitud' },
+  { key: 'maxSolicitudesAnio', label: 'Máximo de solicitudes por persona por año' },
+]
+
+function ParametrosRegion() {
+  const [regionId, setRegionId] = useState(regiones[0]?.id ?? '')
+  const [form, setForm] = useState({})
+  const [defaults, setDefaults] = useState({})
+  const [conOverride, setConOverride] = useState(false)
+  const [guardado, setGuardado] = useState(false)
+
+  const cargar = (rid) => {
+    setForm(getParametros(rid))
+    setDefaults(getDefaults(rid))
+    setConOverride(tieneOverride(rid))
+    setGuardado(false)
+  }
+
+  useEffect(() => { if (regionId) cargar(regionId) }, [regionId])
+
+  const cambiar = (key, val) => {
+    setForm(prev => ({ ...prev, [key]: val }))
+    setGuardado(false)
+  }
+
+  const guardar = () => {
+    setParametros(regionId, form)
+    cargar(regionId)
+    setGuardado(true)
+  }
+
+  const restablecer = () => {
+    resetParametros(regionId)
+    cargar(regionId)
+  }
+
+  const regionNombre = regiones.find(r => r.id === Number(regionId))?.nombre
+
+  return (
+    <div className="card">
+      <h3>Parámetros por región</h3>
+      <p className="help">
+        Cada región puede tener límites propios. El flujo de Nueva Solicitud respeta el valor de la
+        región elegida. Los cambios se guardan localmente (mock) hasta que exista la base de datos compartida.
+      </p>
+
+      <div className="field" style={{ maxWidth: 420 }}>
+        <label>Región</label>
+        <select value={regionId} onChange={(e) => setRegionId(Number(e.target.value))}>
+          {regiones.map(r => <option key={r.id} value={r.id}>{r.nombre}</option>)}
+        </select>
+      </div>
+
+      <table style={{ marginTop: '1rem' }}>
+        <thead>
+          <tr><th>Parámetro</th><th style={{ width: 160 }}>Valor</th><th style={{ width: 120 }}>Por defecto</th></tr>
+        </thead>
+        <tbody>
+          {CAMPOS.map(c => (
+            <tr key={c.key}>
+              <td>{c.label}</td>
+              <td>
+                <input
+                  type="number"
+                  min={0}
+                  value={form[c.key] ?? ''}
+                  onChange={(e) => cambiar(c.key, e.target.value)}
+                />
+              </td>
+              <td style={{ color: 'var(--color-text-muted)' }}>{defaults[c.key]}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      <div className="actions" style={{ marginTop: '1rem' }}>
+        <button type="button" onClick={guardar}>Guardar parámetros de {regionNombre}</button>
+        <button type="button" className="secondary" onClick={restablecer} disabled={!conOverride}>
+          Restablecer a valores por defecto
+        </button>
+      </div>
+
+      {guardado && <p className="help" style={{ color: 'var(--color-success, green)' }}>✓ Guardado para {regionNombre}.</p>}
+      {conOverride && !guardado && <p className="help">Esta región tiene valores personalizados (distintos al default).</p>}
+
+      <hr style={{ margin: '1.5rem 0', border: 'none', borderTop: '1px solid var(--color-border, #ddd)' }} />
+      <h4>Parámetros globales (no editables aquí)</h4>
+      <table>
+        <thead><tr><th>Parámetro</th><th>Valor</th></tr></thead>
+        <tbody>
+          <tr><td>SLA disponibilidad (días caída/año)</td><td>5</td></tr>
+          <tr><td>Retención de datos personales (años)</td><td>5</td></tr>
+        </tbody>
+      </table>
     </div>
   )
 }

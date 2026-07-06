@@ -1,20 +1,31 @@
-// API client. Hoy usa mock data en memoria. Cuando exista backend, reemplazar
-// cada función por una llamada fetch al endpoint correspondiente de FastAPI.
+// API client. Hoy usa mock data en memoria + stock compartido (stockBridge) y
+// parámetros por región (parametros). Cuando exista la base de datos compartida,
+// reemplazar cada función por una llamada fetch al endpoint correspondiente:
+// la UI no cambia.
 
 import {
   regiones as mockRegiones,
   viveros as mockViveros,
   especies as mockEspecies,
-  stock as mockStock,
   solicitudes as mockSolicitudes,
 } from './mockData.js'
+import { stockBridge } from './stockBridge.js'
+import { getParametros } from './parametros.js'
 
 // Estado mutable en memoria (se pierde al recargar la página).
 let _solicitudes = [...mockSolicitudes]
-let _stock = mockStock.map(s => ({ ...s }))
 let _nextId = 2000
 
 const delay = (ms = 200) => new Promise(r => setTimeout(r, ms))
+
+// Comunas distintas (con vivero) de una región, ordenadas.
+function comunasDeRegion(regionId) {
+  const set = new Map()
+  mockViveros
+    .filter(v => v.regionId === Number(regionId))
+    .forEach(v => set.set(v.comuna, true))
+  return [...set.keys()].sort((a, b) => a.localeCompare(b, 'es'))
+}
 
 export const api = {
   // Catálogos
@@ -25,43 +36,68 @@ export const api = {
 
   async getViveros({ regionId } = {}) {
     await delay()
-    return regionId ? mockViveros.filter(v => v.regionId === regionId) : mockViveros
+    return regionId ? mockViveros.filter(v => v.regionId === Number(regionId)) : mockViveros
+  },
+
+  // Flujo nuevo: región → comuna → vivero auto.
+  async getComunas({ regionId } = {}) {
+    await delay()
+    if (!regionId) return []
+    return comunasDeRegion(regionId)
+  },
+
+  // Viveros de una comuna (normalmente 1; puede haber >1).
+  async getViveroPorComuna({ regionId, comuna } = {}) {
+    await delay()
+    if (!regionId || !comuna) return []
+    return mockViveros.filter(v => v.regionId === Number(regionId) && v.comuna === comuna)
+  },
+
+  // Parámetros efectivos por región (semilla del catálogo ∪ override del admin).
+  async getParametros(regionId) {
+    await delay(80)
+    return getParametros(regionId)
   },
 
   async getEspeciesDisponibles(viveroId) {
     await delay()
-    const stockVivero = _stock.filter(s => s.viveroId === viveroId && s.cantidadDisponible > 0)
-    return stockVivero.map(s => ({
-      ...mockEspecies.find(e => e.id === s.especieId),
-      cantidadDisponible: s.cantidadDisponible,
-    }))
+    return stockBridge.porVivero(viveroId)
+      .filter(s => s.disponible > 0)
+      .map(s => ({
+        ...mockEspecies.find(e => e.id === s.especieId),
+        cantidadDisponible: s.disponible,
+      }))
   },
 
   async getStockVivero(viveroId) {
     await delay()
-    return _stock
-      .filter(s => s.viveroId === viveroId)
-      .map(s => ({
-        especie: mockEspecies.find(e => e.id === s.especieId),
-        cantidadDisponible: s.cantidadDisponible,
-      }))
+    return stockBridge.porVivero(viveroId).map(s => ({
+      especie: mockEspecies.find(e => e.id === s.especieId),
+      cantidadDisponible: s.disponible,
+      comprometido: s.comprometido,
+    }))
   },
 
   // Solicitudes
   async crearSolicitud(payload) {
     await delay()
-    // Validar stock
-    for (const item of payload.especies) {
-      const stockItem = _stock.find(s => s.viveroId === payload.viveroId && s.especieId === item.especieId)
-      if (!stockItem || stockItem.cantidadDisponible < item.cantidad) {
-        throw new Error(`Stock insuficiente para la especie ${item.especieId}`)
-      }
+    const params = getParametros(payload.regionId)
+
+    // Validaciones por región (defensa del lado servidor del mock).
+    if (payload.especies.length > params.maxEspecies) {
+      throw new Error(`Máximo ${params.maxEspecies} especies por solicitud en esta región.`)
     }
-    // Reservar stock
-    payload.especies.forEach(item => {
-      const stockItem = _stock.find(s => s.viveroId === payload.viveroId && s.especieId === item.especieId)
-      stockItem.cantidadDisponible -= item.cantidad
-    })
+    const totalUnidades = payload.especies.reduce((a, e) => a + (Number(e.cantidad) || 0), 0)
+    if (totalUnidades > params.maxUnidades) {
+      throw new Error(`Máximo ${params.maxUnidades} unidades por solicitud en esta región.`)
+    }
+    if (await this.yaPidioEsteAnio(payload.solicitanteRut, payload.regionId)) {
+      throw new Error(`Alcanzaste el máximo de ${params.maxSolicitudesAnio} solicitud(es) al año en esta región.`)
+    }
+
+    // Reserva de stock (disponible → comprometido). Valida disponibilidad.
+    stockBridge.reservar(payload.viveroId, payload.especies)
+
     const nueva = {
       id: _nextId++,
       ...payload,
@@ -76,8 +112,8 @@ export const api = {
     await delay()
     let r = [..._solicitudes]
     if (filtros.solicitanteRut) r = r.filter(s => s.solicitanteRut === filtros.solicitanteRut)
-    if (filtros.viveroId)       r = r.filter(s => s.viveroId === filtros.viveroId)
-    if (filtros.regionId)       r = r.filter(s => s.regionId === filtros.regionId)
+    if (filtros.viveroId)       r = r.filter(s => s.viveroId === Number(filtros.viveroId))
+    if (filtros.regionId)       r = r.filter(s => s.regionId === Number(filtros.regionId))
     if (filtros.estado)         r = r.filter(s => s.estado === filtros.estado)
     return r
   },
@@ -94,24 +130,28 @@ export const api = {
     sol.estado = nuevoEstado
     Object.assign(sol, datosAdicionales)
 
-    // Si se rechaza, cancela o vence sin retirar: devolver stock
+    // Rechazo / cancelación / vencimiento sin retirar: liberar lo comprometido.
     if (['rechazada', 'cancelada', 'vencida'].includes(nuevoEstado)) {
-      sol.especies.forEach(item => {
-        const stockItem = _stock.find(s => s.viveroId === sol.viveroId && s.especieId === item.especieId)
-        if (stockItem) stockItem.cantidadDisponible += item.cantidad
-      })
+      stockBridge.liberar(sol.viveroId, sol.especies)
+    }
+    // Retiro: egreso definitivo (baja del comprometido, no vuelve a disponible).
+    if (nuevoEstado === 'retirada') {
+      stockBridge.entregar(sol.viveroId, sol.especies)
     }
     return sol
   },
 
-  // Validación: ¿el solicitante ya pidió este año?
-  async yaPidioEsteAnio(rut) {
-    await delay()
+  // Validación: ¿el solicitante alcanzó el máximo anual en esta región?
+  // (Si no se pasa regionId, evalúa a nivel global con maxSolicitudesAnio=1.)
+  async yaPidioEsteAnio(rut, regionId) {
     const anio = new Date().getFullYear()
-    return _solicitudes.some(s =>
+    const activas = _solicitudes.filter(s =>
       s.solicitanteRut === rut &&
       new Date(s.fechaCreacion).getFullYear() === anio &&
-      !['cancelada', 'rechazada'].includes(s.estado)
+      !['cancelada', 'rechazada'].includes(s.estado) &&
+      (regionId == null || s.regionId === Number(regionId))
     )
+    const max = regionId != null ? getParametros(regionId).maxSolicitudesAnio : 1
+    return activas.length >= max
   },
 }

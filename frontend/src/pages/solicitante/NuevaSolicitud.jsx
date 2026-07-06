@@ -4,18 +4,24 @@ import { api } from '../../api/client.js'
 import { useAuth } from '../../context/AuthContext.jsx'
 import MapaPicker from '../../components/MapaPicker.jsx'
 
-const MAX_ESPECIES = 3
-const MAX_UNIDADES = 100
+// Valores por defecto hasta que se elija región (se sobrescriben con los
+// parámetros por región del administrador).
+const PARAMS_FALLBACK = { maxEspecies: 3, maxUnidades: 100, plazoRetiroDias: 30, maxSolicitudesAnio: 1 }
 
 export default function NuevaSolicitud() {
   const { user } = useAuth()
   const navigate = useNavigate()
 
   const [regiones, setRegiones] = useState([])
-  const [viveros, setViveros] = useState([])
+  const [comunas, setComunas] = useState([])
+  const [viverosComuna, setViverosComuna] = useState([])
   const [especiesDisp, setEspeciesDisp] = useState([])
+
   const [regionId, setRegionId] = useState('')
+  const [comuna, setComuna] = useState('')
   const [viveroId, setViveroId] = useState('')
+
+  const [params, setParams] = useState(PARAMS_FALLBACK)
   const [seleccionadas, setSeleccionadas] = useState([])
   const [coordenadas, setCoordenadas] = useState(null)
   const [correo, setCorreo] = useState(user?.correo || '')
@@ -26,30 +32,46 @@ export default function NuevaSolicitud() {
   const [submitting, setSubmitting] = useState(false)
   const [yaPidio, setYaPidio] = useState(false)
 
+  const maxEspecies = params?.maxEspecies ?? PARAMS_FALLBACK.maxEspecies
+  const maxUnidades = params?.maxUnidades ?? PARAMS_FALLBACK.maxUnidades
+
   useEffect(() => { api.getRegiones().then(setRegiones) }, [])
-  useEffect(() => {
-    if (user?.rut) api.yaPidioEsteAnio(user.rut).then(setYaPidio)
-  }, [user])
 
+  // Al cambiar región: cargar comunas + parámetros + chequear máximo anual.
   useEffect(() => {
-    if (!regionId) { setViveros([]); setViveroId(''); return }
-    api.getViveros({ regionId: Number(regionId) }).then(setViveros)
+    setComuna(''); setViveroId(''); setComunas([]); setViverosComuna([])
+    setEspeciesDisp([]); setSeleccionadas([])
+    if (!regionId) { setParams(PARAMS_FALLBACK); setYaPidio(false); return }
+    api.getComunas({ regionId: Number(regionId) }).then(setComunas)
+    api.getParametros(Number(regionId)).then(setParams)
+    if (user?.rut) api.yaPidioEsteAnio(user.rut, Number(regionId)).then(setYaPidio)
+  }, [regionId, user])
+
+  // Al cambiar comuna: cargar vivero(s); si hay exactamente uno, auto-seleccionar.
+  useEffect(() => {
     setViveroId(''); setEspeciesDisp([]); setSeleccionadas([])
-  }, [regionId])
+    if (!regionId || !comuna) { setViverosComuna([]); return }
+    api.getViveroPorComuna({ regionId: Number(regionId), comuna }).then(vs => {
+      setViverosComuna(vs)
+      if (vs.length === 1) setViveroId(String(vs[0].id))
+    })
+  }, [comuna, regionId])
 
+  // Al fijar vivero: cargar especies disponibles.
   useEffect(() => {
     if (!viveroId) { setEspeciesDisp([]); return }
     api.getEspeciesDisponibles(Number(viveroId)).then(setEspeciesDisp)
     setSeleccionadas([])
   }, [viveroId])
 
+  const viveroSel = viverosComuna.find(v => String(v.id) === String(viveroId))
   const totalUnidades = seleccionadas.reduce((acc, s) => acc + (Number(s.cantidad) || 0), 0)
 
   const toggleEspecie = (especieId) => {
     setSeleccionadas(prev => {
       const existe = prev.find(s => s.especieId === especieId)
       if (existe) return prev.filter(s => s.especieId !== especieId)
-      if (prev.length >= MAX_ESPECIES) return prev
+      if (prev.length >= maxEspecies) return prev
       return [...prev, { especieId, cantidad: 1 }]
     })
   }
@@ -63,9 +85,13 @@ export default function NuevaSolicitud() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError('')
-    if (!regionId || !viveroId) return setError('Selecciona región y vivero.')
+    if (!regionId) return setError('Selecciona una región.')
+    if (!comuna) return setError('Selecciona una comuna.')
+    if (!viveroId) return setError('No hay un vivero asociado a esa comuna.')
+    if (yaPidio) return setError(`Ya alcanzaste el máximo de solicitudes para esta región este año.`)
     if (seleccionadas.length === 0) return setError('Selecciona al menos una especie.')
-    if (totalUnidades > MAX_UNIDADES) return setError(`Máximo ${MAX_UNIDADES} unidades en total.`)
+    if (seleccionadas.length > maxEspecies) return setError(`Máximo ${maxEspecies} especies.`)
+    if (totalUnidades > maxUnidades) return setError(`Máximo ${maxUnidades} unidades en total.`)
     if (totalUnidades < 1) return setError('Indica al menos 1 unidad.')
     if (!coordenadas?.lat || !coordenadas?.lng) return setError('Selecciona en el mapa el lugar de plantación.')
     if (!consent) return setError('Debes autorizar el tratamiento de tus datos para crear la solicitud.')
@@ -91,23 +117,15 @@ export default function NuevaSolicitud() {
     }
   }
 
-  if (yaPidio) {
-    return (
-      <div>
-        <h1>Nueva solicitud</h1>
-        <div className="banner-warning">
-          <strong>Ya tienes una solicitud activa este año.</strong> Solo se permite una solicitud por persona al año. Revisa el detalle en <a href="/solicitante/mis-solicitudes">Mis solicitudes</a>.
-        </div>
-      </div>
-    )
-  }
-
   return (
     <div>
       <div className="page-header">
         <div>
           <h1>Nueva solicitud</h1>
-          <p>Programa de Arborización — máx. {MAX_ESPECIES} especies, máx. {MAX_UNIDADES} unidades en total.</p>
+          <p>
+            Programa de Arborización — máx. {maxEspecies} especies, máx. {maxUnidades} unidades en total
+            {regionId ? ' (límites de la región seleccionada)' : ''}.
+          </p>
         </div>
       </div>
 
@@ -123,16 +141,45 @@ export default function NuevaSolicitud() {
               </select>
             </div>
             <div className="field">
-              <label>Vivero</label>
-              <select value={viveroId} onChange={(e) => setViveroId(e.target.value)} required disabled={!regionId}>
-                <option value="">{regionId ? 'Selecciona un vivero…' : 'Primero selecciona una región'}</option>
-                {viveros.map(v => <option key={v.id} value={v.id}>{v.nombre} ({v.comuna})</option>)}
+              <label>Comuna</label>
+              <select value={comuna} onChange={(e) => setComuna(e.target.value)} required disabled={!regionId}>
+                <option value="">{regionId ? 'Selecciona una comuna…' : 'Primero selecciona una región'}</option>
+                {comunas.map(c => <option key={c} value={c}>{c}</option>)}
               </select>
             </div>
           </div>
+
+          {/* Vivero: auto-seleccionado desde la tabla región/comuna/vivero. */}
+          {comuna && viverosComuna.length > 0 && (
+            <div className="field" style={{ marginTop: '0.75rem' }}>
+              <label>Vivero asignado</label>
+              {viverosComuna.length === 1 ? (
+                <input type="text" value={`${viveroSel?.nombre || ''} (${comuna})`} readOnly />
+              ) : (
+                <select value={viveroId} onChange={(e) => setViveroId(e.target.value)} required>
+                  <option value="">Selecciona el vivero…</option>
+                  {viverosComuna.map(v => <option key={v.id} value={v.id}>{v.nombre}</option>)}
+                </select>
+              )}
+              <p className="help" style={{ marginTop: '0.35rem' }}>
+                {viverosComuna.length === 1
+                  ? 'El vivero se asignó automáticamente según la comuna elegida.'
+                  : 'Esta comuna tiene más de un vivero; elige uno.'}
+              </p>
+            </div>
+          )}
+          {comuna && viverosComuna.length === 0 && (
+            <p className="help" style={{ marginTop: '0.5rem' }}>No hay viveros registrados para esta comuna.</p>
+          )}
         </div>
 
-        {viveroId && (
+        {yaPidio && (
+          <div className="banner-warning">
+            <strong>Ya tienes una solicitud activa este año en esta región.</strong> El máximo es {params.maxSolicitudesAnio} por región al año. Revisa el detalle en <a href="/solicitante/mis-solicitudes">Mis solicitudes</a>.
+          </div>
+        )}
+
+        {viveroId && !yaPidio && (
           <div className="card">
             <h3>2. Elige especies disponibles</h3>
             {especiesDisp.length === 0
@@ -140,7 +187,7 @@ export default function NuevaSolicitud() {
               : (
                 <>
                   <p className="help">
-                    Seleccionadas: {seleccionadas.length}/{MAX_ESPECIES} — Unidades totales: {totalUnidades}/{MAX_UNIDADES}
+                    Seleccionadas: {seleccionadas.length}/{maxEspecies} — Unidades totales: {totalUnidades}/{maxUnidades}
                   </p>
                   <table>
                     <thead>
@@ -155,7 +202,7 @@ export default function NuevaSolicitud() {
                     <tbody>
                       {especiesDisp.map(esp => {
                         const sel = seleccionadas.find(s => s.especieId === esp.id)
-                        const deshabilitado = !sel && seleccionadas.length >= MAX_ESPECIES
+                        const deshabilitado = !sel && seleccionadas.length >= maxEspecies
                         return (
                           <tr key={esp.id}>
                             <td>
@@ -178,7 +225,7 @@ export default function NuevaSolicitud() {
                                 <input
                                   type="number"
                                   min={1}
-                                  max={Math.min(esp.cantidadDisponible, MAX_UNIDADES)}
+                                  max={Math.min(esp.cantidadDisponible, maxUnidades)}
                                   value={sel.cantidad}
                                   onChange={(e) => cambiarCantidad(esp.id, e.target.value)}
                                 />
@@ -239,7 +286,7 @@ export default function NuevaSolicitud() {
         {error && <div className="card" style={{ borderColor: 'var(--color-danger)' }}><p className="error">{error}</p></div>}
 
         <div className="actions">
-          <button type="submit" disabled={submitting}>
+          <button type="submit" disabled={submitting || yaPidio}>
             {submitting ? 'Enviando…' : 'Enviar solicitud'}
           </button>
           <button type="button" className="secondary" onClick={() => navigate('/solicitante/mis-solicitudes')}>

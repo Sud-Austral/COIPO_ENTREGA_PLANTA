@@ -1,0 +1,1601 @@
+{
+  "_meta": {
+    "fuente": "tabla_insumo/*.xlsx",
+    "generador": "tabla_insumo/generar_insumos.py",
+    "nota": "NO editar a mano: regenerar con `python generar_insumos.py`."
+  },
+  "regiones": [
+    {
+      "id": 1,
+      "nombre": "Arica y Parinacota"
+    },
+    {
+      "id": 2,
+      "nombre": "Tarapacá"
+    },
+    {
+      "id": 3,
+      "nombre": "Antofagasta"
+    },
+    {
+      "id": 4,
+      "nombre": "Atacama"
+    },
+    {
+      "id": 5,
+      "nombre": "Coquimbo"
+    },
+    {
+      "id": 6,
+      "nombre": "Valparaíso"
+    },
+    {
+      "id": 7,
+      "nombre": "Libertador General Bernardo O'Higgins"
+    },
+    {
+      "id": 8,
+      "nombre": "Maule"
+    },
+    {
+      "id": 9,
+      "nombre": "Ñuble"
+    },
+    {
+      "id": 10,
+      "nombre": "Biobío"
+    },
+    {
+      "id": 11,
+      "nombre": "La Araucanía"
+    },
+    {
+      "id": 12,
+      "nombre": "Los Ríos"
+    },
+    {
+      "id": 13,
+      "nombre": "Los Lagos"
+    },
+    {
+      "id": 14,
+      "nombre": "Aysén"
+    },
+    {
+      "id": 15,
+      "nombre": "Magallanes y La Antártica Chilena"
+    },
+    {
+      "id": 16,
+      "nombre": "Metropolitana de Santiago"
+    },
+    {
+      "id": 17,
+      "nombre": "Isla de Pascua"
+    }
+  ],
+  "viveros": [
+    {
+      "id": 1,
+      "nombre": "Vivero Las Maitas",
+      "regionId": 1,
+      "region": "Arica y Parinacota",
+      "provincia": "Arica",
+      "comuna": "Arica",
+      "codigo": "VIV-LAS-MAITAS",
+      "encargadoEmail": "enc.lasmaitas@conaf.cl"
+    },
+    {
+      "id": 2,
+      "nombre": "Vivero Putre",
+      "regionId": 1,
+      "region": "Arica y Parinacota",
+      "provincia": "Parinacota",
+      "comuna": "Putre",
+      "codigo": "VIV-PUTRE",
+      "encargadoEmail": "enc.putre@conaf.cl"
+    },
+    {
+      "id": 3,
+      "nombre": "Vivero Alejandro Caipa",
+      "regionId": 2,
+      "region": "Tarapacá",
+      "provincia": "Tamarugal",
+      "comuna": "Pozo Almonte",
+      "codigo": "VIV-ALEJANDRO-CAIPA",
+      "encargadoEmail": "enc.caipa@conaf.cl"
+    },
+    {
+      "id": 4,
+      "nombre": "Vivero Regional Antofagasta",
+      "regionId": 3,
+      "region": "Antofagasta",
+      "provincia": "Antofagasta",
+      "comuna": "Antofagasta",
+      "codigo": "VIV-REGIONAL-ANTOFAGASTA",
+      "encargadoEmail": "enc.antofagasta@conaf.cl"
+    },
+    {
+      "id": 5,
+      "nombre": "Vivero Quillagua",
+      "regionId": 3,
+      "region": "Antofagasta",
+      "provincia": "Tocopilla",
+      "comuna": "María Elena",
+      "codigo": "VIV-QUILLAGUA",
+      "encargadoEmail": "enc.quillagua@conaf.cl"
+    },
+    {
+      "id": 6,
+      "nombre": "Vivero Copiapó",
+      "regionId": 4,
+      "region": "Atacama",
+      "provincia": "Copiapó",
+      "comuna": "Copiapó",
+      "codigo": "VIV-COPIAPO",
+      "encargadoEmail": "enc.copiapo@conaf.cl"
+    },
+    {
+      "id": 7,
+      "nombre": "Vivero Vallenar",
+      "regionId": 4,
+      "region": "Atacama",
+      "provincia": "Huasco",
+      "comuna": "Vallenar",
+      "codigo": "VIV-VALLENAR",
+      "encargadoEmail": "enc.vallenar@conaf.cl"
+    },
+    {
+      "id": 8,
+      "nombre": "Vivero Illapel",
+      "regionId": 5,
+      "region": "Coquimbo",
+      "provincia": "Choapa",
+      "comuna": "Illapel",
+      "codigo": "VIV-ILLAPEL",
+      "encargadoEmail": "enc.illapel@conaf.cl"
+    },
+    {
+      "id": 9,
+      "nombre": "Vivero Archipiélago Juan Fernández",
+      "regionId": 6,
+      "region": "Valparaíso",
+      "provincia": "Valparaíso",
+      "comuna": "Juan Fernández",
+      "codigo": "VIV-ARCHIPIELAGO-JUAN-FERNANDEZ",
+      "encargadoEmail": "enc.juanfernandez@conaf.cl"
+    },
+    {
+      "id": 10,
+      "nombre": "Vivero Reserva Nacional Lago Peñuelas",
+      "regionId": 6,
+      "region": "Valparaíso",
+      "provincia": "Valparaíso",
+      "comuna": "Valparaíso",
+      "codigo": "VIV-RESERVA-NACIONAL-LAGO-PENUELAS",
+      "encargadoEmail": "enc.penuelas@conaf.cl"
+    },
+    {
+      "id": 11,
+      "nombre": "Vivero La Ligua",
+      "regionId": 6,
+      "region": "Valparaíso",
+      "provincia": "Petorca",
+      "comuna": "La Ligua",
+      "codigo": "VIV-LA-LIGUA",
+      "encargadoEmail": "enc.laligua@conaf.cl"
+    },
+    {
+      "id": 12,
+      "nombre": "Vivero Llay Llay",
+      "regionId": 6,
+      "region": "Valparaíso",
+      "provincia": "San Felipe",
+      "comuna": "Llay Llay",
+      "codigo": "VIV-LLAY-LLAY",
+      "encargadoEmail": "enc.llayllay@conaf.cl"
+    },
+    {
+      "id": 13,
+      "nombre": "Vivero Chomedahue",
+      "regionId": 7,
+      "region": "Libertador General Bernardo O'Higgins",
+      "provincia": "Colchagua",
+      "comuna": "Santa Cruz",
+      "codigo": "VIV-CHOMEDAHUE",
+      "encargadoEmail": "enc.chomedahue@conaf.cl"
+    },
+    {
+      "id": 14,
+      "nombre": "Centro de Acopio Pantanillo",
+      "regionId": 8,
+      "region": "Maule",
+      "provincia": "Talca",
+      "comuna": "Constitución",
+      "codigo": "VIV-PANTANILLO",
+      "encargadoEmail": "enc.pantanillo@conaf.cl"
+    },
+    {
+      "id": 15,
+      "nombre": "Centro Experimental Cauquenes",
+      "regionId": 8,
+      "region": "Maule",
+      "provincia": "Cauquenes",
+      "comuna": "Cauquenes",
+      "codigo": "VIV-CAUQUENES",
+      "encargadoEmail": "enc.cauquenes@conaf.cl"
+    },
+    {
+      "id": 16,
+      "nombre": "Vivero Centro de Semillas, Genética y Entomología",
+      "regionId": 9,
+      "region": "Ñuble",
+      "provincia": "Diguillín",
+      "comuna": "Chillán",
+      "codigo": "VIV-CENTRO-DE-SEMILLAS-GENETICA-Y-ENTOMOLOGIA",
+      "encargadoEmail": "enc.chillan@conaf.cl"
+    },
+    {
+      "id": 17,
+      "nombre": "Base Brigada La Granja",
+      "regionId": 10,
+      "region": "Biobío",
+      "provincia": "Arauco",
+      "comuna": "Cañete",
+      "codigo": "VIV-LA-GRANJA",
+      "encargadoEmail": "enc.lagranja@conaf.cl"
+    },
+    {
+      "id": 18,
+      "nombre": "Centro de Acondicionamiento Duqueco",
+      "regionId": 10,
+      "region": "Biobío",
+      "provincia": "Biobío",
+      "comuna": "Los Ángeles",
+      "codigo": "VIV-DUQUECO",
+      "encargadoEmail": "enc.duqueco@conaf.cl"
+    },
+    {
+      "id": 19,
+      "nombre": "Liceo Nueva Zelandia",
+      "regionId": 10,
+      "region": "Biobío",
+      "provincia": "Concepción",
+      "comuna": "Santa Juana",
+      "codigo": "VIV-NUEVA-ZELANDIA",
+      "encargadoEmail": "enc.nuevazelandia@conaf.cl"
+    },
+    {
+      "id": 20,
+      "nombre": "Vivero Curacautín",
+      "regionId": 11,
+      "region": "La Araucanía",
+      "provincia": "Malleco",
+      "comuna": "Curacautín",
+      "codigo": "VIV-CURACAUTIN",
+      "encargadoEmail": "enc.curacautin@conaf.cl"
+    },
+    {
+      "id": 21,
+      "nombre": "Vivero Imperial",
+      "regionId": 11,
+      "region": "La Araucanía",
+      "provincia": "Cautín",
+      "comuna": "Nueva Imperial",
+      "codigo": "VIV-IMPERIAL",
+      "encargadoEmail": "enc.imperial@conaf.cl"
+    },
+    {
+      "id": 22,
+      "nombre": "Vivero Huillilemu",
+      "regionId": 12,
+      "region": "Los Ríos",
+      "provincia": "Valdivia",
+      "comuna": "Mariquina",
+      "codigo": "VIV-HUILLILEMU",
+      "encargadoEmail": "enc.huillilemu@conaf.cl"
+    },
+    {
+      "id": 23,
+      "nombre": "Vivero San Juan",
+      "regionId": 12,
+      "region": "Los Ríos",
+      "provincia": "Valdivia",
+      "comuna": "Panguipulli",
+      "codigo": "VIV-SAN-JUAN",
+      "encargadoEmail": "enc.sanjuan@conaf.cl"
+    },
+    {
+      "id": 24,
+      "nombre": "Vivero Chabranco",
+      "regionId": 12,
+      "region": "Los Ríos",
+      "provincia": "Ranco",
+      "comuna": "Futrono",
+      "codigo": "VIV-CHABRANCO",
+      "encargadoEmail": "enc.chabranco@conaf.cl"
+    },
+    {
+      "id": 25,
+      "nombre": "Vivero Liceo Técnico de Ignao",
+      "regionId": 12,
+      "region": "Los Ríos",
+      "provincia": "Ranco",
+      "comuna": "Lago Ranco",
+      "codigo": "VIV-LICEO-TECNICO-DE-IGNAO",
+      "encargadoEmail": "enc.ignao@conaf.cl"
+    },
+    {
+      "id": 26,
+      "nombre": "Vivero Mashue",
+      "regionId": 12,
+      "region": "Los Ríos",
+      "provincia": "Ranco",
+      "comuna": "La Unión",
+      "codigo": "VIV-MASHUE",
+      "encargadoEmail": "enc.mashue@conaf.cl"
+    },
+    {
+      "id": 27,
+      "nombre": "Vivero Llancacura",
+      "regionId": 12,
+      "region": "Los Ríos",
+      "provincia": "Ranco",
+      "comuna": "La Unión",
+      "codigo": "VIV-LLANCACURA",
+      "encargadoEmail": "enc.llancacura@conaf.cl"
+    },
+    {
+      "id": 28,
+      "nombre": "Vivero Butalcura",
+      "regionId": 13,
+      "region": "Los Lagos",
+      "provincia": "Chiloé",
+      "comuna": "Dalcahue",
+      "codigo": "VIV-BUTALCURA",
+      "encargadoEmail": "enc.butalcura@conaf.cl"
+    },
+    {
+      "id": 29,
+      "nombre": "Vivero Augusto Falcón",
+      "regionId": 14,
+      "region": "Aysén",
+      "provincia": "General Carrera",
+      "comuna": "Chile Chico",
+      "codigo": "VIV-AUGUSTO-FALCON",
+      "encargadoEmail": "enc.augustofalcon@conaf.cl"
+    },
+    {
+      "id": 30,
+      "nombre": "Centro de Acondicionamiento Cochrane",
+      "regionId": 14,
+      "region": "Aysén",
+      "provincia": "Capitán Prat",
+      "comuna": "Cochrane",
+      "codigo": "VIV-COCHRANE",
+      "encargadoEmail": "enc.cochrane@conaf.cl"
+    },
+    {
+      "id": 31,
+      "nombre": "Vivero El Mallín",
+      "regionId": 14,
+      "region": "Aysén",
+      "provincia": "Aysén",
+      "comuna": "Aysén",
+      "codigo": "VIV-EL-MALLIN",
+      "encargadoEmail": "enc.mallin@conaf.cl"
+    },
+    {
+      "id": 32,
+      "nombre": "Vivero Las Lengas",
+      "regionId": 14,
+      "region": "Aysén",
+      "provincia": "Coyhaique",
+      "comuna": "Coyhaique",
+      "codigo": "VIV-LAS-LENGAS",
+      "encargadoEmail": "enc.laslengas@conaf.cl"
+    },
+    {
+      "id": 33,
+      "nombre": "Vivero Dorotea",
+      "regionId": 15,
+      "region": "Magallanes y La Antártica Chilena",
+      "provincia": "Última Esperanza",
+      "comuna": "Natales",
+      "codigo": "VIV-DOROTEA",
+      "encargadoEmail": "enc.dorotea@conaf.cl"
+    },
+    {
+      "id": 34,
+      "nombre": "Vivero Río de Los Ciervos",
+      "regionId": 15,
+      "region": "Magallanes y La Antártica Chilena",
+      "provincia": "Magallanes",
+      "comuna": "Punta Arenas",
+      "codigo": "VIV-RIO-DE-LOS-CIERVOS",
+      "encargadoEmail": "enc.ciervos@conaf.cl"
+    },
+    {
+      "id": 35,
+      "nombre": "Vivero Buin",
+      "regionId": 16,
+      "region": "Metropolitana de Santiago",
+      "provincia": "Maipo",
+      "comuna": "Buin",
+      "codigo": "VIV-BUIN",
+      "encargadoEmail": "enc.buin@conaf.cl"
+    },
+    {
+      "id": 36,
+      "nombre": "Vivero Reserva Nacional Río Clarillo",
+      "regionId": 16,
+      "region": "Metropolitana de Santiago",
+      "provincia": "Cordillera",
+      "comuna": "Pirque",
+      "codigo": "VIV-RESERVA-NACIONAL-RIO-CLARILLO",
+      "encargadoEmail": "enc.clarillo@conaf.cl"
+    },
+    {
+      "id": 37,
+      "nombre": "Vivero San Pedro",
+      "regionId": 16,
+      "region": "Metropolitana de Santiago",
+      "provincia": "Melipilla",
+      "comuna": "San Pedro",
+      "codigo": "VIV-SAN-PEDRO",
+      "encargadoEmail": "enc.sanpedro@conaf.cl"
+    },
+    {
+      "id": 38,
+      "nombre": "Vivero Mataveri Otai",
+      "regionId": 17,
+      "region": "Isla de Pascua",
+      "provincia": "Isla de Pascua",
+      "comuna": "Isla de Pascua",
+      "codigo": "VIV-MATAVERI-OTAI",
+      "encargadoEmail": "enc.matavari@conaf.cl"
+    }
+  ],
+  "especies": [
+    {
+      "id": 1,
+      "nombreCientifico": "Quillaja saponaria",
+      "nombreComun": "Quillay",
+      "origen": "Nativo",
+      "codigo": "ESP-QUILLAY"
+    },
+    {
+      "id": 2,
+      "nombreCientifico": "Cryptocarya alba",
+      "nombreComun": "Peumo",
+      "origen": "Nativo",
+      "codigo": "ESP-PEUMO"
+    },
+    {
+      "id": 3,
+      "nombreCientifico": "Lithraea caustica",
+      "nombreComun": "Litre",
+      "origen": "Nativo",
+      "codigo": "ESP-LITRE"
+    },
+    {
+      "id": 4,
+      "nombreCientifico": "Schinus molle",
+      "nombreComun": "Pimiento",
+      "origen": "Nativo",
+      "codigo": "ESP-PIMIENTO"
+    },
+    {
+      "id": 5,
+      "nombreCientifico": "Schinus latifolius",
+      "nombreComun": "Molle",
+      "origen": "Nativo",
+      "codigo": "ESP-MOLLE"
+    },
+    {
+      "id": 6,
+      "nombreCientifico": "Maytenus boaria",
+      "nombreComun": "Maitén",
+      "origen": "Nativo",
+      "codigo": "ESP-MAITEN"
+    },
+    {
+      "id": 7,
+      "nombreCientifico": "Acacia caven",
+      "nombreComun": "Espino",
+      "origen": "Nativo",
+      "codigo": "ESP-ESPINO"
+    },
+    {
+      "id": 8,
+      "nombreCientifico": "Azara dentata",
+      "nombreComun": "Corcolén",
+      "origen": "Nativo",
+      "codigo": "ESP-CORCOLEN"
+    },
+    {
+      "id": 9,
+      "nombreCientifico": "Citronella mucronata",
+      "nombreComun": "Naranjillo",
+      "origen": "Nativo",
+      "codigo": "ESP-NARANJILLO"
+    },
+    {
+      "id": 10,
+      "nombreCientifico": "Crinodendron patagua",
+      "nombreComun": "Patagua",
+      "origen": "Nativo",
+      "codigo": "ESP-PATAGUA"
+    },
+    {
+      "id": 11,
+      "nombreCientifico": "Beilschmiedia miersii",
+      "nombreComun": "Belloto del norte",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-BELLOTO-DEL-NORTE"
+    },
+    {
+      "id": 12,
+      "nombreCientifico": "Beilschmiedia berteroana",
+      "nombreComun": "Belloto del sur",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-BELLOTO-DEL-SUR"
+    },
+    {
+      "id": 13,
+      "nombreCientifico": "Nothofagus obliqua",
+      "nombreComun": "Roble",
+      "origen": "Nativo",
+      "codigo": "ESP-ROBLE"
+    },
+    {
+      "id": 14,
+      "nombreCientifico": "Nothofagus alessandrii",
+      "nombreComun": "Ruil",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-RUIL"
+    },
+    {
+      "id": 15,
+      "nombreCientifico": "Nothofagus dombeyi",
+      "nombreComun": "Coihue",
+      "origen": "Nativo",
+      "codigo": "ESP-COIHUE"
+    },
+    {
+      "id": 16,
+      "nombreCientifico": "Nothofagus pumilio",
+      "nombreComun": "Lenga",
+      "origen": "Nativo",
+      "codigo": "ESP-LENGA"
+    },
+    {
+      "id": 17,
+      "nombreCientifico": "Nothofagus antarctica",
+      "nombreComun": "Ñirre",
+      "origen": "Nativo",
+      "codigo": "ESP-NIRRE"
+    },
+    {
+      "id": 18,
+      "nombreCientifico": "Persea lingue",
+      "nombreComun": "Lingue",
+      "origen": "Nativo",
+      "codigo": "ESP-LINGUE"
+    },
+    {
+      "id": 19,
+      "nombreCientifico": "Aristotelia chilensis",
+      "nombreComun": "Maqui",
+      "origen": "Nativo",
+      "codigo": "ESP-MAQUI"
+    },
+    {
+      "id": 20,
+      "nombreCientifico": "Drimys winteri",
+      "nombreComun": "Canelo",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-CANELO"
+    },
+    {
+      "id": 21,
+      "nombreCientifico": "Araucaria araucana",
+      "nombreComun": "Araucaria",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-ARAUCARIA"
+    },
+    {
+      "id": 22,
+      "nombreCientifico": "Austrocedrus chilensis",
+      "nombreComun": "Ciprés de la Cordillera",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-CIPRES-DE-LA-CORDILLERA"
+    },
+    {
+      "id": 23,
+      "nombreCientifico": "Aextoxicon punctatum",
+      "nombreComun": "Olivillo",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-OLIVILLO"
+    },
+    {
+      "id": 24,
+      "nombreCientifico": "Luma apiculata",
+      "nombreComun": "Arrayán",
+      "origen": "Nativo",
+      "codigo": "ESP-ARRAYAN"
+    },
+    {
+      "id": 25,
+      "nombreCientifico": "Amomyrtus luma",
+      "nombreComun": "Luma",
+      "origen": "Nativo",
+      "codigo": "ESP-LUMA"
+    },
+    {
+      "id": 26,
+      "nombreCientifico": "Amomyrtus meli",
+      "nombreComun": "Meli",
+      "origen": "Nativo",
+      "codigo": "ESP-MELI"
+    },
+    {
+      "id": 27,
+      "nombreCientifico": "Gevuina avellana",
+      "nombreComun": "Avellano chileno",
+      "origen": "Nativo",
+      "codigo": "ESP-AVELLANO-CHILENO"
+    },
+    {
+      "id": 28,
+      "nombreCientifico": "Embothrium coccineum",
+      "nombreComun": "Notro",
+      "origen": "Nativo",
+      "codigo": "ESP-NOTRO"
+    },
+    {
+      "id": 29,
+      "nombreCientifico": "Berberis microphylla",
+      "nombreComun": "Calafate",
+      "origen": "Nativo",
+      "codigo": "ESP-CALAFATE"
+    },
+    {
+      "id": 30,
+      "nombreCientifico": "Prosopis chilensis",
+      "nombreComun": "Algarrobo chileno",
+      "origen": "Nativo",
+      "codigo": "ESP-ALGARROBO-CHILENO"
+    },
+    {
+      "id": 31,
+      "nombreCientifico": "Geoffroea decorticans",
+      "nombreComun": "Chañar",
+      "origen": "Nativo",
+      "codigo": "ESP-CHANAR"
+    },
+    {
+      "id": 32,
+      "nombreCientifico": "Caesalpinia spinosa",
+      "nombreComun": "Tara",
+      "origen": "Nativo",
+      "codigo": "ESP-TARA"
+    },
+    {
+      "id": 33,
+      "nombreCientifico": "Atriplex atacamensis",
+      "nombreComun": "Cachiyuyo",
+      "origen": "Nativo",
+      "codigo": "ESP-CACHIYUYO"
+    },
+    {
+      "id": 34,
+      "nombreCientifico": "Adesmia confusa",
+      "nombreComun": "Palhuén",
+      "origen": "Nativo",
+      "codigo": "ESP-PALHUEN"
+    },
+    {
+      "id": 35,
+      "nombreCientifico": "Balsamocarpon brevifolium",
+      "nombreComun": "Algarrobilla",
+      "origen": "Nativo",
+      "codigo": "ESP-ALGARROBILLA"
+    },
+    {
+      "id": 36,
+      "nombreCientifico": "Azorella compacta",
+      "nombreComun": "Yareta",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-YARETA"
+    },
+    {
+      "id": 37,
+      "nombreCientifico": "Avellanita bustillosii",
+      "nombreComun": "Avellanita",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-AVELLANITA"
+    },
+    {
+      "id": 38,
+      "nombreCientifico": "Sophora cassioides",
+      "nombreComun": "Pelú",
+      "origen": "Nativo",
+      "codigo": "ESP-PELU"
+    },
+    {
+      "id": 39,
+      "nombreCientifico": "Sophora toromiro",
+      "nombreComun": "Toromiro",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-TOROMIRO"
+    },
+    {
+      "id": 40,
+      "nombreCientifico": "Peumus boldus",
+      "nombreComun": "Boldo",
+      "origen": "Nativo",
+      "codigo": "ESP-BOLDO"
+    },
+    {
+      "id": 41,
+      "nombreCientifico": "Prosopis tamarugo",
+      "nombreComun": "Tamarugo",
+      "origen": "Nativo Conservación",
+      "codigo": "ESP-TAMARUGO"
+    }
+  ],
+  "stock": [
+    {
+      "viveroId": 1,
+      "especieId": 30,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 1,
+      "especieId": 31,
+      "cantidadDisponible": 220
+    },
+    {
+      "viveroId": 1,
+      "especieId": 33,
+      "cantidadDisponible": 340
+    },
+    {
+      "viveroId": 1,
+      "especieId": 32,
+      "cantidadDisponible": 90
+    },
+    {
+      "viveroId": 2,
+      "especieId": 33,
+      "cantidadDisponible": 120
+    },
+    {
+      "viveroId": 2,
+      "especieId": 36,
+      "cantidadDisponible": 45
+    },
+    {
+      "viveroId": 2,
+      "especieId": 34,
+      "cantidadDisponible": 80
+    },
+    {
+      "viveroId": 3,
+      "especieId": 30,
+      "cantidadDisponible": 260
+    },
+    {
+      "viveroId": 3,
+      "especieId": 31,
+      "cantidadDisponible": 310
+    },
+    {
+      "viveroId": 3,
+      "especieId": 33,
+      "cantidadDisponible": 420
+    },
+    {
+      "viveroId": 3,
+      "especieId": 32,
+      "cantidadDisponible": 75
+    },
+    {
+      "viveroId": 4,
+      "especieId": 30,
+      "cantidadDisponible": 140
+    },
+    {
+      "viveroId": 4,
+      "especieId": 33,
+      "cantidadDisponible": 230
+    },
+    {
+      "viveroId": 4,
+      "especieId": 34,
+      "cantidadDisponible": 95
+    },
+    {
+      "viveroId": 5,
+      "especieId": 30,
+      "cantidadDisponible": 80
+    },
+    {
+      "viveroId": 5,
+      "especieId": 33,
+      "cantidadDisponible": 150
+    },
+    {
+      "viveroId": 6,
+      "especieId": 31,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 6,
+      "especieId": 33,
+      "cantidadDisponible": 200
+    },
+    {
+      "viveroId": 6,
+      "especieId": 34,
+      "cantidadDisponible": 120
+    },
+    {
+      "viveroId": 6,
+      "especieId": 35,
+      "cantidadDisponible": 95
+    },
+    {
+      "viveroId": 7,
+      "especieId": 31,
+      "cantidadDisponible": 240
+    },
+    {
+      "viveroId": 7,
+      "especieId": 32,
+      "cantidadDisponible": 110
+    },
+    {
+      "viveroId": 7,
+      "especieId": 35,
+      "cantidadDisponible": 150
+    },
+    {
+      "viveroId": 8,
+      "especieId": 1,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 8,
+      "especieId": 7,
+      "cantidadDisponible": 450
+    },
+    {
+      "viveroId": 8,
+      "especieId": 30,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 8,
+      "especieId": 35,
+      "cantidadDisponible": 100
+    },
+    {
+      "viveroId": 9,
+      "especieId": 23,
+      "cantidadDisponible": 70
+    },
+    {
+      "viveroId": 9,
+      "especieId": 8,
+      "cantidadDisponible": 50
+    },
+    {
+      "viveroId": 10,
+      "especieId": 1,
+      "cantidadDisponible": 580
+    },
+    {
+      "viveroId": 10,
+      "especieId": 2,
+      "cantidadDisponible": 410
+    },
+    {
+      "viveroId": 10,
+      "especieId": 3,
+      "cantidadDisponible": 350
+    },
+    {
+      "viveroId": 10,
+      "especieId": 6,
+      "cantidadDisponible": 290
+    },
+    {
+      "viveroId": 10,
+      "especieId": 7,
+      "cantidadDisponible": 220
+    },
+    {
+      "viveroId": 10,
+      "especieId": 19,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 11,
+      "especieId": 1,
+      "cantidadDisponible": 240
+    },
+    {
+      "viveroId": 11,
+      "especieId": 6,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 11,
+      "especieId": 7,
+      "cantidadDisponible": 300
+    },
+    {
+      "viveroId": 11,
+      "especieId": 11,
+      "cantidadDisponible": 60
+    },
+    {
+      "viveroId": 12,
+      "especieId": 1,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 12,
+      "especieId": 2,
+      "cantidadDisponible": 260
+    },
+    {
+      "viveroId": 12,
+      "especieId": 7,
+      "cantidadDisponible": 420
+    },
+    {
+      "viveroId": 12,
+      "especieId": 11,
+      "cantidadDisponible": 40
+    },
+    {
+      "viveroId": 13,
+      "especieId": 1,
+      "cantidadDisponible": 800
+    },
+    {
+      "viveroId": 13,
+      "especieId": 2,
+      "cantidadDisponible": 540
+    },
+    {
+      "viveroId": 13,
+      "especieId": 3,
+      "cantidadDisponible": 380
+    },
+    {
+      "viveroId": 13,
+      "especieId": 6,
+      "cantidadDisponible": 420
+    },
+    {
+      "viveroId": 13,
+      "especieId": 13,
+      "cantidadDisponible": 670
+    },
+    {
+      "viveroId": 13,
+      "especieId": 19,
+      "cantidadDisponible": 260
+    },
+    {
+      "viveroId": 14,
+      "especieId": 13,
+      "cantidadDisponible": 540
+    },
+    {
+      "viveroId": 14,
+      "especieId": 14,
+      "cantidadDisponible": 120
+    },
+    {
+      "viveroId": 14,
+      "especieId": 18,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 14,
+      "especieId": 19,
+      "cantidadDisponible": 410
+    },
+    {
+      "viveroId": 15,
+      "especieId": 13,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 15,
+      "especieId": 14,
+      "cantidadDisponible": 80
+    },
+    {
+      "viveroId": 15,
+      "especieId": 24,
+      "cantidadDisponible": 150
+    },
+    {
+      "viveroId": 35,
+      "especieId": 1,
+      "cantidadDisponible": 250
+    },
+    {
+      "viveroId": 35,
+      "especieId": 2,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 35,
+      "especieId": 6,
+      "cantidadDisponible": 150
+    },
+    {
+      "viveroId": 35,
+      "especieId": 7,
+      "cantidadDisponible": 410
+    },
+    {
+      "viveroId": 35,
+      "especieId": 8,
+      "cantidadDisponible": 90
+    },
+    {
+      "viveroId": 35,
+      "especieId": 19,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 36,
+      "especieId": 1,
+      "cantidadDisponible": 120
+    },
+    {
+      "viveroId": 36,
+      "especieId": 2,
+      "cantidadDisponible": 95
+    },
+    {
+      "viveroId": 36,
+      "especieId": 3,
+      "cantidadDisponible": 200
+    },
+    {
+      "viveroId": 36,
+      "especieId": 6,
+      "cantidadDisponible": 60
+    },
+    {
+      "viveroId": 36,
+      "especieId": 10,
+      "cantidadDisponible": 45
+    },
+    {
+      "viveroId": 36,
+      "especieId": 37,
+      "cantidadDisponible": 25
+    },
+    {
+      "viveroId": 37,
+      "especieId": 1,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 37,
+      "especieId": 7,
+      "cantidadDisponible": 220
+    },
+    {
+      "viveroId": 37,
+      "especieId": 9,
+      "cantidadDisponible": 80
+    },
+    {
+      "viveroId": 16,
+      "especieId": 1,
+      "cantidadDisponible": 1200
+    },
+    {
+      "viveroId": 16,
+      "especieId": 13,
+      "cantidadDisponible": 1500
+    },
+    {
+      "viveroId": 16,
+      "especieId": 19,
+      "cantidadDisponible": 600
+    },
+    {
+      "viveroId": 16,
+      "especieId": 20,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 16,
+      "especieId": 21,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 16,
+      "especieId": 27,
+      "cantidadDisponible": 240
+    },
+    {
+      "viveroId": 17,
+      "especieId": 13,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 17,
+      "especieId": 24,
+      "cantidadDisponible": 160
+    },
+    {
+      "viveroId": 17,
+      "especieId": 25,
+      "cantidadDisponible": 140
+    },
+    {
+      "viveroId": 18,
+      "especieId": 13,
+      "cantidadDisponible": 540
+    },
+    {
+      "viveroId": 18,
+      "especieId": 15,
+      "cantidadDisponible": 380
+    },
+    {
+      "viveroId": 18,
+      "especieId": 18,
+      "cantidadDisponible": 260
+    },
+    {
+      "viveroId": 18,
+      "especieId": 19,
+      "cantidadDisponible": 410
+    },
+    {
+      "viveroId": 19,
+      "especieId": 13,
+      "cantidadDisponible": 220
+    },
+    {
+      "viveroId": 19,
+      "especieId": 25,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 19,
+      "especieId": 27,
+      "cantidadDisponible": 90
+    },
+    {
+      "viveroId": 20,
+      "especieId": 13,
+      "cantidadDisponible": 1200
+    },
+    {
+      "viveroId": 20,
+      "especieId": 15,
+      "cantidadDisponible": 850
+    },
+    {
+      "viveroId": 20,
+      "especieId": 18,
+      "cantidadDisponible": 800
+    },
+    {
+      "viveroId": 20,
+      "especieId": 20,
+      "cantidadDisponible": 350
+    },
+    {
+      "viveroId": 20,
+      "especieId": 21,
+      "cantidadDisponible": 90
+    },
+    {
+      "viveroId": 20,
+      "especieId": 22,
+      "cantidadDisponible": 120
+    },
+    {
+      "viveroId": 20,
+      "especieId": 27,
+      "cantidadDisponible": 220
+    },
+    {
+      "viveroId": 21,
+      "especieId": 13,
+      "cantidadDisponible": 680
+    },
+    {
+      "viveroId": 21,
+      "especieId": 15,
+      "cantidadDisponible": 420
+    },
+    {
+      "viveroId": 21,
+      "especieId": 24,
+      "cantidadDisponible": 380
+    },
+    {
+      "viveroId": 21,
+      "especieId": 27,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 22,
+      "especieId": 13,
+      "cantidadDisponible": 950
+    },
+    {
+      "viveroId": 22,
+      "especieId": 15,
+      "cantidadDisponible": 720
+    },
+    {
+      "viveroId": 22,
+      "especieId": 18,
+      "cantidadDisponible": 470
+    },
+    {
+      "viveroId": 22,
+      "especieId": 20,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 22,
+      "especieId": 23,
+      "cantidadDisponible": 220
+    },
+    {
+      "viveroId": 22,
+      "especieId": 25,
+      "cantidadDisponible": 310
+    },
+    {
+      "viveroId": 23,
+      "especieId": 13,
+      "cantidadDisponible": 540
+    },
+    {
+      "viveroId": 23,
+      "especieId": 20,
+      "cantidadDisponible": 230
+    },
+    {
+      "viveroId": 23,
+      "especieId": 24,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 24,
+      "especieId": 13,
+      "cantidadDisponible": 420
+    },
+    {
+      "viveroId": 24,
+      "especieId": 15,
+      "cantidadDisponible": 380
+    },
+    {
+      "viveroId": 24,
+      "especieId": 25,
+      "cantidadDisponible": 290
+    },
+    {
+      "viveroId": 25,
+      "especieId": 13,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 25,
+      "especieId": 24,
+      "cantidadDisponible": 150
+    },
+    {
+      "viveroId": 26,
+      "especieId": 13,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 26,
+      "especieId": 18,
+      "cantidadDisponible": 240
+    },
+    {
+      "viveroId": 26,
+      "especieId": 25,
+      "cantidadDisponible": 200
+    },
+    {
+      "viveroId": 27,
+      "especieId": 13,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 27,
+      "especieId": 20,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 27,
+      "especieId": 23,
+      "cantidadDisponible": 140
+    },
+    {
+      "viveroId": 28,
+      "especieId": 15,
+      "cantidadDisponible": 480
+    },
+    {
+      "viveroId": 28,
+      "especieId": 20,
+      "cantidadDisponible": 350
+    },
+    {
+      "viveroId": 28,
+      "especieId": 23,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 28,
+      "especieId": 24,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 28,
+      "especieId": 28,
+      "cantidadDisponible": 190
+    },
+    {
+      "viveroId": 29,
+      "especieId": 16,
+      "cantidadDisponible": 420
+    },
+    {
+      "viveroId": 29,
+      "especieId": 17,
+      "cantidadDisponible": 380
+    },
+    {
+      "viveroId": 29,
+      "especieId": 28,
+      "cantidadDisponible": 220
+    },
+    {
+      "viveroId": 29,
+      "especieId": 29,
+      "cantidadDisponible": 310
+    },
+    {
+      "viveroId": 30,
+      "especieId": 16,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 30,
+      "especieId": 17,
+      "cantidadDisponible": 240
+    },
+    {
+      "viveroId": 31,
+      "especieId": 15,
+      "cantidadDisponible": 540
+    },
+    {
+      "viveroId": 31,
+      "especieId": 16,
+      "cantidadDisponible": 480
+    },
+    {
+      "viveroId": 31,
+      "especieId": 17,
+      "cantidadDisponible": 420
+    },
+    {
+      "viveroId": 31,
+      "especieId": 28,
+      "cantidadDisponible": 180
+    },
+    {
+      "viveroId": 32,
+      "especieId": 16,
+      "cantidadDisponible": 850
+    },
+    {
+      "viveroId": 32,
+      "especieId": 17,
+      "cantidadDisponible": 720
+    },
+    {
+      "viveroId": 32,
+      "especieId": 28,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 32,
+      "especieId": 29,
+      "cantidadDisponible": 280
+    },
+    {
+      "viveroId": 33,
+      "especieId": 16,
+      "cantidadDisponible": 380
+    },
+    {
+      "viveroId": 33,
+      "especieId": 17,
+      "cantidadDisponible": 320
+    },
+    {
+      "viveroId": 33,
+      "especieId": 29,
+      "cantidadDisponible": 240
+    },
+    {
+      "viveroId": 34,
+      "especieId": 16,
+      "cantidadDisponible": 620
+    },
+    {
+      "viveroId": 34,
+      "especieId": 17,
+      "cantidadDisponible": 540
+    },
+    {
+      "viveroId": 34,
+      "especieId": 28,
+      "cantidadDisponible": 290
+    },
+    {
+      "viveroId": 34,
+      "especieId": 29,
+      "cantidadDisponible": 380
+    },
+    {
+      "viveroId": 38,
+      "especieId": 39,
+      "cantidadDisponible": 45
+    },
+    {
+      "viveroId": 38,
+      "especieId": 38,
+      "cantidadDisponible": 30
+    }
+  ],
+  "parametrosRegion": [
+    {
+      "regionId": 1,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 2,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 3,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 4,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 5,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 6,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 7,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 8,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 9,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 10,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 11,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 12,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 13,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 14,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 15,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 16,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    },
+    {
+      "regionId": 17,
+      "plazoRetiroDias": 30,
+      "maxEspecies": 3,
+      "maxUnidades": 100,
+      "maxSolicitudesAnio": 1
+    }
+  ]
+}
