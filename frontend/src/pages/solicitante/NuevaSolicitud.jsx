@@ -17,7 +17,24 @@ const especieCaracteristicas = {
 
 // Valores por defecto hasta que se elija región (se sobrescriben con los
 // parámetros por región del administrador).
-const PARAMS_FALLBACK = { maxEspecies: 3, maxUnidades: 100, plazoRetiroDias: 30, maxSolicitudesAnio: 1 }
+const PARAMS_FALLBACK = { maxEspecies: 3, maxUnidades: 100, plazoRetiroDias: 30, maxSolicitudesAnio: 1, permiteFueraRegion: true }
+
+// Compara el nombre de región del catálogo interno contra el nombre de
+// región devuelto por Nominatim (que usa la forma oficial completa, ej.
+// "Región de la Araucanía" vs. nuestro "La Araucanía") con una coincidencia
+// laxa, ya que es solo una validación referencial, no catastral.
+const normalizar = (s) => (s || '')
+  .toLowerCase()
+  .normalize('NFD').replace(/[̀-ͯ]/g, '') // quita tildes
+  .replace(/region de|region del|region|libertador general bernardo/g, '')
+  .trim()
+
+function coincideRegion(nombreCatalogo, nombreGeocodificado) {
+  if (!nombreCatalogo || !nombreGeocodificado) return true // sin datos suficientes: no bloquear
+  const a = normalizar(nombreCatalogo)
+  const b = normalizar(nombreGeocodificado)
+  return a.includes(b) || b.includes(a)
+}
 
 export default function NuevaSolicitud() {
   const { user } = useAuth()
@@ -43,9 +60,14 @@ export default function NuevaSolicitud() {
   const [submitting, setSubmitting] = useState(false)
   const [yaPidio, setYaPidio] = useState(false)
   const [especieExpandida, setEspecieExpandida] = useState(null)
+  const [geoPlantacion, setGeoPlantacion] = useState(null)
 
   const maxEspecies = params?.maxEspecies ?? PARAMS_FALLBACK.maxEspecies
   const maxUnidades = params?.maxUnidades ?? PARAMS_FALLBACK.maxUnidades
+  const permiteFueraRegion = params?.permiteFueraRegion ?? PARAMS_FALLBACK.permiteFueraRegion
+
+  const regionSeleccionada = regiones.find(r => String(r.id) === String(regionId))
+  const fueraDeRegion = !!(regionSeleccionada && geoPlantacion?.region && !coincideRegion(regionSeleccionada.nombre, geoPlantacion.region))
 
   useEffect(() => { api.getRegiones().then(setRegiones) }, [])
 
@@ -112,6 +134,9 @@ export default function NuevaSolicitud() {
     if (totalUnidades > maxUnidades) return setError(`Máximo ${maxUnidades} unidades en total.`)
     if (totalUnidades < 1) return setError('Indica al menos 1 unidad.')
     if (!coordenadas?.lat || !coordenadas?.lng) return setError('Selecciona en el mapa el lugar de plantación.')
+    if (fueraDeRegion && !permiteFueraRegion) {
+      return setError(`Esta región no permite plantar fuera de ${regionSeleccionada?.nombre}. El punto marcado en el mapa quedó en ${geoPlantacion.region}. Elige otro punto o consulta con tu vivero.`)
+    }
     if (!correo || !validarEmail(correo)) return setError('Correo electrónico inválido.')
     if (!telefono || !validarTelefono(telefono)) return setError('Teléfono inválido (formato: +56 9 XXXX XXXX).')
     if (!direccion?.trim()) return setError('Dirección requerida.')
@@ -243,7 +268,7 @@ export default function NuevaSolicitud() {
                               <strong>{esp.nombreComun}</strong><br/>
                               <em style={{ fontSize: '0.82rem', color: 'var(--color-text-muted)' }}>{esp.nombreCientifico}</em>
                               {expandida && chars && (
-                                <div style={{ marginTop: '0.5rem', padding: '0.5rem', backgroundColor: 'var(--color-bg-alt)', borderRadius: '4px', fontSize: '0.85rem' }}>
+                                <div style={{ marginTop: '0.5rem', padding: '0.5rem', backgroundColor: 'var(--color-primary-light)', borderRadius: '4px', fontSize: '0.85rem' }}>
                                   📦 Contenedor: {chars.contenedor}L<br/>
                                   🌱 Hábito: {chars.habito}<br/>
                                   📏 Altura: {chars.alturaMin}-{chars.alturaMax}m
@@ -289,8 +314,24 @@ export default function NuevaSolicitud() {
           <h3>3. Lugar de plantación</h3>
           <p className="help" style={{ marginBottom: '0.75rem' }}>
             Marca en el mapa el punto exacto donde plantarás. CONAF podrá fiscalizar la plantación efectiva en esa ubicación.
+            {regionSeleccionada && (
+              <> {permiteFueraRegion
+                ? 'Esta región permite plantar fuera de su territorio.'
+                : `Esta región exige plantar dentro de ${regionSeleccionada.nombre}.`}
+              </>
+            )}
           </p>
-          <MapaPicker value={coordenadas} onChange={setCoordenadas} />
+          <MapaPicker value={coordenadas} onChange={setCoordenadas} onGeoResuelto={setGeoPlantacion} />
+
+          {fueraDeRegion && (
+            <div className={permiteFueraRegion ? 'banner-info' : 'banner-warning'} style={{ marginTop: '0.75rem', marginBottom: 0 }}>
+              {permiteFueraRegion ? (
+                <>El punto marcado queda en <strong>{geoPlantacion.region}</strong>, fuera de {regionSeleccionada?.nombre}. Esta región permite plantar fuera de su territorio, así que puedes continuar.</>
+              ) : (
+                <>⚠️ El punto marcado queda en <strong>{geoPlantacion.region}</strong>, fuera de {regionSeleccionada?.nombre}. Esta región <strong>no permite</strong> plantar fuera de su territorio; elige otro punto dentro de la región.</>
+              )}
+            </div>
+          )}
         </div>
 
         <div className="card">
@@ -400,7 +441,7 @@ export default function NuevaSolicitud() {
                 <li>Contactar al Encargado de Protección de Datos de CONAF</li>
               </ul>
 
-              <p style={{ marginTop: '1rem', padding: '0.75rem', backgroundColor: 'var(--color-bg-alt)', borderRadius: '4px' }}>
+              <p style={{ marginTop: '1rem', padding: '0.75rem', backgroundColor: 'var(--color-primary-light)', borderRadius: '4px' }}>
                 ℹ️ <strong>Información de contacto:</strong> Cualquier consulta sobre el tratamiento de tus datos puede dirigirse a
                 la Oficina de Protección de Datos de CONAF en proteccion.datos@conaf.cl
               </p>

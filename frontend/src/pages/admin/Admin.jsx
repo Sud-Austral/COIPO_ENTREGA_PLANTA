@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import { regiones, viveros, especies, mockInternos } from '../../api/mockData.js'
 import { getParametros, getDefaults, setParametros, resetParametros, tieneOverride } from '../../api/parametros.js'
+import ReportesTab from './ReportesTab.jsx'
 
-const tabs = ['Especies', 'Viveros', 'Usuarios', 'Parámetros']
+const tabs = ['Especies', 'Viveros', 'Usuarios', 'Parámetros', 'Reportes']
 
 export default function Admin() {
   const [tab, setTab] = useState('Especies')
@@ -87,6 +88,8 @@ export default function Admin() {
       )}
 
       {tab === 'Parámetros' && <ParametrosRegion />}
+
+      {tab === 'Reportes' && <ReportesTab />}
     </div>
   )
 }
@@ -168,6 +171,23 @@ function ParametrosRegion() {
           ))}
         </tbody>
       </table>
+
+      <div className="field" style={{ marginTop: '1rem' }}>
+        <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer' }}>
+          <input
+            type="checkbox"
+            style={{ width: 'auto' }}
+            checked={!!form.permiteFueraRegion}
+            onChange={(e) => cambiar('permiteFueraRegion', e.target.checked)}
+          />
+          <span style={{ fontWeight: 500 }}>Permitir plantar fuera de esta región (o en otro país)</span>
+        </label>
+        <p className="help" style={{ marginLeft: '1.6rem', marginTop: '0.15rem' }}>
+          Si está desactivado, el sistema bloqueará la solicitud cuando el punto marcado en el mapa
+          de "Lugar de plantación" quede fuera de {regionNombre || 'la región seleccionada'}.
+          Por defecto está permitido (comportamiento actual del programa).
+        </p>
+      </div>
 
       <div className="actions" style={{ marginTop: '1rem' }}>
         <button type="button" onClick={guardar}>Guardar parámetros de {regionNombre}</button>

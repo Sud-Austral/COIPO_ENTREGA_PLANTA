@@ -9,14 +9,19 @@ import { parametrosRegion } from './mockData.js'
 const KEY = 'coipo:parametros_region'
 
 // Defaults globales por si una región no estuviera en el catálogo.
+// permiteFueraRegion: hoy el sistema permite solicitar plantas para ser
+// usadas fuera de la región (o incluso en otro país) de retiro; se deja
+// configurable por región para que el administrador pueda restringirlo.
 const FALLBACK = {
   plazoRetiroDias: 30,
   maxEspecies: 3,
   maxUnidades: 100,
   maxSolicitudesAnio: 1,
+  permiteFueraRegion: true,
 }
 
-const CAMPOS = ['plazoRetiroDias', 'maxEspecies', 'maxUnidades', 'maxSolicitudesAnio']
+const CAMPOS_NUMERICOS = ['plazoRetiroDias', 'maxEspecies', 'maxUnidades', 'maxSolicitudesAnio']
+const CAMPOS_BOOLEANOS = ['permiteFueraRegion']
 
 const tieneLS = () => {
   try { return typeof localStorage !== 'undefined' } catch { return false }
@@ -45,6 +50,7 @@ export function getDefaults(regionId) {
     maxEspecies: fila.maxEspecies,
     maxUnidades: fila.maxUnidades,
     maxSolicitudesAnio: fila.maxSolicitudesAnio,
+    permiteFueraRegion: fila.permiteFueraRegion ?? FALLBACK.permiteFueraRegion,
   }
 }
 
@@ -53,8 +59,11 @@ export function getParametros(regionId) {
   const base = getDefaults(regionId)
   const ov = leerOverrides()[String(Number(regionId))] || {}
   const out = { ...base }
-  for (const campo of CAMPOS) {
+  for (const campo of CAMPOS_NUMERICOS) {
     if (ov[campo] != null && ov[campo] !== '') out[campo] = Number(ov[campo])
+  }
+  for (const campo of CAMPOS_BOOLEANOS) {
+    if (ov[campo] != null) out[campo] = Boolean(ov[campo])
   }
   return out
 }
@@ -71,10 +80,16 @@ export function setParametros(regionId, patch) {
   const def = getDefaults(regionId)
   const actual = overrides[String(Number(regionId))] || {}
   const nuevo = { ...actual }
-  for (const campo of CAMPOS) {
+  for (const campo of CAMPOS_NUMERICOS) {
     if (patch[campo] == null || patch[campo] === '') continue
     const val = Number(patch[campo])
     if (val === def[campo]) delete nuevo[campo]   // igual al default → no guardar
+    else nuevo[campo] = val
+  }
+  for (const campo of CAMPOS_BOOLEANOS) {
+    if (patch[campo] == null) continue
+    const val = Boolean(patch[campo])
+    if (val === def[campo]) delete nuevo[campo]
     else nuevo[campo] = val
   }
   if (Object.keys(nuevo).length === 0) delete overrides[String(Number(regionId))]

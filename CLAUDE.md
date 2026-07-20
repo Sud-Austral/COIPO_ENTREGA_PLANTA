@@ -2,7 +2,7 @@
 **Proyecto:** Gestión de entregas del Programa de Arborización CONAF  
 **Stack:** React (frontend) + FastAPI (backend) + PostgreSQL  
 **Estado:** MVP funcional en frontend; mejoras de UX/funcionalidad solicitadas  
-**Última actualización:** 2026-07-20  
+**Última actualización:** 2026-07-20 (segunda ronda: UTM, geocoding, fuera de región, reportes admin)  
 
 ---
 
@@ -44,18 +44,23 @@ Sistema web centralizado para gestionar solicitudes de plantas del Programa de A
 1. **Login dual:** Clave Única vs. Usuarios/contraseña (mock)
 2. **Flujo básico de solicitud:** región → comuna → vivero → especies → mapa → confirmación
 3. **Validaciones básicas:** máx especies, máx unidades, obligatoriedad de datos
-4. **MapaPicker:** click en mapa + drag marker, coordenadas lat/lng (no UTM)
-5. **Roles y rutas protegidas:** solicitante, encargado, consolidador, admin
-6. **Consentimiento de datos:** checkbox en formulario
-7. **Bandeja de encargado:** listado mock de solicitudes
-8. **Stock mock:** descarga manual por vivero
-9. **Dashboard mock:** consolidador con vista simulada
+4. **Validación de correo y teléfono** en tiempo real (regex, feedback visual)
+5. **MapaPicker:** click en mapa + drag marker, coordenadas **lat/lng Y UTM** (conversión WGS84→UTM en `utils/utmConvert.js`, sin dependencia externa, verificada contra puntos de referencia de Chile)
+6. **Geocodificación inversa real** (dirección/comuna/provincia/región) al marcar el punto en el mapa, vía fetch directo a Nominatim/OSM (`utils/reverseGeocode.js`), con debounce y cache
+7. **Selector de capas de mapa:** base OSM, satélite (Esri), topográfico (OpenTopoMap)
+8. **Validación "fuera de región":** parámetro `permiteFueraRegion` configurable por región en Admin → Parámetros; si está desactivado y el punto geocodificado cae fuera de la región elegida, la solicitud se bloquea con error; si está activado, se muestra una advertencia informativa pero se permite continuar
+9. **Características de especies** (contenedor, hábito de crecimiento, rango de altura) expandibles en el paso "2. Elige especies"
+10. **Consentimiento Ley 21.719** expandido: finalidad, datos tratados, compromisos del solicitante, retención, derechos
+11. **Reportes en Admin:** pestaña nueva con 4 KPIs + 4 gráficos (SVG/CSS puro, sin librería de gráficos) — solicitudes por región, distribución por estado, top 5 especies, solicitudes por mes
+12. **Roles y rutas protegidas:** solicitante, encargado, consolidador, admin
+13. **Bandeja de encargado:** listado mock de solicitudes
+14. **Stock mock:** descarga manual por vivero
+15. **Dashboard mock:** consolidador con vista simulada (KPIs básicos + exportar Excel)
 
 ### ⚠️ Parcialmente implementado
-- **Dirección:** se captura, pero no se valida ni se vincula con coordenadas
-- **Teléfono/correo:** se capturan, pero sin validación
+- **Dirección:** se captura y ahora se valida referencialmente contra el punto del mapa (geocoding), pero no hay validación catastral (SII/ROL)
 - **Notificaciones:** mock; no hay integración real de email
-- **Mapa:** solo OSM estándar; sin opciones de vista alternativa
+- **Nombre/RUT separados:** ya está en `mockClaveUnicaUser` (nombre1/nombre2/apellido1/apellido2, rut sin DV), pendiente que Clave Única real los entregue así
 
 ### ❌ No implementado / Requiere backend
 - Clave Única real (OIDC con SEGPRES)
@@ -65,8 +70,10 @@ Sistema web centralizado para gestionar solicitudes de plantas del Programa de A
 - Guía de despacho
 - Generación de PDF
 - Logs de auditoría
-- Validación de RUT
-- Conversión de coordenadas a UTM
+- Validación de RUT (dígito verificador)
+- Registro self-service para usuarios "Otros"
+- Zona de atención comuna↔vivero (tabla dedicada)
+- Campos adicionales de Clave Única: edad/fecha nacimiento, discapacidad, género, pueblo originario (están en el mock pero no se muestran/editan en UI todavía)
 
 ---
 
@@ -131,100 +138,73 @@ Actualmente: región → vivero (sin comuna de atención definida explícitament
 ---
 
 ### 4. **Permitir solicitar plantas fuera de la región / país**
-**Estado:** ❌ **No implementado; requiere backend**
+**Estado:** ✅ **Implementado (mock funcional, verificado en navegador)**
 
-Actualmente se restringe a región seleccionada.
+Se agregó `permiteFueraRegion` (booleano, default `true` = comportamiento actual) como parámetro por región en `api/parametros.js`, editable en **Admin → Parámetros** (checkbox "Permitir plantar fuera de esta región (o en otro país)").
 
-**Acción:**
-1. **Backend:** Agregar validación configurable (parámetro por región/vivero).
-2. **Frontend:** Si está habilitado, permitir seleccionar vivero de otra región.
-3. **Frontend:** Mostrar advertencia: "Solicita plantas fuera de tu región".
+En `NuevaSolicitud.jsx`, al marcar el punto en el mapa se compara la región geocodificada (vía Nominatim, ver punto 6) contra la región elegida en "Elige dónde retirar" (comparación laxa de nombres, normalizada sin tildes — ver función `coincideRegion`):
+- Si coinciden o no hay datos suficientes: sin aviso.
+- Si difieren y `permiteFueraRegion = true`: banner informativo azul, se permite continuar.
+- Si difieren y `permiteFueraRegion = false`: banner de advertencia naranja **y bloqueo real del submit** con mensaje de error.
 
-**Nota:** Requiere aclaración de negocio: ¿esto es permitido en los parámetros o prohibido?
+Verificado con Chrome headless: seleccionar Región Metropolitana + plantar en Región del Maule con el flag desactivado bloquea el envío; con el flag activado, solo advierte.
+
+**Pendiente (backend):** persistir el parámetro en base de datos compartida en vez de `localStorage`.
 
 ---
 
 ### 5. **Coordenadas en UTM**
-**Estado:** 🔶 **Lat/lng capturadas; requiere conversión**
+**Estado:** ✅ **Implementado (ambos formatos, verificado numéricamente)**
 
-Actualmente se almacenan/usan lat/lng (GPS estándar). Se necesitan UTM para precisión catastral.
+Se implementó `latLngToUTM()` en `frontend/src/utils/utmConvert.js`: fórmula estándar WGS84→UTM (Snyder/Karney), **sin dependencia npm** (se evaluaron paquetes como `utm`/`utm-latlng`/`geodesy`, pero se optó por la fórmula propia para no depender de un paquete externo cuya disponibilidad en el registry no estaba garantizada en este entorno).
 
-**Acción:**
-1. **Frontend/Backend:** Instalar librería de conversión (ej: `utm` npm package).
-   ```javascript
-   import utm from 'utm'
-   const utmCoords = utm.fromLatLon(lat, lng)
-   // utmCoords = { easting, northing, zoneNum, zoneLetter }
-   ```
-2. **Backend:** Almacenar ambos (lat/lng + UTM) en base de datos.
-3. **Frontend:** Mostrar ambas coordenadas al usuario:
-   ```javascript
-   Coordenadas GPS: -33.7320, -70.7445
-   UTM: 19H 335420 E, 6270150 N
-   ```
+Verificado con Node ejecutando puntos de referencia conocidos: Plaza de Armas Santiago da `19S 346564 E, 6299025 N`, muy cercano al valor público de referencia (~346100E/6299000N). Zona 19S detectada correctamente en Chile central-sur.
+
+`MapaPicker.jsx` muestra ambos formatos lado a lado bajo el mapa:
+```
+COORDENADAS GPS (WGS84)      COORDENADAS UTM
+-35.649485, -71.586935       19S 265793 E, 6051845 N
+```
+
+**Pendiente (backend):** almacenar ambos formatos en la base de datos compartida (hoy `crearSolicitud()` solo envía lat/lng; agregar UTM al payload cuando exista API real).
 
 ---
 
 ### 6. **Validación de ubicación: Dirección + Comuna + Provincia + Región**
-**Estado:** 🔶 **Parcialmente implementado; requiere API de geolocalización**
+**Estado:** ✅ **Implementado (geocoding real contra Nominatim, verificado en navegador)**
 
-Actualmente: solo se capturan coordenadas en mapa. No hay validación con dirección.
+Se investigaron 3 opciones (agente de investigación con lectura de código fuente real de cada candidato):
+- `leaflet-geosearch`: descartado — su API pública no expone reverse geocoding utilizable de fábrica (solo búsqueda por texto para un `GeoSearchControl`).
+- `nominatim-client`: descartado — configura un header `User-Agent` custom que los navegadores bloquean por seguridad (patrón pensado para Node, no para frontend).
+- **Fetch directo a Nominatim `/reverse`**: elegido. Cero dependencias nuevas, control total de parámetros.
 
-**Acción:**
-1. **Frontend:** Al marcar punto en mapa, hacer reverse geocoding (OSM Nominatim API).
-   ```javascript
-   const response = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json`)
-   const data = await response.json()
-   // data.address = { road, village, municipality, province, state, country }
-   ```
-2. **Frontend:** Mostrar dirección inferida y pedir confirmación:
-   - "¿Confirmas que la ubicación es en [dirección], [comuna], [región]?"
-3. **Backend:** Opcionalmente validar contra catastro (requiere integración con SII/ROL).
+Implementado en `frontend/src/utils/reverseGeocode.js`. La estructura de la respuesta de Nominatim para Chile se verificó empíricamente (no se adivinó): en zonas urbanas trae `address.city`, en zonas rurales chilenas trae `address.town` o `address.village` en su lugar; `county` = provincia, `state` = región. El código usa ese fallback (`city || town || village || municipality`).
 
-**Importante:** Nominatim tiene límites de llamadas. Para producción, considerar Google Maps / mapbox.
+`MapaPicker.jsx` dispara el geocoding con **debounce de 700ms** tras el clic/arrastre del marcador y **cancela la petición anterior** (`AbortController`) si el usuario mueve el punto antes de que responda, respetando el límite de 1 req/seg de la política de uso de Nominatim. Incluye caché en memoria por coordenada para no repetir consultas.
+
+Verificado en navegador real: clic en un punto de la Región del Maule mostró correctamente "Ruta L-151 — San Javier, Provincia de Linares, Región del Maule". Un clic en el océano (sin dirección) mostró el mensaje de error correspondiente sin romper la UI.
+
+**Pendiente:** validación catastral real (SII/ROL) — fuera de alcance de este frontend, requiere backend/convenio.
+**Nota producción:** Nominatim es un servicio "best effort" sin SLA (máx. 1 req/seg, prohibido autocompletar en vivo, requiere atribución "© OpenStreetMap contributors"). Si el volumen crece mucho, evaluar instancia propia de Nominatim o un proveedor comercial (LocationIQ, Mapbox, Geoapify).
 
 ---
 
 ### 7. **Visualizador de mapa: opciones de vista alternativa**
-**Estado:** ❌ **No implementado**
+**Estado:** ✅ **Implementado y verificado visualmente**
 
-Actualmente: solo OSM estándar. Se pide soporte para otras capas (satélite, topográfica, etc.).
+`MapaPicker.jsx` tiene un control flotante (`TileLayerControl`) con 3 capas, todas gratuitas y sin API key:
+- **Mapa base** — OpenStreetMap estándar.
+- **Satélite** — Esri World Imagery.
+- **Topográfico** — OpenTopoMap.
 
-**Acción:**
-1. **Frontend:** Agregar controles de capas a `MapaPicker.jsx`:
-   ```javascript
-   const [tileLayer, setTileLayer] = useState('osm') // osm | satellite | topographic
-   
-   // En MapContainer:
-   {tileLayer === 'osm' && (
-     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" ... />
-   )}
-   {tileLayer === 'satellite' && (
-     <TileLayer url="https://mt{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}" ... />
-   )}
-   ```
-2. **Frontend:** Botones para cambiar vista (toggle en mapa).
-
-**Nota:** Si usas satélite de Google, revisar términos de servicio y atribuciones.
+Verificado con captura de pantalla: cambiar a "Satélite" muestra imagen satelital real de la zona con el marcador conservando su posición.
 
 ---
 
 ### 8. **Validador de correo electrónico y teléfono**
-**Estado:** 🔶 **Capturados; sin validación real**
+**Estado:** ✅ **Implementado**
 
-Actualmente se aceptan como strings sin validar.
-
-**Acción:**
-1. **Frontend:** Agregar validación en `NuevaSolicitud.jsx`:
-   ```javascript
-   const validarEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-   const validarTelefono = (tel) => /^(\+56|0)?9\d{8}$/.test(tel.replace(/\s/g, ''))
-   
-   // En handleSubmit:
-   if (!validarEmail(correo)) return setError('Correo inválido')
-   if (!validarTelefono(telefono)) return setError('Teléfono inválido (formato: +56 9 XXXX XXXX)')
-   ```
-2. **Frontend:** Mostrar validación en tiempo real (visual feedback mientras escribe).
+`NuevaSolicitud.jsx` valida ambos campos con regex (`validarEmail`, `validarTelefono` — formato chileno `+56 9 XXXX XXXX`), con feedback visual en tiempo real (borde e ícono rojo) y bloqueo del submit si son inválidos.
 
 ---
 
@@ -309,34 +289,11 @@ Actualmente: no hay envío real de email.
 ---
 
 ### 13. **Características adicionales de especies**
-**Estado:** 🔶 **Capturadas en mockData; no mostradas**
+**Estado:** ✅ **Implementado (con datos simulados)**
 
-Las especies tienen (en `catalogo.generated.json`):
-- Contenedor (volumen en litros)
-- Origen (nativo, exótico)
-- Hábito de crecimiento (árbol, arbusto, herbáceo)
-- Rango de altura
+En "2. Elige especies", cada fila tiene un botón `+/-` que expande contenedor (L), hábito de crecimiento y rango de altura. Los valores están en `especieCaracteristicas` (objeto local en `NuevaSolicitud.jsx`), **simulados solo para las primeras 7 especies** — no vienen de `catalogo.generated.json` (el catálogo real solo trae nombre/origen/código).
 
-Actualmente: solo se muestran nombre y disponibilidad.
-
-**Acción:**
-1. **Frontend:** En paso "2. Elige especies", agregar tooltip o sección expandible:
-   ```javascript
-   <div className="especie-card">
-     <h4>{especie.nombre}</h4>
-     <p>{especie.nombreCientifico}</p>
-     <button onClick={() => toggle(especie.id)}>ⓘ Más info</button>
-     {expanded && (
-       <div>
-         📦 Contenedor: {especie.contenedor}L
-         🌱 Origen: {especie.origen}
-         📈 Hábito: {especie.habitoCrecimiento}
-         📏 Altura: {especie.alturaMin}-{especie.alturaMax}m
-       </div>
-     )}
-   </div>
-   ```
-2. **Backend:** Incluir campos adicionales en respuesta de especies.
+**Pendiente:** el Excel maestro (`tabla_insumo/*.xlsx`) debe incluir estas columnas para que `generar_insumos.py` las propague al catálogo real y cubran todas las especies, no solo las 7 hardcodeadas.
 
 ---
 
@@ -364,69 +321,76 @@ Ya existe `MisSolicitudes.jsx` pero falta:
 ---
 
 ### 15. **Perfiles y reportes**
-**Estado:** ❌ **Mock parcial; requiere backend robusto**
+**Estado:** 🔶 **Implementado en Admin (KPIs/gráficos); glosas y reportes por perfil aún pendientes**
 
-Se necesitan:
-- Resolución de entregas
-- Glosas (rechazos/devoluciones)
-- Trámites relevantes
-- Filtros por región, vivero, especie, rango de fechas
+Se agregó la pestaña **Reportes** en `pages/admin/ReportesTab.jsx` (no en el Dashboard del Consolidador, que ya tenía sus propios 4 KPIs + tabla + exportar Excel — se mantuvo intacto). Contiene:
+1. KPI — Solicitudes históricas (total).
+2. KPI — Tasa de retiro % (retiradas / finalizadas).
+3. KPI — Unidades solicitadas totales.
+4. KPI — Regiones con solicitudes (de N totales).
+5. Gráfico de barras — Solicitudes por región.
+6. Gráfico de barras apiladas + desglose — Distribución por estado (mismos colores que los `.badge.<estado>` existentes).
+7. Gráfico de barras — Top 5 especies más solicitadas.
+8. Gráfico de barras — Solicitudes por mes.
 
-**Acción:**
-1. **Backend:** Implementar endpoints de reportes:
-   - `GET /api/reportes/entregas?regionId=X&viveroId=Y&fechaInicio=...&fechaFin=...`
-   - `GET /api/reportes/glosas?...`
-   - `GET /api/reportes/resumen-regional?regionId=X`
-2. **Frontend:** Mejorar `Dashboard.jsx` del consolidador:
-   - Gráficos: entregas por región, tasa de retiro, tiempo promedio
-   - Tabla: listado filtrable de solicitudes
-   - Exportar a Excel (con estructura del Programa de Arborización)
+Todo en SVG/CSS puro (`BarChartCard`, `EstadoChartCard`), **sin librería de gráficos externa** (se evaluó y descartó recharts/chart.js/d3 para no agregar peso al bundle), accesible (cada barra tiene `aria-label`/`title` con el valor exacto, no depende solo del color). Build de producción verificado sin errores.
+
+**Pendiente (requiere backend):**
+- Resolución de entregas / glosas (rechazos, devoluciones) como reporte propio.
+- Trámites relevantes / filtros avanzados por vivero, especie, rango de fechas dentro de Reportes (hoy son fijos, sin filtro).
+- Definir qué ve cada perfil (Consolidador ve el Dashboard nacional; ¿debería ver también Reportes de Admin, o son roles con vistas separadas a propósito?). **Pregunta abierta para conversar con Luis.**
 
 ---
 
 ## Dependencias externas / Backend requerido
 
-| Mejora | Requiere backend | Notas |
-|--------|-----------------|-------|
-| 1 | ✅ | Registro self-service, BD de usuarios |
-| 2 | ✅ | Integración Clave Única (OIDC), mapeo scopes |
-| 3 | ✅ | Tabla `vivero_zonas_atencion` |
-| 4 | ✅ | Parámetros configurables por región |
-| 5 | ✅ | Almacenamiento UTM en BD |
-| 6 | ✅ | Reverse geocoding (OSM/Google), opcionalmente SII ROL |
-| 7 | ❌ | Solo frontend (capas Leaflet) |
-| 8 | ❌ | Solo frontend (regex + librerías) |
-| 9 | ✅ | Modelado de reglas de negocio |
-| 10 | ✅ | Validación de zonas de atención |
-| 11 | ✅ | Guardar consentimiento en BD + versionado |
-| 12 | ✅ | SMTP, cola de notificaciones |
-| 13 | ⚠️  | Datos ya existen en mockData; solo mostrar |
-| 14 | ✅ | Timeline de estados, guía de despacho |
-| 15 | ✅ | Endpoints de reportes |
+| Mejora | Frontend | Requiere backend para producción | Notas |
+|--------|----------|-----------------------------------|-------|
+| 1 | ✅ listo | ✅ | Registro self-service, BD de usuarios |
+| 2 | ✅ mock | ✅ | Integración Clave Única (OIDC), mapeo scopes |
+| 3 | ❌ | ✅ | Tabla `vivero_zonas_atencion` |
+| 4 | ✅ **hecho** | ⚠️ | Mock funcional en `localStorage`; falta persistir en BD compartida |
+| 5 | ✅ **hecho** | ⚠️ | Cálculo ya no depende del backend; falta almacenar UTM en BD |
+| 6 | ✅ **hecho** | ⚠️ | Geocoding ya es real (Nominatim); falta validación catastral opcional (SII/ROL) |
+| 7 | ✅ **hecho** | ❌ | Solo frontend, ya terminado |
+| 8 | ✅ **hecho** | ❌ | Solo frontend, ya terminado |
+| 9 | ❌ | ✅ | Modelado de reglas de negocio — pregunta abierta |
+| 10 | ❌ | ✅ | Validación de zonas de atención — pregunta abierta |
+| 11 | ✅ texto legal | ✅ | Falta guardar consentimiento en BD + versionado |
+| 12 | ❌ | ✅ | SMTP, cola de notificaciones |
+| 13 | ✅ **hecho** (datos simulados) | ⚠️ | Falta que el Excel maestro incluya estas columnas |
+| 14 | 🔶 parcial | ✅ | Timeline de estados, guía de despacho |
+| 15 | ✅ **hecho** (Admin) | ⚠️ | Reportes con KPIs/gráficos ya funcionan sobre datos mock; glosas y filtros avanzados pendientes |
 
 ---
 
 ## Próximos pasos recomendados
 
-### Fase 1: Mejoras frontend puras (sin backend)
-1. Separar nombre en componentes (nombre1, nombre2, apellido1, apellido2)
-2. Validar email y teléfono en tiempo real
-3. Agregar capas de mapa alternativas (satélite, topográfica)
-4. Mostrar características de especies (contenedor, origen, hábito, altura)
-5. Implementar modal detallado de consentimiento Ley 21.719
+### ✅ Fase 1: Mejoras frontend puras (sin backend) — COMPLETADA
+1. ~~Separar nombre en componentes (nombre1, nombre2, apellido1, apellido2)~~
+2. ~~Validar email y teléfono en tiempo real~~
+3. ~~Agregar capas de mapa alternativas (satélite, topográfica)~~
+4. ~~Mostrar características de especies (contenedor, origen, hábito, altura)~~
+5. ~~Implementar modal detallado de consentimiento Ley 21.719~~
+6. ~~Mostrar coordenadas UTM junto a lat/lng~~
+7. ~~Geocodificación inversa real (Nominatim) con validación de región~~
+8. ~~Parámetro "permitir fuera de región" configurable en Admin~~
+9. ~~Reportes con KPIs y gráficos en Admin~~
 
 ### Fase 2: Integración con backend existente
 1. Conectar API endpoints reales (reemplazar mockData)
 2. Implementar clave única real (OIDC)
-3. Agregar campos adicionales (discapacidad, género, pueblo originario)
-4. Implementar validación de dirección con reverse geocoding
+3. Agregar campos adicionales (discapacidad, género, pueblo originario) — ya están en `mockClaveUnicaUser`, falta UI para mostrarlos/capturarlos
+4. Persistir `permiteFueraRegion` y overrides de parámetros en BD (hoy en `localStorage`)
+5. Registro self-service para usuarios "Otros" (no Clave Única)
 
 ### Fase 3: Funcionalidades complejas
-1. Notificaciones por email
-2. Reverse geocoding real
-3. Conversión de coordenadas a UTM
-4. Reportes y dashboards avanzados
+1. Notificaciones por email (SMTP)
+2. Validación catastral (SII/ROL) opcional sobre el geocoding ya implementado
+3. Almacenar coordenadas UTM en base de datos (el cálculo frontend ya existe)
+4. Filtros avanzados y glosas en Reportes
 5. Guía de despacho integrada
+6. Tabla `vivero_zonas_atencion` para la relación comuna↔vivero (punto 3) y la relación retiro↔plantación (punto 10)
 
 ---
 
@@ -442,6 +406,8 @@ Se necesitan:
 
 - Solo están implementadas funciones frontend. El backend (FastAPI + PostgreSQL) aún no está integrado.
 - `mockData.js` simula toda la base de datos. Cuando el backend esté listo, reemplazar llamadas a `api/client.js`.
-- Las coordenadas se guardan como lat/lng. Para producción, convertir a UTM (librería `utm` npm).
-- Nominatim (OSM) tiene límites de uso. Para producción, considerar Google Maps API (revisando términos).
+- Las coordenadas ahora se calculan y muestran en **ambos formatos** (lat/lng y UTM) en el frontend (`utils/utmConvert.js`), pero `crearSolicitud()` (mock) todavía solo envía lat/lng — falta agregar UTM al payload cuando exista API real.
+- La geocodificación inversa (dirección/comuna/provincia/región) ya es real, contra Nominatim/OSM, sin librería adicional. Nominatim tiene límites de uso (1 req/seg, sin SLA); para producción con mucho volumen, evaluar Google Maps/Mapbox o una instancia propia de Nominatim.
 - Clave Única real requiere convenio con SEGPRES (en gestión según REQUISITOS.md).
+- El flag `permiteFueraRegion` y los demás parámetros por región se guardan en `localStorage` (mock del admin). Se pierden si se limpia el navegador; migrar a BD compartida es tarea de backend.
+- **Pregunta abierta para conversar:** ¿el tab "Reportes" debería vivir en Admin (como quedó, siguiendo tu pedido explícito) o duplicarse/moverse al Dashboard del Consolidador? Hoy son dos vistas separadas con datos parecidos pero no idénticos.
