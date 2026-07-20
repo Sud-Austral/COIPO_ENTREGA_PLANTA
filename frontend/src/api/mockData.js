@@ -15,12 +15,20 @@ export const parametrosRegion = catalogo.parametrosRegion
 
 // Usuario simulado para Solicitante (lo que vendría de Clave Única)
 export const mockClaveUnicaUser = {
-  rut: '12.345.678-9',
-  nombres: 'María Soledad',
-  apellidos: 'González Pérez',
+  rut: '12345678',
+  rutDv: '9',
+  nombre1: 'María',
+  nombre2: 'Soledad',
+  apellido1: 'González',
+  apellido2: 'Pérez',
   correo: 'maria.gonzalez@example.cl',
-  telefono: '+56 9 1234 5678',
+  telefono: '+56912345678',
   direccion: 'Av. Libertador 1234, Buin',
+  fechaNacimiento: '1985-03-15',
+  edad: 41,
+  genero: 'Femenino',
+  discapacidad: false,
+  puebloOriginario: false,
 }
 
 // Catálogo de usuarios internos para login mock.

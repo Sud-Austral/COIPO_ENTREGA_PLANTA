@@ -4,6 +4,17 @@ import { api } from '../../api/client.js'
 import { useAuth } from '../../context/AuthContext.jsx'
 import MapaPicker from '../../components/MapaPicker.jsx'
 
+// Características adicionales de especies (simuladas; en producción vendrían del backend)
+const especieCaracteristicas = {
+  1: { contenedor: 20, habito: 'Árbol', alturaMin: 8, alturaMax: 15 }, // Quillay
+  2: { contenedor: 20, habito: 'Árbol', alturaMin: 6, alturaMax: 12 }, // Peumo
+  3: { contenedor: 15, habito: 'Árbol', alturaMin: 5, alturaMax: 10 }, // Litre
+  4: { contenedor: 15, habito: 'Arbusto', alturaMin: 2, alturaMax: 4 }, // Espino
+  5: { contenedor: 20, habito: 'Árbol', alturaMin: 15, alturaMax: 25 }, // Roble
+  6: { contenedor: 15, habito: 'Árbol', alturaMin: 8, alturaMax: 14 }, // Ñirre
+  7: { contenedor: 20, habito: 'Árbol', alturaMin: 10, alturaMax: 18 }, // Lingue
+}
+
 // Valores por defecto hasta que se elija región (se sobrescriben con los
 // parámetros por región del administrador).
 const PARAMS_FALLBACK = { maxEspecies: 3, maxUnidades: 100, plazoRetiroDias: 30, maxSolicitudesAnio: 1 }
@@ -31,6 +42,7 @@ export default function NuevaSolicitud() {
   const [error, setError] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const [yaPidio, setYaPidio] = useState(false)
+  const [especieExpandida, setEspecieExpandida] = useState(null)
 
   const maxEspecies = params?.maxEspecies ?? PARAMS_FALLBACK.maxEspecies
   const maxUnidades = params?.maxUnidades ?? PARAMS_FALLBACK.maxUnidades
@@ -82,6 +94,12 @@ export default function NuevaSolicitud() {
     )
   }
 
+  const validarEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+  const validarTelefono = (tel) => {
+    const cleaned = tel.replace(/\s/g, '')
+    return /^(\+56|0)?9\d{8}$/.test(cleaned)
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError('')
@@ -94,13 +112,17 @@ export default function NuevaSolicitud() {
     if (totalUnidades > maxUnidades) return setError(`Máximo ${maxUnidades} unidades en total.`)
     if (totalUnidades < 1) return setError('Indica al menos 1 unidad.')
     if (!coordenadas?.lat || !coordenadas?.lng) return setError('Selecciona en el mapa el lugar de plantación.')
+    if (!correo || !validarEmail(correo)) return setError('Correo electrónico inválido.')
+    if (!telefono || !validarTelefono(telefono)) return setError('Teléfono inválido (formato: +56 9 XXXX XXXX).')
+    if (!direccion?.trim()) return setError('Dirección requerida.')
     if (!consent) return setError('Debes autorizar el tratamiento de tus datos para crear la solicitud.')
 
     setSubmitting(true)
     try {
+      const nombreCompleto = [user.nombre1, user.nombre2, user.apellido1, user.apellido2].filter(Boolean).join(' ')
       await api.crearSolicitud({
         solicitanteRut: user.rut,
-        solicitanteNombre: `${user.nombres} ${user.apellidos}`,
+        solicitanteNombre: nombreCompleto,
         correo,
         telefono,
         direccion,
@@ -197,12 +219,15 @@ export default function NuevaSolicitud() {
                         <th>Origen</th>
                         <th>Disponibles</th>
                         <th>Cantidad solicitada</th>
+                        <th></th>
                       </tr>
                     </thead>
                     <tbody>
                       {especiesDisp.map(esp => {
                         const sel = seleccionadas.find(s => s.especieId === esp.id)
                         const deshabilitado = !sel && seleccionadas.length >= maxEspecies
+                        const chars = especieCaracteristicas[esp.id]
+                        const expandida = especieExpandida === esp.id
                         return (
                           <tr key={esp.id}>
                             <td>
@@ -217,6 +242,13 @@ export default function NuevaSolicitud() {
                             <td>
                               <strong>{esp.nombreComun}</strong><br/>
                               <em style={{ fontSize: '0.82rem', color: 'var(--color-text-muted)' }}>{esp.nombreCientifico}</em>
+                              {expandida && chars && (
+                                <div style={{ marginTop: '0.5rem', padding: '0.5rem', backgroundColor: 'var(--color-bg-alt)', borderRadius: '4px', fontSize: '0.85rem' }}>
+                                  📦 Contenedor: {chars.contenedor}L<br/>
+                                  🌱 Hábito: {chars.habito}<br/>
+                                  📏 Altura: {chars.alturaMin}-{chars.alturaMax}m
+                                </div>
+                              )}
                             </td>
                             <td>{esp.origen}</td>
                             <td>{esp.cantidadDisponible}</td>
@@ -229,6 +261,18 @@ export default function NuevaSolicitud() {
                                   value={sel.cantidad}
                                   onChange={(e) => cambiarCantidad(esp.id, e.target.value)}
                                 />
+                              )}
+                            </td>
+                            <td>
+                              {chars && (
+                                <button
+                                  type="button"
+                                  className="secondary"
+                                  style={{ padding: '0.25rem 0.5rem', fontSize: '0.8rem', width: '2rem' }}
+                                  onClick={() => setEspecieExpandida(expandida ? null : esp.id)}
+                                >
+                                  {expandida ? '−' : '+'}
+                                </button>
                               )}
                             </td>
                           </tr>
@@ -253,33 +297,124 @@ export default function NuevaSolicitud() {
           <h3>4. Datos de contacto</h3>
           <div className="field">
             <label>Correo</label>
-            <input type="email" value={correo} onChange={(e) => setCorreo(e.target.value)} required />
+            <input
+              type="email"
+              value={correo}
+              onChange={(e) => setCorreo(e.target.value)}
+              style={correo && !validarEmail(correo) ? { borderColor: 'var(--color-danger)' } : {}}
+              required
+            />
+            {correo && !validarEmail(correo) && (
+              <p className="help" style={{ color: 'var(--color-danger)' }}>✗ Correo inválido</p>
+            )}
           </div>
           <div className="grid-2">
             <div className="field">
               <label>Teléfono</label>
-              <input type="tel" value={telefono} onChange={(e) => setTelefono(e.target.value)} required />
+              <input
+                type="tel"
+                value={telefono}
+                onChange={(e) => setTelefono(e.target.value)}
+                placeholder="+56 9 XXXX XXXX"
+                style={telefono && !validarTelefono(telefono) ? { borderColor: 'var(--color-danger)' } : {}}
+                required
+              />
+              {telefono && !validarTelefono(telefono) && (
+                <p className="help" style={{ color: 'var(--color-danger)' }}>✗ Formato: +56 9 XXXX XXXX</p>
+              )}
             </div>
             <div className="field">
               <label>Dirección particular</label>
-              <input type="text" value={direccion} onChange={(e) => setDireccion(e.target.value)} required />
+              <input
+                type="text"
+                value={direccion}
+                onChange={(e) => setDireccion(e.target.value)}
+                required
+              />
             </div>
           </div>
         </div>
 
         <div className="card consent-box">
-          <strong>Consentimiento expreso — Ley 21.719</strong>
-          <p style={{ marginTop: '0.5rem' }}>
-            CONAF tratará tus datos personales (RUT y nombres provenientes de Clave Única, correo,
-            teléfono, dirección y coordenadas) con la finalidad exclusiva de tramitar tu solicitud
-            del Programa de Arborización, notificarte el estado del proceso, emitir el comprobante
-            de entrega y eventualmente verificar la plantación en terreno. Tus datos se almacenarán
-            encriptados, no serán cedidos a terceros y se conservarán por 5 años desde tu última
-            interacción con el sistema, plazo tras el cual serán anonimizados.
-          </p>
-          <label>
-            <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} />
-            <span>He leído y autorizo expresamente el tratamiento de mis datos personales para esta finalidad.</span>
+          <details>
+            <summary style={{ cursor: 'pointer', fontWeight: 'bold', fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              📋 Consentimiento expreso — Ley 21.719
+            </summary>
+            <div style={{ marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid var(--color-border)', lineHeight: 1.6, fontSize: '0.95rem' }}>
+              <h4>1. Finalidad del tratamiento de datos</h4>
+              <p>
+                CONAF tratará tus datos personales exclusivamente para:
+              </p>
+              <ul>
+                <li>Procesar tu solicitud en el Programa de Arborización</li>
+                <li>Notificarte del estado de tu trámite (aceptación, rechazo, disponibilidad para retiro, vencimiento)</li>
+                <li>Emitir el comprobante de entrega</li>
+                <li>Realizar seguimiento y fiscalización de la plantación en terreno</li>
+              </ul>
+
+              <h4>2. Datos tratados</h4>
+              <p>
+                Los siguientes datos provenientes de Clave Única y completados por ti:
+              </p>
+              <ul>
+                <li>RUT (sin dígito verificador)</li>
+                <li>Nombres completos (nombre1, nombre2, apellido1, apellido2)</li>
+                <li>Teléfono</li>
+                <li>Correo electrónico</li>
+                <li>Dirección (residencia y lugar de plantación)</li>
+                <li>Coordenadas geográficas del lugar de plantación (lat/lng y UTM)</li>
+              </ul>
+
+              <h4>3. Buen uso y compromisos del solicitante</h4>
+              <p>
+                Al aceptar esta solicitud, te comprometes a:
+              </p>
+              <ul>
+                <li>Usar las plantas únicamente para arborización en tu propio terreno o zona autorizada</li>
+                <li>Mantener vivo el ejemplar plantado durante al menos 2 años</li>
+                <li>Participar en encuestas o evaluaciones que CONAF requiera</li>
+                <li>Permitir acceso para fiscalización en terreno</li>
+                <li>No vender, trasladar o usar las plantas en otras obligaciones legales</li>
+              </ul>
+
+              <h4>4. Almacenamiento y seguridad</h4>
+              <p>
+                Tus datos se almacenarán encriptados en bases de datos de CONAF, con acceso restringido al personal autorizado.
+                No serán cedidos a terceros.
+              </p>
+
+              <h4>5. Retención de datos</h4>
+              <p>
+                Conservaremos tus datos por <strong>5 años desde tu última interacción</strong> con el sistema.
+                Pasado ese plazo, serán anonimizados irreversiblemente, salvo obligación legal contraria.
+              </p>
+
+              <h4>6. Tus derechos</h4>
+              <p>
+                Conforme a la Ley 21.719, tienes derecho a:
+              </p>
+              <ul>
+                <li>Acceder a tus datos personales</li>
+                <li>Solicitar corrección o eliminación</li>
+                <li>Oponerme al tratamiento</li>
+                <li>Contactar al Encargado de Protección de Datos de CONAF</li>
+              </ul>
+
+              <p style={{ marginTop: '1rem', padding: '0.75rem', backgroundColor: 'var(--color-bg-alt)', borderRadius: '4px' }}>
+                ℹ️ <strong>Información de contacto:</strong> Cualquier consulta sobre el tratamiento de tus datos puede dirigirse a
+                la Oficina de Protección de Datos de CONAF en proteccion.datos@conaf.cl
+              </p>
+            </div>
+          </details>
+
+          <label style={{ marginTop: '1rem', display: 'flex', alignItems: 'flex-start', gap: '0.5rem', cursor: 'pointer' }}>
+            <input
+              type="checkbox"
+              checked={consent}
+              onChange={(e) => setConsent(e.target.checked)}
+              style={{ marginTop: '0.3rem', width: 'auto' }}
+            />
+            <span>He leído y <strong>autorizo expresamente</strong> el tratamiento de mis datos personales conforme a los términos anteriores.</span>
           </label>
         </div>
 

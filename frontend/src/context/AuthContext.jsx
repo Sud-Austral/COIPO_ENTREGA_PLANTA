@@ -27,10 +27,12 @@ export function AuthProvider({ children }) {
    * Ver CLAVE_UNICA.md.
    */
   const loginClaveUnica = () => {
+    const { nombre1, nombre2, apellido1, apellido2 } = mockClaveUnicaUser
+    const nombreCompleto = [nombre1, nombre2, apellido1, apellido2].filter(Boolean).join(' ')
     setUser({
       rol: 'solicitante',
       ...mockClaveUnicaUser,
-      nombre: `${mockClaveUnicaUser.nombres} ${mockClaveUnicaUser.apellidos}`,
+      nombre: nombreCompleto,
     })
   }
 
