@@ -274,17 +274,7 @@ Se necesita:
 ### 12. **Notificación de "solicitud conforme"**
 **Estado:** ❌ **Mock; requiere servidor SMTP**
 
-Actualmente: no hay envío real de email.
-
-**Acción:**
-1. **Backend:** Integrar servidor SMTP (ej: servidor CONAF, SendGrid, AWS SES).
-2. **Backend:** Crear cola de notificaciones (Celery, RQ, etc.) para envíos no-bloqueantes.
-3. **Backend:** Implementar endpoints que disparen emails:
-   - `POST /api/solicitudes/{id}/notificar-conforme`
-   - `POST /api/solicitudes/{id}/notificar-rechazada`
-   - `POST /api/solicitudes/{id}/recordatorio-vencimiento`
-4. **Frontend:** Mostrar confirmación visual:
-   - "✓ Solicitud enviada. Recibirás confirmación en [correo] dentro de 5 minutos."
+Actualmente: no hay envío real de email. Ver detalle completo y consolidado de **todo** lo que falta del correo en la sección [**❌ Pendiente crítico: Servidor de correo / notificaciones**](#-pendiente-crítico-servidor-de-correo--notificaciones) más abajo — este punto 12 es solo uno de los ~7 disparadores de correo que exige `REQUISITOS.md`.
 
 ---
 
@@ -391,6 +381,58 @@ Todo en SVG/CSS puro (`BarChartCard`, `EstadoChartCard`), **sin librería de gr�
 4. Filtros avanzados y glosas en Reportes
 5. Guía de despacho integrada
 6. Tabla `vivero_zonas_atencion` para la relación comuna↔vivero (punto 3) y la relación retiro↔plantación (punto 10)
+
+---
+
+## ❌ Pendiente crítico: Servidor de correo / notificaciones
+
+Todo lo relacionado con el envío real de correos está **100% pendiente**: es la pieza de backend/infraestructura más crítica que falta, porque tres de las 16 funcionalidades **críticas** del MVP (`REQUISITOS.md` §3.1) dependen de ella, y una falla de entrega está listada explícitamente como **inaceptable en producción** (`REQUISITOS.md` §7.2, punto 5: "Falla en la entrega de la notificación 'lista para retirar' al Solicitante"). Esta sección junta en un solo lugar todo lo que hoy vive disperso (puntos 12 y 15 del plan, más lo que exige `REQUISITOS.md` y que no estaba explícito en el pedido original).
+
+### 📋 Resumen para la reunión — qué necesito pedir
+
+1. **Un servidor SMTP o proveedor de correo transaccional.** ¿CONAF tiene uno propio disponible para esto, o hay que contratar uno externo (SendGrid, AWS SES, Mailgun)? Esto define costo recurrente y a quién pedirle acceso.
+2. **Un dominio/remitente verificado** (ej. `no-reply@conaf.cl`) con SPF/DKIM configurado por TI CONAF, para que los correos no lleguen a spam.
+3. **Confirmación de que el envío de correo entra en el alcance de este desarrollo** (3 meses, 1 desarrollador, CLP 30M) o si es un ítem aparte — porque no es solo "mandar un correo": implica cola asíncrona, reintentos automáticos y un scheduler para los recordatorios de día 20/28, y el requisito explícito dice que una falla de entrega es **inaceptable en producción**.
+4. **Aclarar si "notificación de solicitud conforme"** (mi pedido original) es lo mismo que "solicitud aceptada" (lo que ya pide `REQUISITOS.md`) o es un octavo evento nuevo (acuse de recibo inmediato al crear la solicitud).
+
+El detalle completo de los 7 disparadores y los requisitos técnicos está más abajo, por si lo piden en la reunión.
+
+### Qué existe hoy (frontend)
+- **Nada real.** El mock de `api/client.js` no envía correos ni simula su envío; `crearSolicitud()` solo cambia estado en memoria.
+- No hay plantillas de correo, ni preview, ni configuración de remitente en ninguna pantalla de Admin.
+- El formulario de `NuevaSolicitud.jsx` no muestra ningún mensaje de tipo "recibirás confirmación por correo" tras enviar.
+
+### Los 7 disparadores de correo que exige `REQUISITOS.md` (ninguno implementado)
+
+| # | Evento | Destinatario | Prioridad | Referencia |
+|---|--------|-------------|-----------|------------|
+| 1 | Solicitud **aceptada** por el Encargado | Solicitante | Importante | §5.1, §3.2-20 |
+| 2 | Solicitud **lista para retirar** | Solicitante | **Crítico** | §3.1-5 |
+| 3 | Recordatorio de vencimiento — **día 20** | Solicitante | **Crítico** | §3.1-11 |
+| 4 | Recordatorio de vencimiento — **día 28** | Solicitante | **Crítico** | §3.1-11 |
+| 5 | Solicitud **vencida** (día 30, devolución automática de stock) | Solicitante | Importante | §5.1 |
+| 6 | Solicitud **cancelada** (por el propio Solicitante) | Solicitante | Importante | §3.2-20 |
+| 7 | Solicitud **rechazada** por el Encargado | Solicitante | Importante | §3.2-20 |
+
+El punto 12 original del pedido ("notificación de solicitud conforme") es una **variante del #1** (confirmación de que la solicitud fue aceptada/está en curso) — no es un disparador adicional, hay que aclarar con el equipo si "conforme" = "aceptada" o si es un octavo evento distinto (acuse de recibo inmediato al crear la solicitud, antes de que el Encargado la revise).
+
+### Qué falta técnicamente (todo es backend/infra, cero de esto se puede mockear útilmente en frontend)
+1. **Servidor SMTP o proveedor transaccional.** Opciones: servidor propio de CONAF (a confirmar con TI CONAF si existe uno disponible), o un proveedor externo (SendGrid, AWS SES, Mailgun) — implica costo recurrente y aprobación.
+2. **Cola de envío asíncrona** (Celery+Redis, RQ, o similar) para que el envío de correo no bloquee la respuesta HTTP al usuario ni la transacción de cambio de estado.
+3. **Reintentos y manejo de fallos.** Dado que "falla en la entrega de 'lista para retirar'" es inaceptable en producción, se necesita: reintento automático, alerta a un admin si un correo falla definitivamente, y posiblemente un log de auditoría de envíos (ligado al punto 18 del plan original).
+4. **Plantillas de correo** (una por cada uno de los 7 eventos de la tabla), con los datos mínimos: nombre del solicitante, N° de solicitud, vivero, fecha límite, y (cuando exista) enlace al estado del trámite (punto 14 del plan).
+5. **Programador de tareas (cron/scheduler)** para los recordatorios de día 20 y 28 y el vencimiento automático de día 30 — no son eventos disparados por una acción de usuario, son jobs periódicos que revisan `fechaAceptacion`/`fechaListaRetirar` contra la fecha actual.
+6. **Endpoints o hooks** que disparen el envío en el momento correcto: al cambiar estado (`actualizarEstadoSolicitud` ya existe en el mock — en el backend real cada cambio de estado debería encolar el correo correspondiente).
+7. **Remitente y dominio verificado** (SPF/DKIM) para que los correos no caigan en spam — típicamente `no-reply@conaf.cl` o similar, a coordinar con TI CONAF.
+8. **Registro de consentimiento de contacto:** dado que el correo es un dato personal tratado bajo la Ley 21.719 (ver `PROPUESTA_PROTECCION_DATOS.md`), cada envío debería quedar amparado por el consentimiento ya capturado en el formulario (punto 11 del plan) — no requiere trabajo adicional si el consentimiento ya cubre "notificarte del estado del proceso" (ya lo cubre, según el texto implementado).
+
+### Qué SÍ puede avanzar en frontend mientras no hay backend
+- Mensaje de confirmación visual tras enviar la solicitud: *"Recibirás un correo de confirmación en [correo] cuando tu solicitud sea revisada."* (cosmético, no requiere backend).
+- Mostrar en "Mis solicitudes" / detalle del trámite (punto 14) un indicador de "última notificación enviada" — pero esto necesita que el backend exponga esa fecha, así que queda bloqueado igual.
+
+### Fuera de alcance para V1 (confirmado en `REQUISITOS.md`, no rehacer)
+- WhatsApp / SMS — costos recurrentes, explícitamente descartado para V1.
+- Notificaciones push dentro de la app — descartado para V1.
 
 ---
 
